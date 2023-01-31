@@ -3,37 +3,35 @@ const { DataTypes } = require('sequelize');
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define('hotel', {
-  //ID : Que lo defina el sistema
+  sequelize.define('services', {
+    // ID : viene del sistema
     name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    address : {
-      type : DataTypes.STRING,
-      allowNull: false
-    },
-    city: {
-      type: DataTypes.STRING,
-      allowNull : false
-    },
+    //quantity : {
+    //  type : DataTypes.INTEGER,
+    //  allowNull: false
+    //},
+    // pensarlo bien
+    //type: {
+    //  type: DataTypes.STRING,
+    //  allowNull : false
+    //},
     description: {
       type: DataTypes.TEXT,
       allowNull: false
     },
-    image: {
-      type: DataTypes.STRING,
-      allowNull: false
+    price: {
+        type: DataTypes.DECIMAL,
+        allowNull: false
     },
-    stars: {
-      type: DataTypes.INTEGER,
-      allowNull: false
+    image: {
+        type : DataTypes.STRING,
+        allowNull: false
     },
     status: {
       type: DataTypes.BOOLEAN,
       allowNull: false
-    }
-  });
-}; 
-
-
+    }  });
+};
