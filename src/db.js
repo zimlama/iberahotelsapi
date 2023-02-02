@@ -40,12 +40,33 @@ Bills } = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
-Hotel.belongsToMany(Room, { through: 'HotelRooms' ,timestamps: false});
-Room.belongsToMany(Hotel, { through: 'HotelRooms' ,timestamps: false });
-Room.belongsToMany(Services, { through: 'RoomServices' ,timestamps: false});
-Services.belongsToMany(Room, { through: 'RoomServices' ,timestamps: false });
-User.belongsToMany(User_travel, { through: 'UserTravel' ,timestamps: false});
-User_travel.belongsToMany(User, { through: 'UserTravel' ,timestamps: false });
+
+//relacion entre User y User_travel
+User.belongsToMany(User_travel, { through: 'travel_user' });
+User_travel.belongsToMany(User, { through: 'travel_user' });
+//relacion entre Bills y User_travel
+Bills.belongsToMany(User_travel, { through: 'bills_travels' });
+User_travel.belongsToMany(Bills, { through: 'bills_travels' });
+//relacion entre Services y Room 
+Services.belongsToMany(Room, { through: 'room_services' });
+Room.belongsToMany(Services, { through: 'room_services' });
+//relacion entre Hotel y Room
+Hotel.belongsToMany(Room, { through: 'hotel_room' });
+Room.belongsToMany(Hotel, { through: 'hotel_room' });
+//relacion entre User y Room
+User.belongsToMany(Room, { through: 'user_room' });
+Room.belongsToMany(User, { through: 'user_room' });
+//relacion entre User y Bills
+User.hasMany(Bills);
+Bills.belongsTo(User);
+//relacion entre User y Partners
+User.hasMany(Partners);
+Partners.belongsTo(User);
+//relacion entre Hotel y About_us
+Hotel.hasOne(About_us);
+About_us.belongsTo(Hotel);
+
+
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
