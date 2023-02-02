@@ -5,6 +5,7 @@ const { Router } = require('express');
 
 const router = Router();
 //prueba git
+//pueba 2 
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
