@@ -3,7 +3,7 @@ const { DataTypes } = require('sequelize');
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define('about', {
+  sequelize.define('about_us', {
     // ID : viene del sistema
     name: {
       type: DataTypes.STRING,
