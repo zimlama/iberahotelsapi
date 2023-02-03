@@ -17,7 +17,22 @@ const getAllHotels = async (req, res) =>{
 			}
 		})
 		 if(jsonHotels){
-		 	return res.status(200).send(jsonHotels)
+			
+            const hotelAll = jsonHotels.forEach(e=>{
+                Hotel.findOrCreate({
+                    where:{name: e.name,
+						address: e.address,
+						city: e.city,
+						description: e.description,
+                    image: e.image,
+					stars: e.stars,
+                    status: e.status
+                    }
+                })
+            })
+            const hotelDb = await Hotel.findAll()
+                return res.status(200).send(hotelDb)
+		 	
 		 }
 		 // let allHotels =
 		 // 	 await Hotel.findAll({
