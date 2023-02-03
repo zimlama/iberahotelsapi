@@ -32,7 +32,9 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     availability: {
-        type : DataTypes.ARRAY(DataTypes.DATE),
+      type : DataTypes.TEXT,
+        
+      // type : DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false
     },
     status: {
