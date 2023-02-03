@@ -33,7 +33,6 @@ module.exports = (sequelize) => {
     },
     availability: {
       type : DataTypes.TEXT,
-        
       // type : DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false
     },
