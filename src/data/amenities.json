@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Wifi",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/1dGyZVFVqBZhTP4ZrObyEe/f61c78cd3910a4b877dda4c450469e69/Wifi.svg",
+        "status": true
+    },
+    {
+        "name": "Aire Acondicionado",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/3xWIvlZQ1yGasayWQ8qGkg/e0130087a44a9b4a40aecac47a3654fd/air-conditioning-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Ropa de cama",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/16FmlhQ6MU08y6k4aE0yaU/0347027e76ee292ab923867d752a457e/linens-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Toallas",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/4JexAh65OwuUWs62KgmymA/0e5d4d22bf574d9e8df8f4a90ba0864c/towels-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Armario",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/3spKTf9ySQEoMWSGakQeeS/23c2d4341889d56f17391ac04975757d/wardrobe-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Articulos de aseo",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/1btMCaJU58Io6i6Km44QOo/697cbbf304705ab8caf3b6dec2169975/free-toiletries-icon__2x.png",
+        "status": true
+    },
+    {
+        "name": "Agua caliente",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/u9C8sAOSi3Z69mgOsBA9X/357dd8a6d5abea384bca1394bcdcf7d8/HOT_WATER_ICON-18.png",
+        "status": true
+    },
+    {
+        "name": "Escritorio",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/1UCY1dbzpGUgW0Cm0QCUIY/96cb3c4546435bdd7ae6647eaeaa87ce/desks-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Enchufe cerca de la cama",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/Dz6jLlaIgg6OC2kiyMIWM/ab7d22dc1c36590c3df6e6513e7f043b/socket-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Espejo de cuerpo entero",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/1mt80tqUegES868sgwskko/49d1791012bf2088bdd18aca4d4e135c/full-size-mirror-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "Secador de pelo",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/5ZLqLgDMLSOYoAmmkyS6uM/21ddce92f946e0f75c0ba0841ff5d56b/hair-dryer-icon_2x.png",
+        "status": true
+    },
+    {
+        "name": "sofa",
+        "image": "https://images.ctfassets.net/xdw7oj4u3s4v/42XROf00eQgEuEoOYCG6Cy/ef6bb781e328a9c1710b76290d8ff453/sofa-icon_2x.png",
+        "status": true
+    }
+]

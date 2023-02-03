@@ -4,19 +4,33 @@ const jsonHotels = require('../data/hotels.json')
 //get de hotels
 
 const getAllHotels = async (req, res) =>{
-	console.log(jsonHotels)
+	// console.log(jsonHotels)
 	try{
 
-		 if(jsonHotels){
-		 	return res.status(200).send(jsonHotels)
-		 }
 		const allHotels = await Hotel.findAll({
 			include:{
 				model: Room,
-				attributes: [],
+				attributes:[],
+				through:{
+					attributes: [],
+				}
 			}
 		})
-		res.status(200).send(allHotels)
+		 if(jsonHotels){
+		 	return res.status(200).send(jsonHotels)
+		 }
+		 // let allHotels =
+		 // 	 await Hotel.findAll({
+		 // 		include:{
+		 // 		model: Room,
+		 // 		attributes:['name'],
+		 // 		through:{
+		 // 			attributes: [],
+		 // 		}
+		 // 	}
+		 // 	})
+		 
+		// res.status(200).send(allHotels)
 
 	}catch(e){
 		console.log(e)
