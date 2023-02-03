@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('hotel', {
   //ID : Que lo defina el sistema
-    idHotels: {
+    idHotels:{
       type: DataTypes.INTEGER,
        allowNull: false,
       autoIncrement: true,
