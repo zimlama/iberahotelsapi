@@ -27,7 +27,7 @@ conn.sync({ force: false }).then(async () => {
   server.listen(3001,async () => {
     console.log('%s listening at 3001');
     const hotels = await Hotel.findAll()
-    hotels.length ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+    hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
   });
 });
 
