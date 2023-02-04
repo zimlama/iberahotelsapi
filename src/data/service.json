@@ -1,0 +1,86 @@
+[
+    {
+        "name": "desayuno",
+        "description":"expectacular desayuno continental",
+        "price": 10,
+        "image": "https://www.istockphoto.com/es/foto/composici%C3%B3n-con-un-desayuno-en-la-tabla-balnced-dieta-gm475716160-65489357",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    },
+    {
+        "name": "",
+        "description": "",
+        "price": 0,
+        "image": "",
+        "status": true
+    }
+]
