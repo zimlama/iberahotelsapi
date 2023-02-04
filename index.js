@@ -26,8 +26,9 @@ const { conn, Hotel } = require('./src/db.js');
 conn.sync({ force: false }).then(async () => {
   server.listen(3001,async () => {
     console.log('%s listening at 3001');
-    const hotels = await Hotel.findAll()
-    hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+    // modo railway app no se va usar esto
+    // const hotels = await Hotel.findAll()
+    // hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
   });
 });
 
