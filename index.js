@@ -17,12 +17,29 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+const { load } = require('dotenv');
 const server = require('./src/app.js');
-const { conn } = require('./src/db.js');
+const { loadAllModelsInDB } = require('./src/controllers/loadData.js')
+const { conn, Hotel } = require('./src/db.js');
 
 // Syncing all the models at once.
-conn.sync({ force: false }).then(() => {
-  server.listen(3001, () => {
-    console.log('%s listening at 3001'); // eslint-disable-line no-console
+conn.sync({ force: false }).then(async () => {
+  server.listen(3001,async () => {
+    console.log('%s listening at 3001');
+    const hotels = await Hotel.findAll()
+    hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
   });
 });
+
+
+
+// const server = require('./src/app.js');
+
+// const { conn } = require('./src/db.js');
+
+// // Syncing all the models at once.
+// conn.sync({ force: true }).then(() => {
+//   server.listen(3001, () => {
+//     console.log('%s listening at 3001'); // eslint-disable-line no-console
+//   });
+// });

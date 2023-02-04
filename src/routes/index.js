@@ -1,10 +1,19 @@
 const { Router } = require('express');
+const getAllHotels = require('./hotelsRouter')
+const getAllRooms = require('./roomsRouter')
+const getAllAmenities = require("./amenitiesRouter")
+const getAllUsers = require('./usersRouter')
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
 const  hoteles = require("../../db_temp/hotel")
 
 const router = Router();
-
+//prueba git
+//pueba 2 
+router.use('/hotels', getAllHotels)
+router.use('/rooms', getAllRooms)
+router.use("/amenities", getAllAmenities)
+router.use('/users', getAllUsers)
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
