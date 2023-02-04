@@ -1,7 +1,7 @@
 const{Amenities} = require('../db');
 const jsonAmenitis = require('../data/amenities.json')
 
-//get de Amenities
+//! get de Amenities
 
 const getAllAmenities = async (req, res) =>{
 	// console.log(jsonHotels)
@@ -22,6 +22,28 @@ const getAllAmenities = async (req, res) =>{
            console.log(e)
        }
 }
+
+
+
+//! POST de Amenities
+
+const postNewAminities = async (req, res) => {
+	let{
+		name,
+        image,
+        status,
+	} = req.body
+
+	let amenities = {name,image,status}
+	let createAmenities =  await Amenities.create(amenities)
+	res.send(createUser)
+
+ }
+
+
+
+//!!!
  module.exports ={
-    getAllAmenities
+    getAllAmenities,
+    postNewAminities
  }
