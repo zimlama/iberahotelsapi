@@ -8,15 +8,19 @@
 const getAllHotels = async (req, res) =>{
 	
 	try{
-		const allHotels = await Hotel.findAll({
-			include:{
-				model: Room,
-				attributes:["name"],
-				through:{
-					attributes: [],
-				}
+			const rooms = await Room.findAll();			
+			const hotels = await Hotel.findAll();
+
+			for (const hotel of hotels) {
+  				for (const room of rooms) {
+    			 await hotel.addRoom(room);
+  				}
 			}
-		})
+			const allHotels = await Hotel.findAll({
+ 			 include: [{
+    		model: Room
+  				}]
+			});
 
                 return res.status(200).send(allHotels)
 		 	
