@@ -15,7 +15,7 @@ router.use("/hotels", getAllHotels);
 router.use("/rooms", getAllRooms);
 router.use("/amenities", getAllAmenities);
 router.use("/users", getAllUsers);
-router.use("/hotels", getSearchHotels);
+//router.use("/hotels", getSearchHotels);
 router.use("/services", getAllServices);
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
