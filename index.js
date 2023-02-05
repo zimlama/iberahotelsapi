@@ -23,12 +23,18 @@ const { loadAllModelsInDB } = require('./src/controllers/loadData.js')
 const { conn, Hotel } = require('./src/db.js');
 
 // Syncing all the models at once.
-conn.sync({ force: false }).then(async () => {
-  server.listen(3001,async () => {
-    console.log('%s listening at 3001');
+//conn.sync({ force: false }).then(async () => {
+ // server.listen(3001,async () => {
+    // console.log('%s listening at 3001');
     // modo railway app no se va usar esto
     // const hotels = await Hotel.findAll()
     // hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+require("dotenv").config();
+const { PORT } = process.env;
+// Syncing all the models at once.
+conn.sync({ force: false }).then(async () => {
+  server.listen(PORT, async () => {
+    console.log(`istening at ${PORT}`);
   });
 });
 
