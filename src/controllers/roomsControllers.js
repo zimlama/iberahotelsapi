@@ -8,7 +8,7 @@ const getAllRooms = async (req, res) =>{
 	try{
 		const allRooms = await Room.findAll({
 		})
-			console.log(allRooms)
+			//console.log(allRooms)
                 return res.status(200).send(allRooms)
 		 	
 	}catch(e){
