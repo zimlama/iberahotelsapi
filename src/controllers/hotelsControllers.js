@@ -1,56 +1,59 @@
  const{Hotel, Room} = require('../db');
-const jsonHotels = require('../data/hotels.json')
+ const { Op } = require("sequelize");
 
-//get de hotels
+
+
+//!! GET de Hotels
 
 const getAllHotels = async (req, res) =>{
-	// console.log(jsonHotels)
+	
 	try{
+			const rooms = await Room.findAll();			
+			const hotels = await Hotel.findAll();
 
-		const allHotels = await Hotel.findAll({
-			include:{
-				model: Room,
-				attributes:[],
-				through:{
-					attributes: [],
-				}
+			for (const hotel of hotels) {
+  				for (const room of rooms) {
+    			 await hotel.addRoom(room);
+  				}
 			}
-		})
-		 if(jsonHotels){
-			
-            const hotelAll = jsonHotels.forEach(e=>{
-                Hotel.findOrCreate({
-                    where:{name: e.name,
-						address: e.address,
-						city: e.city,
-						description: e.description,
-                    image: e.image,
-					stars: e.stars,
-                    status: e.status
-                    }
-                })
-            })
-            const hotelDb = await Hotel.findAll()
-                return res.status(200).send(hotelDb)
-		 	
-		 }
-		 // let allHotels =
-		 // 	 await Hotel.findAll({
-		 // 		include:{
-		 // 		model: Room,
-		 // 		attributes:['name'],
-		 // 		through:{
-		 // 			attributes: [],
-		 // 		}
-		 // 	}
-		 // 	})
-		 
-		// res.status(200).send(allHotels)
+			const allHotels = await Hotel.findAll({
+ 			 include: [{
+    		model: Room
+  				}]
+			});
 
+                return res.status(200).send(allHotels)
+		 	
 	}catch(e){
 		console.log(e)
 	}
 }
- module.exports ={
- 	getAllHotels
+ 
+
+
+ //!! POST de Hotels
+
+ const postNewHotel = async (req, res) => {
+	let{
+		name, 
+		address, 
+		city, 
+		description,
+		image,
+		stars,
+		status
+	} = req.body
+
+	let hotel = {name, address, city, description,image,stars,status	}
+	let createHotel =  await Hotel.create(hotel)
+	res.send(createHotel)
+
  }
+ 
+
+
+//!!!
+ module.exports ={
+	getAllHotels,
+	postNewHotel,
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "desayuno",
+        "description":"expectacular desayuno continental",
+        "price": 10,
+        "image": "https://www.istockphoto.com/es/foto/composici%C3%B3n-con-un-desayuno-en-la-tabla-balnced-dieta-gm475716160-65489357",
+        "status": true
+    },
+    {
+        "name": "almuerzo",
+        "description": "disfrute de los mejores manjares",
+        "price": 50,
+        "image": "https://media.istockphoto.com/id/1456988428/es/foto/men%C3%BA-comida.jpg?s=1024x1024&w=is&k=20&c=vT8jD38pdr54QF2pplIhk1LXEgvJZrJgyjP3y6EWjYA=",
+        "status": true
+    },
+    {
+        "name": "cena",
+        "description": "veladas inolvidables en una cena romantica",
+        "price": 80,
+        "image": "https://media.istockphoto.com/id/914431570/es/foto/pareja-joven-disfrutando-de-una-cena-rom%C3%A1ntica.jpg?s=612x612&w=0&k=20&c=k-qNgwavMlcHfUz5iKzxX64Q5mTdxRvqkbz_y2o9cXs=",
+        "status": true
+    },
+    {
+        "name": "lavanderia",
+        "description": "cuidado especial de su ropa",
+        "price": 20,
+        "image": "https://media.istockphoto.com/id/1155835026/es/foto/huele-fresco-y-se-siente-suave.jpg?s=612x612&w=0&k=20&c=TOWbSTv5IEfaLoVLR4GFe7-nj_m-KHR5f63_y06vfnY=",
+        "status": true
+    },
+    {
+        "name": "estacionamiento",
+        "description": "a su disposicion amplias cocheras y valet parking",
+        "price": 10,
+        "image": "https://media.istockphoto.com/id/187579371/es/foto/estacionamiento-con-servicio-de-valet.jpg?s=612x612&w=0&k=20&c=dbw4AsKWZledHFqOttDitwmGPl9FrRIJu-CgYmlTk6I=",
+        "status": true
+    },
+    {
+        "name": "excursiones",
+        "description": "no hay nada que no pueda realizar! aventurese a nuestras asombrosas excursiones!",
+        "price": 150,
+        "image": "https://media.istockphoto.com/id/904172104/es/foto/hemos-dicho-todo-este-camino-me-siento-orgulloso.jpg?s=612x612&w=0&k=20&c=YEWah9Z99mfdsH5PWzwBH818A_ampo2Q_tggeUST-yc=",
+        "status": true
+    },
+    {
+        "name": "alquiler auto",
+        "description": "disponibilidad inmediata de los mejores automotores",
+        "price": 200,
+        "image": "https://media.istockphoto.com/id/910565260/es/foto/mujer-sentada-en-la-calle-con-su-smartphone-alquila-un-coche.jpg?s=612x612&w=0&k=20&c=jm94BNwoBQy-tOa-v85tm1AfTUquiRq0-yEPdUptCns=",
+        "status": true
+    },
+    {
+        "name": "alquiler de bicicletas",
+        "description": "para pasear y ejercitarse!",
+        "price": 50,
+        "image": "https://media.istockphoto.com/id/1331069427/es/foto/pareja-alquilando-un-ebike-en-la-tienda.jpg?s=612x612&w=0&k=20&c=Jry_ZhCq8SBnX9QrRRZajS6KB0TovEtZGHLOGKJXm3k=",
+        "status": true
+    },
+    {
+        "name": "carpas",
+        "description": "disfrute de un dia de playa con la comodidad de una carpa",
+        "price": 250,
+        "image": "https://media.istockphoto.com/id/523035121/es/foto/la-playa-del-oc%C3%A9ano-atl%C3%A1ntico-sur.jpg?s=612x612&w=is&k=20&c=rn6zDgEtIkjlqOUun6ZSLvPr1xt1WPvtWFcaWtPyt6c=",
+        "status": true
+    },
+    {
+        "name": "sombrillas",
+        "description": "puede acceder a una sombra tenue alquilando una sombrilla para cubrirse de los rayos solares mas fuertes",
+        "price": 150,
+        "image": "https://media.istockphoto.com/id/497144639/es/foto/sillas-y-sombrilla-en-la-playa.jpg?s=612x612&w=0&k=20&c=DxBYw7XQFu7Rjbgt216h6SNABPghEEv2ZVzXkUY0A3Y=",
+        "status": true
+    },
+    {
+        "name": "centro de negocios",
+        "description": "Ud podra reunirse con sus clientes o proveedores generando nuevos acuerdos en un ambiente agradable",
+        "price": 2000,
+        "image": "https://media.istockphoto.com/id/517013990/es/foto/tienen-derecho-en-pista.jpg?s=612x612&w=0&k=20&c=SQ5VmgeUhESzS_ADwzrx2Lk4mBxZ0vkZyFQt0JLuLEY=",
+        "status": true
+    }
+]
