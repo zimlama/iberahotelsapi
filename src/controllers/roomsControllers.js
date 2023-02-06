@@ -29,7 +29,7 @@ const getAllRooms = async (req, res) =>{
 	} = req.body
 
 	let room = {name,bed_quantity,price,description,availability,image,status	}
-	let createRoom =  await Room.create(room)
+	let createRoom =  await Room.findOrCreate({where: room})
 	res.send(createRoom)
 
  }

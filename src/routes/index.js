@@ -4,6 +4,9 @@ const getAllRooms = require('./roomsRouter')
 const getAllAmenities = require("./amenitiesRouter")
 const getAllUsers = require('./usersRouter')
 const getAllServices = require ("./ServicesRouter")
+const getAllPartners = require("./partnersRouter");
+const getAllBills  = require('./billsRouter');
+
 
 
 const router = Router();
@@ -16,6 +19,9 @@ router.use('/rooms', getAllRooms)
 router.use('/amenities', getAllAmenities)
 router.use('/users', getAllUsers)
 router.use("/services", getAllServices)
+router.use("/partners", getAllPartners)
+router.use("/bills", getAllBills )
+
 
 router.get("/", (req,res,next)=>{
     return res.status(200).json(hoteles)

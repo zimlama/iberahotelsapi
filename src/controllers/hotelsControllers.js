@@ -41,7 +41,7 @@ const getAllHotels = async (req, res) =>{
 	} = req.body
 
 	let hotel = {name, address, city, description,image,stars,status};
-	let createHotel =  await Hotel.create(hotel)
+	let createHotel =  await Hotel.findOrCreate({where: hotel})
 	res.send(createHotel)
 
  }

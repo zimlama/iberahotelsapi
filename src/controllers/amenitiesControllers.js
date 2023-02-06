@@ -47,7 +47,7 @@ const postNewAminities = async (req, res) => {
 	} = req.body
 
 	let amenities = {name,image,status}
-	let createAmenities =  await Amenities.create(amenities)
+	let createAmenities =  await Amenities.findOrCreate({where: amenities})
 	res.send(createAmenities)
 
  }
