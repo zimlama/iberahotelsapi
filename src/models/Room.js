@@ -41,11 +41,10 @@ module.exports = (sequelize) => {
       status: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-      },
+       },
   },
   {
     timestamps: false,
   }
 );
 };
-

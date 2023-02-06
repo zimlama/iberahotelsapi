@@ -6,11 +6,6 @@ const getAllUsers = require('./usersRouter')
 const getAllServices = require ("./ServicesRouter")
 
 
-
-
-
-
-
 const router = Router();
 
 // Configurar los routers
