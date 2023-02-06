@@ -8,17 +8,15 @@ const getAllRooms = async (req, res) =>{
 	try{
 		const allRooms = await Room.findAll({
 		})
-			//console.log(allRooms)
-                return res.status(200).send(allRooms)
-		 	
+                return res.status(200).send(allRooms)		 	
 	}catch(e){
-		console.log(e)
+		res.status(404).json(e)
 	}
 }
 
 
-
 //! POST de Rooms
+
  const postNewRoom = async (req, res) => {
 	let{
 		name, 
@@ -36,8 +34,26 @@ const getAllRooms = async (req, res) =>{
 
  }
 
+ // get Id Detail
+ 
+ const getRoomId = async (req, res, next) => {
+   const { id } = req.params;
+   try {
+	 const room = await Room.findOne({
+	   where: { idRooms: id },
+	 });
+	 res.send(room);
+   } catch (error) {
+	 next(error);
+   }
+ };
+
+
+ 
 //!!!
  module.exports ={
 	getAllRooms,
 	postNewRoom,
+	getRoomId
  }
+

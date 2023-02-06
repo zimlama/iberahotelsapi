@@ -22,5 +22,10 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     // Falta Payment y Transaction ID
-  });
-};
+  },
+  {
+    timestamps: false,
+  }
+    );
+  };
+  

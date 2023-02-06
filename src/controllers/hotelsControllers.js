@@ -7,23 +7,19 @@
 
 const getAllHotels = async (req, res) =>{
 	
-	try{
-			const rooms = await Room.findAll();			
-			const hotels = await Hotel.findAll();
-
-			for (const hotel of hotels) {
-  				for (const room of rooms) {
-    			 await hotel.addRoom(room);
-  				}
-			}
-			const allHotels = await Hotel.findAll({
- 			 include: [{
-    		model: Room
-  				}]
-			});
-
-                return res.status(200).send(allHotels)
 		 	
+
+	
+		try {
+			const allHotels = await Hotel.findAll({
+				include: {
+					model: Room,
+					attributes: ['name'],
+					through: { attributes: [] }
+				}
+			})
+			res.send(allHotels)
+	
 	}catch(e){
 		console.log(e)
 	}
@@ -44,16 +40,30 @@ const getAllHotels = async (req, res) =>{
 		status
 	} = req.body
 
-	let hotel = {name, address, city, description,image,stars,status	}
+	let hotel = {name, address, city, description,image,stars,status};
 	let createHotel =  await Hotel.create(hotel)
 	res.send(createHotel)
 
  }
  
+ //! get Id Detail
+ 
+ const getHotelId = async (req, res, next) => {
+   const { id } = req.params;
+   try {
+	 const hotel = await Hotel.findOne({
+	   where: { idHotels: id },
+	 });
+	 res.send(hotel);
+   } catch (error) {
+	 next(error);
+   }
+ };
 
 
 //!!!
  module.exports ={
 	getAllHotels,
 	postNewHotel,
+	getHotelId
 }
