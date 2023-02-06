@@ -11,15 +11,6 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      //quantity : {
-      //  type : DataTypes.INTEGER,
-      //  allowNull: false
-      //},
-      // pensarlo bien
-      //type: {
-      //  type: DataTypes.STRING,
-      //  allowNull : false
-      //},
       description: {
         type: DataTypes.TEXT,
         allowNull: false,
@@ -40,5 +31,6 @@ module.exports = (sequelize) => {
     {
       timestamps: false,
     }
-  );
-};
+      );
+    };
+    
