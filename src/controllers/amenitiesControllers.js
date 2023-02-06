@@ -40,7 +40,8 @@ try {
 //! POST de Amenities
 
 const postNewAminities = async (req, res) => {
-	let{
+try {
+    let{
 		name,
         image,
         status,
@@ -48,7 +49,11 @@ const postNewAminities = async (req, res) => {
 
 	let amenities = {name,image,status}
 	let createAmenities =  await Amenities.findOrCreate({where: amenities})
-	res.send(createAmenities)
+	res.status(200).json('Your Aminities was created successfully')
+} catch (error) {
+    res.status(404).json("Your Aminities was not created sucessfully")
+    
+}
 
  }
 

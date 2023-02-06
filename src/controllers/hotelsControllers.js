@@ -30,6 +30,7 @@ const getAllHotels = async (req, res) =>{
  //!! POST de Hotels
 
  const postNewHotel = async (req, res) => {
+try {
 	let{
 		name, 
 		address, 
@@ -42,7 +43,12 @@ const getAllHotels = async (req, res) =>{
 
 	let hotel = {name, address, city, description,image,stars,status};
 	let createHotel =  await Hotel.findOrCreate({where: hotel})
-	res.send(createHotel)
+	res.status(200).json('Your Hotel was created successfully')
+} catch (error) {
+	res.status(404).json("Your Hotel was not created sucessfully")
+	
+}
+	
 
  }
  

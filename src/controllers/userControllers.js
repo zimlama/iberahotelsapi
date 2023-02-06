@@ -23,6 +23,7 @@ const getAllUsers = async (req, res) =>{
 //! POST de Users
 
 const postNewUser = async (req, res) => {
+
 	let{
 		first_name,
         last_name,
