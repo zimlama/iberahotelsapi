@@ -9,6 +9,8 @@ const getAllServices = require ("./ServicesRouter")
 
 
 
+
+
 const router = Router();
 
 // Configurar los routers
@@ -16,7 +18,7 @@ const router = Router();
 
 router.use('/hotels', getAllHotels)
 router.use('/rooms', getAllRooms)
-router.use("/amenities", getAllAmenities)
+router.use('/amenities', getAllAmenities)
 router.use('/users', getAllUsers)
 router.use("/services", getAllServices)
 
