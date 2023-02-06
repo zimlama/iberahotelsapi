@@ -18,19 +18,25 @@ const getAllRooms = async (req, res) =>{
 //! POST de Rooms
 
  const postNewRoom = async (req, res) => {
-	let{
-		name, 
-		bed_quantity, 
-		image,
-		description,
-		price, 
-		availability,
-		status
-	} = req.body
+	try {
+		let{
+			name, 
+			bed_quantity, 
+			image,
+			description,
+			price, 
+			availability,
+			status
+		} = req.body
+	
+		let room = {name,bed_quantity,price,description,availability,image,status	}
+		let createRoom =  await Room.findOrCreate({where: room})
+		res.status(200).json('Your Room was created successfully')
+	} catch (error) {
+		res.status(404).json("Your Room was not created sucessfully")
+		
+	}
 
-	let room = {name,bed_quantity,price,description,availability,image,status	}
-	let createRoom =  await Room.create(room)
-	res.send(createRoom)
 
  }
 
