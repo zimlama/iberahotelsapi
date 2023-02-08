@@ -1,5 +1,6 @@
 [
     {
+        "idHotels":1,
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
@@ -14,8 +15,10 @@
         "price": "421",
         "availability": " ",
         "status": true
+
     },
     {
+        "idHotels":1,
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
@@ -32,6 +35,7 @@
         "status": true
     },
     {
+        "idHotels":1,
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
@@ -48,6 +52,7 @@
         "status": true
     },
     {
+        "idHotels":1,
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
@@ -64,6 +69,7 @@
         "status": true
     },
     {
+        "idHotels":1,
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
