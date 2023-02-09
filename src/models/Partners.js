@@ -39,11 +39,12 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       mobile: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.BIGINT, // LE PUSE BIGINT porque de esa forma almacena mas numeros
       },
     },
     {
       timestamps: false,
     }
-  );
-};
+      );
+    };
+    

@@ -1,59 +1,56 @@
- const{Hotel, Room} = require('../db');
- const { Op } = require("sequelize");
-
-
+const { Hotel, Room } = require("../db");
+const { Op } = require("sequelize");
 
 //!! GET de Hotels
 
-const getAllHotels = async (req, res) =>{
-	
-	try{
-			const rooms = await Room.findAll();			
-			const hotels = await Hotel.findAll();
+const getAllHotels = async (req, res) => {
+  try {
+    const allHotels = await Hotel.findAll({
+      include: {
+        model: Room,
+        attributes: ["name"],
+        through: { attributes: [] },
+      },
+    });
+    res.send(allHotels);
+  } catch (e) {
+    console.log(e);
+  }
+};
 
-			for (const hotel of hotels) {
-  				for (const room of rooms) {
-    			 await hotel.addRoom(room);
-  				}
-			}
-			const allHotels = await Hotel.findAll({
- 			 include: [{
-    		model: Room
-  				}]
-			});
+//!! POST de Hotels
 
-                return res.status(200).send(allHotels)
-		 	
-	}catch(e){
-		console.log(e)
-	}
-}
- 
+const postNewHotel = async (req, res) => {
+  try {
+    let { name, address, city, description, image, stars, status } = req.body;
 
+    let hotel = { name, address, city, description, image, stars, status };
+    let createHotel = await Hotel.findOrCreate({ where: hotel });
+    res.status(200).json("Your Hotel was created successfully");
+  } catch (error) {
+    res.status(404).json("Your Hotel was not created sucessfully");
+  }
+};
 
- //!! POST de Hotels
+//! get Id Detail
 
- const postNewHotel = async (req, res) => {
-	let{
-		name, 
-		address, 
-		city, 
-		description,
-		image,
-		stars,
-		status
-	} = req.body
+const getHotelId = async (req, res, next) => {
+  const { id } = req.params;
+  try {
+    const hotel = await Hotel.findOne({
+      where: { idHotels: id },
+    });
+    res.send(hotel);
+  } catch (error) {
+    next(error);
+  }
+};
 
-	let hotel = {name, address, city, description,image,stars,status	}
-	let createHotel =  await Hotel.create(hotel)
-	res.send(createHotel)
-
- }
- 
-
+//hola pude!!!
 
 //!!!
- module.exports ={
-	getAllHotels,
-	postNewHotel,
-}
+module.exports = {
+  getAllHotels,
+  postNewHotel,
+  getHotelId,
+};
