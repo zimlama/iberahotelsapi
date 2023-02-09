@@ -41,19 +41,10 @@ module.exports = (sequelize) => {
       status: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-      },
-
-      availability: {
-        type: DataTypes.TEXT,
-        allowNull: false,
-      },
-      status: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-      },
-    },
-    {
-      timestamps: false,
-    }
-  );
+       },
+  },
+  {
+    timestamps: false,
+  }
+);
 };

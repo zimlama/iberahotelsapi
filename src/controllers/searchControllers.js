@@ -5,7 +5,6 @@ const getSearchHotels = async (req, res) =>{
 	const { name } = req.query
  try {
     if(name){
-        
         let buscarHotelDb = await Hotel.findAll({
             include: {
                 model: Room,
