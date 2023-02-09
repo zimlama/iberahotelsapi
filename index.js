@@ -17,18 +17,18 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const { load } = require('dotenv');
+const { load, PORT } = require('dotenv');
 const server = require('./src/app.js');
 const { loadAllModelsInDB } = require('./src/controllers/loadData.js')
 const { conn, Hotel } = require('./src/db.js');
 
 // Syncing all the models at once.
 conn.sync({ force: false }).then(async () => {
- server.listen(${PORT},async () => {
+ server.listen(PORT,async () => {
  console.log(`%s listening at ${PORT}`);
     // modo railway app no se va usar esto
-     const hotels = await Hotel.findAll()
-     hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+    // const hotels = await Hotel.findAll()
+    // hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
 
 
 
