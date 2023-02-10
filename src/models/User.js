@@ -4,12 +4,12 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('user', {
-    // idUser:{
-    //   type: DataTypes.INTEGER,
-    //    allowNull: false,
-    //   autoIncrement: true,
-    //   primaryKey: true,
-    // },
+    idUser:{
+      type: DataTypes.INTEGER,
+       allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+    },
     first_name : {
         type :  DataTypes.STRING,
         allowNull: false
@@ -39,11 +39,11 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     date_birth : {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
     mobile : {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false
     },
     image : {
@@ -58,7 +58,11 @@ module.exports = (sequelize) => {
     privilige: {
         type: DataTypes.BOOLEAN,
         defaultValue: false // Al crearte como usuario por defecto el privilegio es FALSE
-    },  
+    },
+    user_password: {
+        type: DataTypes.STRING,
+        allowNull: false
+    }
 },
 {
   timestamps: false,

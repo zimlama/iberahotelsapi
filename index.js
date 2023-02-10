@@ -25,10 +25,10 @@ const { conn, Hotel } = require('./src/db.js');
 require("dotenv").config();
 const { PORT } = process.env;
 //Syncing all the models at once.
-conn.sync({ force: false }).then(async () => {
+conn.sync({ force: true }).then(async () => {
  server.listen(PORT, async () => {
    console.log(`istening at ${PORT}`);
-  //  const hotels = await Hotel.findAll()
-  //  hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+    const hotels = await Hotel.findAll()
+    hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
  });
 });
