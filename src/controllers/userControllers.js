@@ -28,6 +28,7 @@ async function getAllUsers(req, res, next){
 // user_password
 // tema de como debo enviar el res.status del error con el next
 // terminar de arreglar linea 43 next(err);
+// revisando pull req
 
 async function postNewUser(req, res, next){
     try{
