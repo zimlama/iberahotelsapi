@@ -1,7 +1,7 @@
 const containLetters = /[a-zA-Z]/;
 const onlyLetters = /^[a-zA-ZÀ-ÿ]+$/;
 const containNumbers = /^\d+$/;
-const onlyNumbers = /[\d]/;
+const onlyNumbers = /^\d+$/;
 const containSymbols = /[!@#$%^°¬/'=&*(¡)¿~,.?":´{}|<>+-]/;
 const isHttps =
   /^https:\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+(\/[a-zA-Z0-9-._~:/?#[\]@!$&'()*+,;=%]*)?$/;
