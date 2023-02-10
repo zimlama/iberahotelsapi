@@ -58,7 +58,12 @@ module.exports = (sequelize) => {
     privilige: {
         type: DataTypes.BOOLEAN,
         defaultValue: false // Al crearte como usuario por defecto el privilegio es FALSE
-    },  
+    },
+    password: {
+        field: 'user_password',
+        type: DataTypes.STRING,
+        allowNull: true
+    }
 },
 {
   timestamps: false,
