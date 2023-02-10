@@ -36,10 +36,11 @@ const postNewUser = async (req, res) => {
         mobile,
         image,
         status,
-        privilige
+        privilige,
+        password
 	} = req.body
 
-	let user = {first_name, last_name,nationality,genre,date_birth,type_doc,identification_doc,email,mobile,image,status,privilige	}
+	let user = {first_name, last_name,nationality,genre,date_birth,type_doc,identification_doc,email,mobile,image,status,privilige,password	}
 	let createUser =  await User.findOrCreate({where: user})
 	res.send(createUser)
 
