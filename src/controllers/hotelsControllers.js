@@ -54,7 +54,38 @@ const postNewHotel = async (req, res) => {
 };
 
 //!!!
+
+const getHotelById = async (req, res, next) => {
+  const { id } = req.params;
+  try {
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: id,
+      },
+      include: [
+        {
+          model: Room,
+          as: "rooms",
+          attributes: [
+            "idRooms",
+            "name",
+            "image",
+            "bed_quantity",
+            "price",
+            "description",
+            "availability",
+            "status",
+          ],
+        },
+      ],
+    });
+    res.status(200).json(hotel);
+  } catch (err) {
+    res.status(404).json("No se encontro el hotel");
+  }
+};
 module.exports = {
   getAllHotels,
   postNewHotel,
+  getHotelById,
 };
