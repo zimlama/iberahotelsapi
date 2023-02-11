@@ -1,15 +1,14 @@
 const containLetters = /[a-zA-Z]/;
 const onlyLetters = /^[a-zA-ZÀ-ÿ]+$/;
 const containNumbers = /^\d+$/;
-const onlyNumbers = /[\d]/;
+const onlyNumbers = /^\d+$/;
 const containSymbols = /[!@#$%^°¬/'=&*(¡)¿~,.?":´{}|<>+-]/;
-const isHttps =
-  /^https:\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+(\/[a-zA-Z0-9-._~:/?#[\]@!$&'()*+,;=%]*)?$/;
+const isHttps =/^https:\/\/[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+(\/[a-zA-Z0-9-._~:/?#[\]@!$&'()*+,;=%]*)?$/;
 const onlyLettersOrNumbers = /^[a-zA-Z0-9\s]+$/;
 const onlyDate = /^(\d{4})(-)(\d{1,2})(-)(\d{1,2})$/;
 const isEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
 const status = [ 'active', 'disabled' ]
-const privilige = [ true, false ]
+const privilige = [ true , false ]
 
 const onlyLettersOrNumbersCheck = (input) => {
   return onlyLettersOrNumbers.test(input);

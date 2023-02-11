@@ -6,7 +6,7 @@ const loadUsers = require('../data/users.json');
 
 //! GET show all users Users --------------
 // tema de como debo enviar el res.status del error con el next
-// terminar de arreglar linea 15
+// terminar de arreglar linea 15 next(err);
 async function getAllUsers(req, res, next){
     try{
         const allUser = await User.findAll({ });
@@ -24,10 +24,10 @@ async function getAllUsers(req, res, next){
 // mobile se creo en modelo como type: DataTypes.STRING, ya que genera error con numeros de mayores a 9 digitos
 
 // Falta validar !!! 2023-02-10 
-// terminar de arreglar linea 35
+// terminar de arreglar linea 36 if ( !onlyLettersCheck(first_name) || !onlyLettersCheck(last_name) || !onlyLettersCheck(nationality) || !onlyLettersCheck(genre) || !onlyDateCheck(date_birth) || !onlyLettersCheck(type_doc) || !onlyNumbersCheck(identification_doc) || !isEmailCheck(email) || !onlyNumbersCheck(mobile) || !httpsLinkCheck(image) || !statusCheck(status) || !priviligeCheck(privilige) || !user_password ){
 // user_password
 // tema de como debo enviar el res.status del error con el next
-// terminar de arreglar linea 43 next(err);
+// terminar de arreglar linea 44 next(err);
 // revisando pull req
 
 async function postNewUser(req, res, next){
