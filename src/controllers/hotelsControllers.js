@@ -1,56 +1,91 @@
- const{Hotel, Room} = require('../db');
-const jsonHotels = require('../data/hotels.json')
+const { Hotel, Room } = require("../db");
+const { Op } = require("sequelize");
 
-//get de hotels
+//!! GET de Hotels
 
-const getAllHotels = async (req, res) =>{
-	// console.log(jsonHotels)
-	try{
+const getAllHotels = async (req, res) => {
+  try {
+    const allHotels = await Hotel.findAll({
+      include: [
+        {
+          model: Room,
+          as: "rooms",
+          attributes: [
+            "name",
+            "image",
+            "bed_quantity",
+            "price",
+            "description",
+            "availability",
+            "status",
+          ],
+        },
+      ],
+    });
+    res.status(200).json(allHotels);
+  } catch (e) {
+    res.status(404).json(e.message);
+  }
+};
 
-		const allHotels = await Hotel.findAll({
-			include:{
-				model: Room,
-				attributes:[],
-				through:{
-					attributes: [],
-				}
-			}
-		})
-		 if(jsonHotels){
-			
-            const hotelAll = jsonHotels.forEach(e=>{
-                Hotel.findOrCreate({
-                    where:{name: e.name,
-						address: e.address,
-						city: e.city,
-						description: e.description,
-                    image: e.image,
-					stars: e.stars,
-                    status: e.status
-                    }
-                })
-            })
-            const hotelDb = await Hotel.findAll()
-                return res.status(200).send(hotelDb)
-		 	
-		 }
-		 // let allHotels =
-		 // 	 await Hotel.findAll({
-		 // 		include:{
-		 // 		model: Room,
-		 // 		attributes:['name'],
-		 // 		through:{
-		 // 			attributes: [],
-		 // 		}
-		 // 	}
-		 // 	})
-		 
-		// res.status(200).send(allHotels)
+//!! POST de Hotels
 
-	}catch(e){
-		console.log(e)
-	}
-}
- module.exports ={
- 	getAllHotels
- }
+const postNewHotel = async (req, res) => {
+  let { name, address, city, description, image, stars, status } = req.body;
+  try {
+    await Hotel.findOrCreate({
+      where: {
+        name,
+      },
+      defaults: {
+        name,
+        address,
+        city,
+        description,
+        image,
+        stars,
+        status,
+      },
+    });
+    res.status(201).json({ message: "Hotel created" });
+  } catch (e) {
+    res.status(500).json(e.message);
+  }
+};
+
+//!!!
+
+const getHotelById = async (req, res, next) => {
+  const { id } = req.params;
+  try {
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: id,
+      },
+      include: [
+        {
+          model: Room,
+          as: "rooms",
+          attributes: [
+            "idRooms",
+            "name",
+            "image",
+            "bed_quantity",
+            "price",
+            "description",
+            "availability",
+            "status",
+          ],
+        },
+      ],
+    });
+    res.status(200).json(hotel);
+  } catch (err) {
+    res.status(404).json("No se encontro el hotel");
+  }
+};
+module.exports = {
+  getAllHotels,
+  postNewHotel,
+  getHotelById,
+};

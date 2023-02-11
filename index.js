@@ -17,12 +17,35 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const server = require('./src/app.js');
-const { conn } = require('./src/db.js');
+const { load } = require("dotenv");
+const server = require("./src/app.js");
+const { loadAllModelsInDB } = require("./src/controllers/loadData.js");
+const { conn, Hotel } = require("./src/db.js");
 
 // Syncing all the models at once.
-conn.sync({ force: false }).then(() => {
-  server.listen(3001, () => {
-    console.log('%s listening at 3001'); // eslint-disable-line no-console
+//conn.sync({ force: false }).then(async () => {
+// server.listen(3001,async () => {
+// console.log('%s listening at 3001');
+// modo railway app no se va usar esto
+// const hotels = await Hotel.findAll()
+// hotels.length > 0 ? null :  // eslint-disable-line no-console
+require("dotenv").config();
+const { PORT } = process.env;
+// Syncing all the models at once.
+conn.sync({ force: true }).then(async () => {
+  loadAllModelsInDB();
+  server.listen(PORT, async () => {
+    console.log(`Listening at ${PORT}`);
   });
 });
+
+// const server = require('./src/app.js');
+
+// const { conn } = require('./src/db.js');
+
+// // Syncing all the models at once.
+// conn.sync({ force: true }).then(() => {
+//   server.listen(3001, () => {
+//     console.log('%s listening at 3001'); // eslint-disable-line no-console
+//   });
+// });
