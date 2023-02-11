@@ -38,7 +38,6 @@ async function postNewUser(req, res, next){
         }
         let user = { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige, user_password };
         let ceateUser = await User.findOrCreate({where: user});
-        console.log("esto es ceateUser: ", ceateUser);
         return res.status(201).send({ message: "User was created" });
     } catch(err){
         next(err);
