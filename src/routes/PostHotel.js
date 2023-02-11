@@ -14,7 +14,7 @@ router.post("/", async(req, res, next) =>{
             description,
             image,
             stars,
-          status
+            status
           })
     res.status(201).json('Your hotel was created successfully')
     } catch (error) {
