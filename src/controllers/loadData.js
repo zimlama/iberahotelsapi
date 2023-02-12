@@ -8,11 +8,12 @@ const loadServices = require('../data/service.json');
 
 async function loadAllModelsInDB(){
 
-      await Room.bulkCreate(loadRooms);
-  console.log('Rooms loaded ok to DB')
-
-    await Hotel.bulkCreate(loadhotels);
+  
+  await Hotel.bulkCreate(loadhotels);
   console.log('Hotels loaded ok to DB')
+  
+  await Room.bulkCreate(loadRooms);
+  console.log('Rooms loaded ok to DB')
 
   await Amenities.bulkCreate(loadAmenities);
   console.log('Amenities loaded ok to DB')
@@ -23,15 +24,7 @@ async function loadAllModelsInDB(){
   await Services.bulkCreate(loadServices);
   console.log('Services loaded ok to DB')
 
-
-
-
-
 }
-
-
-
-
 
 module.exports = {
     loadAllModelsInDB
