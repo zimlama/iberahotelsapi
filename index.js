@@ -27,8 +27,7 @@ const { PORT } = process.env;
 //Syncing all the models at once.
 conn.sync({ force: true }).then(async () => {
  server.listen(PORT, async () => {
-   console.log(`istening at ${PORT}`);
-    const hotels = await Hotel.findAll()
-    hotels.length > 0 ? null : loadAllModelsInDB(); // eslint-disable-line no-console
+  loadAllModelsInDB(); // eslint-disable-line no-console
+  console.log(`istening at ${PORT}`);    
  });
 });
