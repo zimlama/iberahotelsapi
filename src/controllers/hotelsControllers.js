@@ -6,51 +6,86 @@ const { Op } = require("sequelize");
 const getAllHotels = async (req, res) => {
   try {
     const allHotels = await Hotel.findAll({
-      include: {
-        model: Room,
-        attributes: ["name"],
-        through: { attributes: [] },
-      },
+      include: [
+        {
+          model: Room,
+          as: "rooms",
+          attributes: [
+            "name",
+            "image",
+            "bed_quantity",
+            "price",
+            "description",
+            "availability",
+            "status",
+          ],
+        },
+      ],
     });
-    res.send(allHotels);
+    res.status(200).json(allHotels);
   } catch (e) {
-    console.log(e);
+    res.status(404).json(e.message);
   }
 };
 
 //!! POST de Hotels
 
 const postNewHotel = async (req, res) => {
+  let { name, address, city, description, image, stars, status } = req.body;
   try {
-    let { name, address, city, description, image, stars, status } = req.body;
-
-    let hotel = { name, address, city, description, image, stars, status };
-    let createHotel = await Hotel.findOrCreate({ where: hotel });
-    res.status(200).json("Your Hotel was created successfully");
-  } catch (error) {
-    res.status(404).json("Your Hotel was not created sucessfully");
+    await Hotel.findOrCreate({
+      where: {
+        name,
+      },
+      defaults: {
+        name,
+        address,
+        city,
+        description,
+        image,
+        stars,
+        status,
+      },
+    });
+    res.status(201).json({ message: "Hotel created" });
+  } catch (e) {
+    res.status(500).json(e.message);
   }
 };
 
-//! get Id Detail
+//!!!
 
-const getHotelId = async (req, res, next) => {
+const getHotelById = async (req, res, next) => {
   const { id } = req.params;
   try {
     const hotel = await Hotel.findOne({
-      where: { idHotels: id },
+      where: {
+        idHotels: id,
+      },
+      include: [
+        {
+          model: Room,
+          as: "rooms",
+          attributes: [
+            "idRooms",
+            "name",
+            "image",
+            "bed_quantity",
+            "price",
+            "description",
+            "availability",
+            "status",
+          ],
+        },
+      ],
     });
-    res.send(hotel);
-  } catch (error) {
-    next(error);
+    res.status(200).json(hotel);
+  } catch (err) {
+    res.status(404).json("No se encontro el hotel");
   }
 };
-
-//hola pude!!!
-
-//!!!
 module.exports = {
   getAllHotels,
   postNewHotel,
-  getHotelId,
+  getHotelById,
 };

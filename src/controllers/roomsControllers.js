@@ -1,65 +1,48 @@
- const{Room} = require('../db');
- const { Op } = require("sequelize");
-
+ const { Room } = require("../db");
+const { Op } = require("sequelize");
 
 //! GET de Rooms
-const getAllRooms = async (req, res) =>{
-	
-	try{
-		const allRooms = await Room.findAll({
-		})
-                return res.status(200).send(allRooms)		 	
-	}catch(e){
-		res.status(404).json(e)
-	}
-}
-
+const getAllRooms = async (req, res) => {
+  try {
+    const allRooms = await Room.findAll({});
+    //console.log(allRooms)
+    return res.status(200).send(allRooms);
+  } catch (e) {
+    console.log(e);
+  }
+};
 
 //! POST de Rooms
+const postNewRoom = async (req, res) => {
+  let {
+    idHotels,
+    name,
+    bed_quantity,
+    image,
+    description,
+    price,
+    availability,
+    status,
+  } = req.body;
+  try {
+    await Room.create({
+      idHotels,
+      name,
+      bed_quantity,
+      image,
+      description,
+      price,
+      availability,
+      status,
+    });
+    res.status(200).json({ message: "Room created" });
+  } catch (e) {
+    res.status(500).json(e.message);
+  }
+};
 
- const postNewRoom = async (req, res) => {
-	try {
-		let{
-			name, 
-			bed_quantity, 
-			image,
-			description,
-			price, 
-			availability,
-			status
-		} = req.body
-	
-		let room = {name,bed_quantity,price,description,availability,image,status	}
-		let createRoom =  await Room.findOrCreate({where: room})
-		res.status(200).json('Your Room was created successfully')
-	} catch (error) {
-		res.status(404).json("Your Room was not created sucessfully")
-		
-	}
-
-
- }
-
- // get Id Detail
- 
- const getRoomId = async (req, res, next) => {
-   const { id } = req.params;
-   try {
-	 const room = await Room.findOne({
-	   where: { idRooms: id },
-	 });
-	 res.send(room);
-   } catch (error) {
-	 next(error);
-   }
- };
-
-
- 
 //!!!
- module.exports ={
-	getAllRooms,
-	postNewRoom,
-	getRoomId
- }
-
+module.exports = {
+  getAllRooms,
+  postNewRoom,
+};

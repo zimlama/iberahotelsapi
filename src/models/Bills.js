@@ -5,6 +5,12 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('bills', {
     // ID : viene del sistema
+    id: {
+      type: DataTypes.INTEGER,
+      autoincrement: true,
+      allowNull: false,
+      primaryKey: true,
+    },
     item: {
       type: DataTypes.STRING,
       allowNull: false,
