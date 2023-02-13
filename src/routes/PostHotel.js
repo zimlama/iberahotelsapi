@@ -16,6 +16,8 @@ router.post("/", async(req, res, next) =>{
             stars,
             status
           })
+    console.log(hotelCreated);
+    
     res.status(201).json('Your hotel was created successfully')
     } catch (error) {
     res.status(400).json("your Hotel was not created successfully")
