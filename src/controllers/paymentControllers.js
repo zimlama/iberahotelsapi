@@ -42,7 +42,7 @@ async function paymentValidation(req, res){
         success: `${BACK_URL_SUCCESS}`,
       },
       // notificacion_url: `http://localhost:${PORT}/notification`,
-      notificacion_url: `http://iberahotelsapi-production.up.railway.app:${PORT}/notification`,
+      notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
     };
     mercadopago.preferences.create(preference)
     .then(function (response) {
