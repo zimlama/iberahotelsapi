@@ -7,6 +7,7 @@ const {
   BACK_URL_SUCCESS,
   BACK_URL_FAILED,
   BACK_URL_PENDING,
+  PORT,
 } = process.env;
 
 const mercadopago = require("mercadopago");
@@ -29,7 +30,7 @@ const paymentValidation = async (req, res) => {
     back_urls: {
       success: `${BACK_URL_SUCCESS}`,
     },
-    notificacion_url: "http://localhost:3010/notification",
+    notificacion_url: `http://localhost:${PORT}/notification`,
   };
 
   mercadopago.preferences
@@ -45,7 +46,7 @@ const paymentValidation = async (req, res) => {
 
 // Agrega credenciales
 mercadopago.configure({
-  access_token: `${ACCESS_TOKEN}`,
+  access_token: "APP_USR-2761279815524236-021215-774f4ddd56411f516298c7c342b483ec-1308533818",
 });
 
 //!!!
