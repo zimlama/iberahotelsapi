@@ -4,12 +4,12 @@ const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
-//const sequelize = new Sequelize(
-// `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
+const sequelize = new Sequelize(
+`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
 //{
 // la linea 13 se debe dejar en el main para que el railway use la DB de railway
-const sequelize = new Sequelize(
-  `postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,
+// const sequelize = new Sequelize(
+//   `postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,
   {
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
@@ -65,8 +65,8 @@ User_travel.belongsToMany(Bills, { through: "bills_travels" });
 Services.belongsToMany(Room, { through: "room_services" });
 Room.belongsToMany(Services, { through: "room_services" });
 //relacion entre Hotel y Room
-Hotel.belongsToMany(Room, { through: "hotel_room" });
-Room.belongsToMany(Hotel, { through: "hotel_room" });
+Hotel.hasMany(Room, { as: "rooms", foreignKey: "idHotels" });
+Room.belongsTo(Hotel, { as: "rooms" });
 //relacion entre User y Room
 User.belongsToMany(Room, { through: "user_room" });
 Room.belongsToMany(User, { through: "user_room" });
