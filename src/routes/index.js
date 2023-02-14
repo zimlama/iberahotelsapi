@@ -7,12 +7,12 @@ const getAllServices = require("./ServicesRouter");
 const getAllPartners = require("./partnersRouter");
 const getAllBills = require("./billsRouter");
 const paymentValidation = require("./paymentRouter");
-
+const cors = require('cors');
 const router = Router();
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
-
+router.use(cors());
 router.use("/hotels", getAllHotels);
 router.use("/rooms", getAllRooms);
 router.use("/amenities", getAllAmenities);

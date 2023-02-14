@@ -2,7 +2,6 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const cors = require('cors');
 const routes = require('./routes/index.js');
 const { WHITELIST } = process.env;
 require('./db.js');
@@ -12,16 +11,6 @@ const server = express();
 // segunda vuelta
 server.name = 'API';
 
-server.use(cors());
-const corsOptions = {
-  origin: function (origin, callback){
-    if(WHITELIST.indexOf(origin) !== -1){
-      callback(null, true);
-    } else {
-      callback(new Error('Not alllowed by CORS'))
-    }
-  }
-}
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
@@ -35,7 +24,7 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use('/', cors(corsOptions), routes);
+server.use('/', routes);
 
 // Error catching endware.
 server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
