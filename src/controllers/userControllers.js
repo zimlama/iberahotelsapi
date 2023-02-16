@@ -32,7 +32,7 @@ async function getAllUsers(req, res, next){
 // terminar de arreglar linea 44 next(err);
 // revisando pull req
 
-async function postNewUser(req, res, next){
+async function postNewUser(req, res){
     try{
         let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
         let user_password = await bcrypt.hashSync(req.body.user_password, 10);
@@ -43,14 +43,14 @@ async function postNewUser(req, res, next){
         let ceateUser = await User.findOrCreate({where: user});
         return res.status(201).send({ message: "User was created" });
     } catch(err){
-        next(err);
+        res.status(500).json({ error: error});
     };
 }
 //!--------------
 
 //! GET signIn user --------------
 
-async function signIn(req, res, next){
+async function signIn(req, res){
     try{
         let { email, user_password } = req.body;
         User.findOne({
@@ -69,8 +69,7 @@ async function signIn(req, res, next){
             }
         })
     } catch(err){
-        
-        next(err);
+        res.status(400).json({ error: error});
     }
 }
 
