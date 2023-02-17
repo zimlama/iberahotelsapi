@@ -7,9 +7,10 @@ module.exports = (sequelize) => {
     "unlocode",
     {
       // ID : viene del sistema
-      Change: {
-        type: DataTypes.STRING,
+      id: {
+        type: DataTypes.STRING(5),
         allowNull: false,
+        primaryKey: true,
       },
       Country: {
         type: DataTypes.STRING,

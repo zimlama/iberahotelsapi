@@ -8,9 +8,8 @@ module.exports = (sequelize) => {
     {
       //ID : Que lo defina el sistema
       idHotels: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
       },
       name: {
