@@ -25,8 +25,8 @@ const { Op } = require("sequelize");
 //   "price":  1000
 // }
 
-async function paymentValidation(req, res){
-  try{
+async function paymentValidation(req, res) {
+  try {
     const newbill = req.body;
     let preference = {
       items: [
@@ -41,20 +41,21 @@ async function paymentValidation(req, res){
       back_urls: {
         success: `${BACK_URL_SUCCESS}`,
       },
-      // notificacion_url: `http://localhost:${PORT}/notification`,
-      notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
+      notificacion_url: `http://localhost:${PORT}/notification`,
+      //notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
     };
-    mercadopago.preferences.create(preference)
-    .then(function (response) {
-      res.status(201).json(response);
-    })
-    .catch(function (error) {
-      res.status(500).json({ error: error});
-    });
-  } catch(error){
-    res.status(500).json({ error: error});
+    mercadopago.preferences
+      .create(preference)
+      .then(function (response) {
+        res.status(201).json(response);
+      })
+      .catch(function (error) {
+        res.status(500).json({ error: error });
+      });
+  } catch (error) {
+    res.status(500).json({ error: error });
   }
-};
+}
 //  Agrega credenciales
 mercadopago.configure({
   access_token: ACCESS_TOKEN,

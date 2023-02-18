@@ -6,7 +6,10 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
 const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,{
 // la linea 13 se debe dejar en el main para que el railway use la DB de railway
+
 //const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {
+
+
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
@@ -57,6 +60,9 @@ User_travel.belongsToMany(User, { through: "travel_user" });
 //relacion entre Bills y User_travel
 Bills.belongsToMany(User_travel, { through: "bills_travels" });
 User_travel.belongsToMany(Bills, { through: "bills_travels" });
+//relacion entre Bills y User
+Bills.belongsTo(User, { through: "bills_purchase" });
+User.belongsToMany(Bills, { through: "bills_purchase" });
 //relacion entre Services y Room
 Services.belongsToMany(Room, { through: "room_services" });
 Room.belongsToMany(Services, { through: "room_services" });
