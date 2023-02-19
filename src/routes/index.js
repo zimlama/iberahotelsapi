@@ -8,7 +8,7 @@ const getAllPartners = require("./partnersRouter");
 const getAllBills = require("./billsRouter");
 const paymentValidation = require("./paymentRouter");
 const getAllCities = require("./createIdRouter");
-const postCreateHotel = require("./PostHotel");
+
 const cors = require('cors');
 const router = Router();
 
