@@ -99,5 +99,5 @@ module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
-  getSearchHotels
+  // getSearchHotels se quita de forma temporal minentra verificamos con FacuEcherrevy
 };
