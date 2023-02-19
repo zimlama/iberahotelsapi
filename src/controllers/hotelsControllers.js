@@ -31,13 +31,14 @@ const getAllHotels = async (req, res) => {
 //!! POST de Hotels
 
 const postNewHotel = async (req, res) => {
-  let { name, address, city, description, image, stars, status } = req.body;
+  let { idHotels, name, address, city, description, image, stars, status } = req.body;
   try {
     await Hotel.findOrCreate({
       where: {
-        name,
+        idHotels,
       },
       defaults: {
+        idHotels,
         name,
         address,
         city,
