@@ -88,8 +88,6 @@ const getHotelById = async (req, res, next) => {
     res.status(404).json("No se encontro el hotel");
   }
 };
-
-
 //!!!! Hotels by city 
 
 
