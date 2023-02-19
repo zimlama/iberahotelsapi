@@ -24,15 +24,16 @@ const { Op } = require("sequelize");
 //   "quantity": 1,
 //   "price":  1000
 // }
-
+//adry estuvo aqui
 async function paymentValidation(req, res) {
   try {
     const newbill = req.body;
+    console.log("aca esta :", newbill.id);
     let preference = {
       items: [
         // aca hay que colocar los datos que deben venir por un body
         {
-          id: 123, //falta probar el tema del id, deberia venir desde bill
+          id: newbill.id, //falta probar el tema del id, deberia venir desde bill
           title: newbill.item, //"Mi producto",
           quantity: newbill.quantity, //1,
           unit_price: newbill.price, //100,
@@ -41,8 +42,8 @@ async function paymentValidation(req, res) {
       back_urls: {
         success: `${BACK_URL_SUCCESS}`,
       },
-      notificacion_url: `http://localhost:${PORT}/notification`,
-      //notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
+      //notificacion_url: `http://localhost:${PORT}/notification`,
+      notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
     };
     mercadopago.preferences
       .create(preference)
