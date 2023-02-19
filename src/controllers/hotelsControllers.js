@@ -4,7 +4,6 @@ const { Op } = require("sequelize");
 //!! GET de Hotels
 
 const getAllHotels = async (req, res) => {
-  
   try {
     const allHotels = await Hotel.findAll({
       include: [
@@ -29,35 +28,31 @@ const getAllHotels = async (req, res) => {
   }
 };
 
-//!! POST de Hotels
-
-
-
+//! POST create hotel -------------- byLAMA
 const postNewHotel = async (req, res) => {
   let { idHotels, name, address, city, description, image, stars, status } = req.body;
   try {
-    await Hotel.findOrCreate({ 
-      where: { name },
-
-    defaults: {
-      idHotels,
-      name,
-      address,
-      city,
-      description,
-      image,
-      stars,
-      status,
-    }})
-
-    res.status(201).json({ message: "Hotel created"})
+    await Hotel.findOrCreate({
+      where: {
+        idHotels,
+      },
+      defaults: {
+        idHotels,
+        name,
+        address,
+        city,
+        description,
+        image,
+        stars,
+        status,
+      },
+    });
+    res.status(201).json({ message: "Hotel created" });
   } catch (e) {
     res.status(500).json(e.message);
-    
   }
 };
-
-//!!!  GET By ID
+//!-------------- byLAMA
 
 const getHotelById = async (req, res, next) => {
   const { id } = req.params;
@@ -88,16 +83,8 @@ const getHotelById = async (req, res, next) => {
     res.status(404).json("No se encontro el hotel");
   }
 };
-//!!!! Hotels by city 
-
-
-
-
-  
-
 module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
-  // getSearchHotels se quita de forma temporal minentra verificamos con FacuEcherrevy
 };
