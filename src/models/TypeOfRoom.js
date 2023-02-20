@@ -7,11 +7,6 @@ module.exports = (sequelize) => {
     "typeofroom",
     {
       //ID : Que lo defina el sistema
-      idTypeOfRoom: {
-        type: DataTypes.INTEGER,
-        autoIncrement: true,
-        primaryKey: true,
-      },
       name: {
         type: DataTypes.STRING,
         allowNull: false,

@@ -7,7 +7,7 @@ module.exports = (sequelize) => {
     "inventory",
     {
       //ID : Que lo defina el sistema
-      idRoom: {
+      idRoomInventory: {
         type: DataTypes.STRING(11),
         allowNull: false,
         primaryKey: true,
