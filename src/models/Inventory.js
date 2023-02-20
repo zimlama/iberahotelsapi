@@ -4,40 +4,32 @@ const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define(
-    "hotel",
+    "inventory",
     {
       //ID : Que lo defina el sistema
-      idHotels: {
-        type: DataTypes.STRING(7),
+      idRoom: {
+        type: DataTypes.STRING(11),
         allowNull: false,
         primaryKey: true,
       },
-      name: {
-        type: DataTypes.STRING,
+      idUsers: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: false,
       },
-      address: {
-        type: DataTypes.STRING,
+      checkin: {
+        type: DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false,
       },
-      city: {
-        type: DataTypes.STRING,
+      checkinUNIX: {
+        type: DataTypes.ARRAY(DataTypes.INTEGER),
         allowNull: false,
       },
-      description: {
-        type: DataTypes.TEXT,
+      checkout: {
+        type: DataTypes.ARRAY(DataTypes.DATE),
         allowNull: false,
       },
-      image: {
-        type: DataTypes.STRING,
-        
-      },
-      stars: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-      },
-      status: {
-        type: DataTypes.BOOLEAN,
+      checkoutUNIX: {
+        type: DataTypes.ARRAY(DataTypes.INTEGER),
         allowNull: false,
       },
     },

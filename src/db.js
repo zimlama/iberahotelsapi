@@ -4,9 +4,14 @@ const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
-// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,{
-// la linea 13 se debe dejar en el main para que el railway use la DB de railway
-const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {
+// la linea 8 se descomenta y la 10 se comentar para hacer test en la local DB
+//const sequelize = new Sequelize(
+//  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
+//  {
+// la linea 10 se debe dejar en el main para que el railway use la DB de railway (const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {)
+const sequelize = new Sequelize(
+  `postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,
+  {
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
@@ -25,7 +30,7 @@ fs.readdirSync(path.join(__dirname, "/models"))
     modelDefiners.push(require(path.join(__dirname, "/models", file)));
   });
 
-// Injectamos la conexion (sequelize) a todos los modelos
+// Injectamos la conexion (sequelize) a todos los modeloss
 modelDefiners.forEach((model) => model(sequelize));
 // Capitalizamos los nombres de los modelos ie: product => Product
 let entries = Object.entries(sequelize.models);
@@ -57,6 +62,9 @@ User_travel.belongsToMany(User, { through: "travel_user" });
 //relacion entre Bills y User_travel
 Bills.belongsToMany(User_travel, { through: "bills_travels" });
 User_travel.belongsToMany(Bills, { through: "bills_travels" });
+//relacion entre Bills y User
+User.hasMany(Bills, { foreignKey: "idUser" });
+Bills.belongsTo(User);
 //relacion entre Services y Room
 Services.belongsToMany(Room, { through: "room_services" });
 Room.belongsToMany(Services, { through: "room_services" });
@@ -69,9 +77,6 @@ Room.belongsToMany(User, { through: "user_room" });
 //relacion entre Room y Amenities
 Amenities.belongsToMany(Room, { through: "amenities_room" });
 Room.belongsToMany(Amenities, { through: "amenities_room" });
-//relacion entre User y Bills
-User.hasMany(Bills);
-Bills.belongsTo(User);
 //relacion entre User y Partners
 User.hasMany(Partners);
 Partners.belongsTo(User);
