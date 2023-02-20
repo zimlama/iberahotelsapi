@@ -1,5 +1,4 @@
 require("dotenv").config();
-const {Bills} =  require("../db")
 const {
   ACCESS_TOKEN,
   FRONT_URL_SUCCESS,
@@ -25,15 +24,16 @@ const { Op } = require("sequelize");
 //   "quantity": 1,
 //   "price":  1000
 // }
-
-async function paymentValidation(req, res){
-  try{
+//adry estuvo aqui
+async function paymentValidation(req, res) {
+  try {
     const newbill = req.body;
+    console.log("aca esta :", newbill.id);
     let preference = {
       items: [
         // aca hay que colocar los datos que deben venir por un body
         {
-          id: 123, //falta probar el tema del id, deberia venir desde bill
+           //falta probar el tema del id, deberia venir desde bill
           title: newbill.item, //"Mi producto",
           quantity: newbill.quantity, //1,
           unit_price: newbill.price, //100,
@@ -42,56 +42,24 @@ async function paymentValidation(req, res){
       back_urls: {
         success: `${BACK_URL_SUCCESS}`,
       },
-<<<<<<< Updated upstream
-      // notificacion_url: `http://localhost:${PORT}/notification`,
+     auto_return: "approved",
+     binary_mode: true,
+
+      //notificacion_url: `http://localhost:${PORT}/notification`,
       notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
     };
-    mercadopago.preferences.create(preference)
-    .then(function (response) {
-      res.status(201).json(response);
-    })
-    .catch(function (error) {
-      res.status(500).json({ error: error});
-    });
-  } catch(error){
-    res.status(500).json({ error: error});
-  }
-};
-=======
-      auto_return: "approved",
-      binary_mode: true,
-      notificacion_url: `http://localhost:${PORT}/notification`,
-      //notificacion_url: `http://iberahotelsapi-production.up.railway.app/notification`,
-    };
-  /* mercadopago.preferences
+    mercadopago.preferences
       .create(preference)
       .then(function (response) {
         res.status(201).json(response);
       })
       .catch(function (error) {
         res.status(500).json({ error: error });
-      });*/
-   const response = mercadopago.preferences
-    .create(preference)
-   .then( async function (response) {
-    
-      /*const newBill = await Bills.create({
-        id: response.body.id,
-        item: newbill.item,
-        quantity: newbill.quantity,
-        price: newbill.price,
-        date: response.body.date_created
-        // Agregar más propiedades aquí si es necesario
-      });*/
-      res.status(201).json(response);
-    }) 
+      });
   } catch (error) {
     res.status(500).json({ error: error });
   }
 }
-
-
->>>>>>> Stashed changes
 //  Agrega credenciales
 mercadopago.configure({
   access_token: ACCESS_TOKEN,
@@ -101,5 +69,4 @@ mercadopago.configure({
 //!!!
 module.exports = {
   paymentValidation,
-  
 };
