@@ -44,7 +44,7 @@ async function paymentValidation(req, res) {
         },
       ],
       back_urls: {
-        success: `${BACK_URL_SUCCESS}`,
+        success: "https://google.com/",
       },
      auto_return: "approved",
      binary_mode: true,
