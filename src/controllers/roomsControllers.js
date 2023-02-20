@@ -45,15 +45,16 @@ const postNewRoom = async (req, res) => {
 //! POST create room inventory --------------
 async function postCreateRoomInventory(req, res){
   try{
-      let { idRoomInventory, name } = req.body;
+      let { idRoomInventory, id } = req.body;
       if ( !containLettersCheck(idRoomInventory) && !containNumbersCheck(idRoomInventory) || idRoomInventory.length !== 11){
           return res.status(412).send({ message: "information required" });
       }
-      let roomInventory = { idRoomInventory };
-      let nameTypeofroom = { name };
-      console.log('esto es roomInventory: ', roomInventory);
-      console.log('esto es roomInventory: ', nameTypeofroom);
-      // await Inventory.findOrCreate({where: roomInventory});
+      let roomInventory = { idRoomInventory, id };
+      console.log("esot es roomInventory: ",roomInventory);
+      let CreateInv = await Inventory.findOrCreate({
+        where: roomInventory,
+      });
+      console.log("aca esta el CreateInv:", CreateInv);
       return res.status(201).send({ message: "Room was created" });
   } catch(err){
       res.status(500).json({ error: error});
