@@ -7,30 +7,25 @@ module.exports = (sequelize) => {
     "inventory",
     {
       //ID : Que lo defina el sistema
-      idRoom: {
+      idRoomInventory: {
         type: DataTypes.STRING(11),
         allowNull: false,
         primaryKey: true,
       },
       idUsers: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        allowNull: false,
       },
       checkin: {
         type: DataTypes.ARRAY(DataTypes.DATE),
-        allowNull: false,
       },
-      checkinUNIX: {
+      checkinMicrosoft: {
         type: DataTypes.ARRAY(DataTypes.INTEGER),
-        allowNull: false,
       },
       checkout: {
         type: DataTypes.ARRAY(DataTypes.DATE),
-        allowNull: false,
       },
-      checkoutUNIX: {
+      checkoutMicrosoft: {
         type: DataTypes.ARRAY(DataTypes.INTEGER),
-        allowNull: false,
       },
     },
     {

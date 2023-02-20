@@ -4,9 +4,9 @@ const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
-// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,{
+const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,{
 // la linea 13 se debe dejar en el main para que el railway use la DB de railway
-const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,{
+// const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,{
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
@@ -47,6 +47,7 @@ const {
   Partners,
   Room,
   Services,
+  Inventory,
 } = sequelize.models;
 
 // Aca vendrian las relaciones
@@ -81,6 +82,14 @@ Partners.belongsTo(User);
 //relacion entre Hotel y About_us
 Hotel.hasOne(About_us);
 About_us.belongsTo(Hotel);
+//relacion entre User y Inventory
+User.belongsToMany(Inventory, { through: "User_Inventory" });
+Inventory.belongsToMany(User, { through: "User_Inventory" });
+//relacion entre User y Inventory
+Room.belongsToMany(Inventory, { through: "Room_Inventory" });
+Inventory.belongsToMany(Room, { through: "Room_Inventory" });
+
+
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
