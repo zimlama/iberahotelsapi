@@ -47,6 +47,7 @@ const postNewHotel = async (req, res) => {
         status,
       },
     });
+    console.log(hotelCreated)
     res.status(201).json({ message: "Hotel created" });
   } catch (e) {
     res.status(500).json(e.message);

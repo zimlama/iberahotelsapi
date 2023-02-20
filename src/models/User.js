@@ -39,11 +39,11 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     date_birth : {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
     mobile : {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false
     },
     image : {
@@ -59,7 +59,14 @@ module.exports = (sequelize) => {
         type: DataTypes.BOOLEAN,
         defaultValue: false // Al crearte como usuario por defecto el privilegio es FALSE
     },
-    
-  });
+    user_password: {
+        type: DataTypes.STRING,
+        allowNull: false
+    }
+},
+{
+  timestamps: false,
+}
+  );
 };
 

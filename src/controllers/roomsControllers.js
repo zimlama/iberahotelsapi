@@ -1,4 +1,4 @@
-const { Room } = require("../db");
+ const { Room } = require("../db");
 const { Op } = require("sequelize");
 
 //! GET de Rooms

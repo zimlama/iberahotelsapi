@@ -1,0 +1,53 @@
+[
+    {
+        "first_name":"Luciano",
+        "last_name" :"Rodriguez",
+        "email" :"Lucho@g.com",
+        "status": "active",
+        "privilige":true,
+        "genre": "Masc",
+        "nationality": "Argentino",
+        "type_doc":"DNI",
+        "identification_doc":"35766466",
+        "date_birth":"1991-01-10",
+        "mobile":"1111111111",
+        "image":"https://images.unsplash.com/photo-1545176614-f032895f7277?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+        "user_password": "1qwertty2"  
+
+    
+    },
+    {
+        "first_name":"Patata",
+        "last_name" :"roja",
+        "nationality":"Argentino",
+        "type_doc": "DNI",
+        "identification_doc":"35766466",
+        "email" :"ricky@g.com",
+        "genre": "masc",
+        "date_birth":"2003-02-04",
+        "mobile": "123456534",
+        "image": 
+        "https://images.unsplash.com/photo-1558458878-36802fc5f7f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+        "status": "active",
+        "privilige":false,
+        "user_password": "1qwertty2"  
+
+    },
+    {
+        "first_name":"calabaza",
+        "last_name" :"Azul",
+        "nationality":"Argentino",
+        "type_doc": "DNI",
+        "identification_doc":"35766466",
+        "email" :"ricky@g.com",
+        "genre": "masc",
+        "date_birth":"2003-02-04",
+        "mobile": "123456534",
+        "image": 
+        "https://images.unsplash.com/photo-1558458878-36802fc5f7f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+        "status": "active",
+        "privilige":false,
+        "user_password": "1qwertty2"  
+
+    }
+]
