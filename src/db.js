@@ -83,6 +83,16 @@ Partners.belongsTo(User);
 //relacion entre Hotel y About_us
 Hotel.hasOne(About_us);
 About_us.belongsTo(Hotel);
+//relacion entre User y Inventory
+User.belongsToMany(Inventory, { through: "User_Inventory" });
+Inventory.belongsToMany(User, { through: "User_Inventory" });
+//relacion entre User y Inventory
+Room.belongsToMany(Inventory, { through: "Room_Inventory" });
+Inventory.belongsToMany(Room, { through: "Room_Inventory" });
+//relacion entre Inventory y TypeOfRoom
+TypeOfRoom.belongsToMany(Inventory, { through: "Inventory_TypeOfRoom" });
+Inventory.belongsToMany(TypeOfRoom, { through: "Inventory_TypeOfRoom" });
+
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
