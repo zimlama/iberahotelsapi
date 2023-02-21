@@ -1,5 +1,5 @@
 require("dotenv").config();
-const {Bills} = require("../db")
+const { Bills } = require("../db");
 const {
   ACCESS_TOKEN,
   FRONT_URL_SUCCESS,
@@ -40,22 +40,23 @@ async function paymentValidation(req, res) {
           unit_price: newbill.price,
           description: "Hotel Iberia",
           currency_id: "ARS",
-        //  picture_url: "https://images.pexels.com/photos/5965986/pexels-photo-5965986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" //100,
+          //  picture_url: "https://images.pexels.com/photos/5965986/pexels-photo-5965986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" //100,
         },
       ],
       back_urls: {
         success: "https://google.com/",
       },
-     auto_return: "approved",
-     binary_mode: true,
+      auto_return: "approved",
+      binary_mode: true,
 
       //notificacion_url: `http://localhost:${PORT}/notification`,
-      notification_url: "https://iberahotelsapi-production.up.railway.app/payment/notification",
+      notification_url:
+        "https://iberahotelsapi-production.up.railway.app/payment/notification",
     };
     mercadopago.preferences
       .create(preference)
       .then(function (response) {
-        res.status(201).json(response);
+        res.status(201).send(response.body.init_point);
       })
       .catch(function (error) {
         res.status(500).json({ error: error });
@@ -69,29 +70,34 @@ async function paymentValidation(req, res) {
 
 async function paymentNotification(req, res) {
   const {query} = req
+<<<<<<< HEAD
   console.log("esto es req: ", req);
+=======
+  console.log('esto es query: ', query);
+>>>>>>> origin
   const topic = query.topic || query.type
-  
   switch (topic) {
     case "payment":
-      const paymentId = query.id || query['data.id']
-      const payment = await mercadopago.payment.findById(paymentId)
-      var {body} = await mercadopago.merchant_orders.findById(payment.body.order.id)
-      
+      const paymentId = query.id || query["data.id"];
+      const payment = await mercadopago.payment.findById(paymentId);
+      var { body } = await mercadopago.merchant_orders.findById(
+        payment.body.order.id
+      );
+
       break;
-  
+
     case "merchant_orders":
-      const orderId = query.id
-var {body} = await mercadopago.merchant_orders.findById(orderId)
+      const orderId = query.id;
+      var { body } = await mercadopago.merchant_orders.findById(orderId);
       break;
   }
-  var paidAmount = 0
-  body.payments.forEach(payment => {
-    if(payment.status === "approved"){
+  var paidAmount = 0;
+  body.payments.forEach((payment) => {
+    if (payment.status === "approved") {
       paidAmount += payment.transaction_amount;
     }
-  })
-  if(paidAmount >= body.total_amount){
+  });
+  if (paidAmount >= body.total_amount) {
     console.log(body.items);
     console.log("El pago se completó");
     /*body.items.forEach(item => {
@@ -108,13 +114,11 @@ var {body} = await mercadopago.merchant_orders.findById(orderId)
           console.error("Error al guardar el item en la base de datos:", error);
         });
     });*/
-
   } else {
-    console.log("El pago No se completo")
+    console.log("El pago No se completo");
   }
- res.send()
+  res.send();
 }
-
 
 //  Agrega credenciales
 mercadopago.configure({
@@ -125,5 +129,5 @@ mercadopago.configure({
 //!!!
 module.exports = {
   paymentValidation,
-  paymentNotification
+  paymentNotification,
 };
