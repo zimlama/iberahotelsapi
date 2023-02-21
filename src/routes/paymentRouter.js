@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", paymentValidation);
 router.post("/generar", paymentValidation);
-router.post("/notificacion", paymentNotification)
+router.post("/notification", paymentNotification)
 
 
 module.exports = router;
