@@ -69,9 +69,9 @@ async function paymentValidation(req, res) {
 //Notificacion de pago de mercadopago, para guardar en la base de datos
 
 async function paymentNotification(req, res) {
-  const { query } = req;
-  const topic = query.topic || query.type;
-
+  const {query} = req
+  console.log('esto es query: ', query);
+  const topic = query.topic || query.type
   switch (topic) {
     case "payment":
       const paymentId = query.id || query["data.id"];
