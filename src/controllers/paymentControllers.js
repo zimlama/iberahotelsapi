@@ -69,6 +69,7 @@ async function paymentValidation(req, res) {
 
 async function paymentNotification(req, res) {
   const {query} = req
+  console.log('esto es query: ', query);
   const topic = query.topic || query.type
   
   switch (topic) {
