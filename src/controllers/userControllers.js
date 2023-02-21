@@ -118,11 +118,31 @@ async function DisableUser(req, res) {
 
 };
 
-//!--------------//
+//!--------------// get User
+
+async function getUser(req, res) {
+
+
+    const { email } = req.body;
+
+    if (email) {
+        const findUser = await User.findAll({
+            where: { email: email }
+        });
+
+        if (findUser.length === 0) {
+            return res.status(404).send("User not found")
+        }
+
+        res.json(findUser)
+    }
+
+};
 
 module.exports = {
     getAllUsers,
     postNewUser,
     signIn,
     DisableUser,
+    getUser
 }
