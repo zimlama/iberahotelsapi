@@ -70,7 +70,8 @@ async function paymentValidation(req, res) {
 
 async function paymentNotification(req, res) {
   const {query} = req
-  console.log('esto es query: ', query);
+  // relaizando pureba de req byLeo
+  console.log("esto es req: ", req);
   const topic = query.topic || query.type
   switch (topic) {
     case "payment":
