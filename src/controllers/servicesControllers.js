@@ -31,7 +31,6 @@ const getAllServices = async (req, res, next) => {
 
 const postNewServices = async (req, res, next) => {
   const { name, description, price, image, status } = req.body;
-  console.log("aca esta el body: ", req.body);
   if (!name || !description || !price || !image || !status) {
     return res.status(412).send({ message: "informacion incompleta" });
   }
