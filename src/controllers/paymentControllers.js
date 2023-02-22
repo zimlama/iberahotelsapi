@@ -44,7 +44,7 @@ async function paymentValidation(req, res) {
         },
       ],
       back_urls: {
-        success: "https://google.com/",
+        success: "https://iberahotelsfront-production.up.railway.app",
       },
       auto_return: "approved",
       binary_mode: true,
