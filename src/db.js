@@ -5,13 +5,9 @@ const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
 // la linea 8 se descomenta y la 10 se comentar para hacer test en la local DB
-//const sequelize = new Sequelize(
-//`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
-//{
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`, {
 // la linea 10 se debe dejar en el main para que el railway use la DB de railway (const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {)
-const sequelize = new Sequelize(
-  `postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,
-  {
+const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,{
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
@@ -54,6 +50,7 @@ const {
   Services,
   Inventory,
   Typeofroom,
+  Reservation,
 } = sequelize.models;
 
 // Aca vendrian las relaciones
@@ -96,6 +93,10 @@ Inventory.belongsTo(Typeofroom, { foreignKey: "id" });
 // irRoom unico -> unico tipoderoom
 Typeofroom.hasMany(Inventory, { foreignKey: "id" });
 // hab, duplex -> varios idRoom
+//Relacion entre reservaciones y rooms
+Room.hasMany(Reservation, { as: "room_reservation", foreignKey: "idRooms" });
+Reservation.belongsTo(Room, { as: "room_reservation" });
+Hotel.hasMany(Reservation, { as: "room_reservation", foreignKey: "idHotels" });
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
