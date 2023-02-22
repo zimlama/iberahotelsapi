@@ -19,13 +19,13 @@ module.exports = (sequelize) => {
       idUsers: {
         type: DataTypes.ARRAY(DataTypes.STRING),
       },
-      checkin: {
+      check_in: {
         type: DataTypes.ARRAY(DataTypes.DATE),
       },
       checkinUNIX: {
         type: DataTypes.ARRAY(DataTypes.INTEGER),
       },
-      checkout: {
+      check_out: {
         type: DataTypes.ARRAY(DataTypes.DATE),
       },
       checkoutUNIX: {
