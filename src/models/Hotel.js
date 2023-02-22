@@ -8,9 +8,8 @@ module.exports = (sequelize) => {
     {
       //ID : Que lo defina el sistema
       idHotels: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING(7),
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
       },
       name: {
@@ -30,8 +29,8 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       image: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
-        allowNull: false,
+        type: DataTypes.STRING,
+        
       },
       stars: {
         type: DataTypes.INTEGER,

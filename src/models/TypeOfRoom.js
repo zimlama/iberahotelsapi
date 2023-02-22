@@ -4,26 +4,17 @@ const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define(
-    "bills",
+    "typeofroom",
     {
-      // ID : viene del sistema
-      item: {
+      //ID : Que lo defina el sistema
+      name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      quantity: {
+      bed_quantity: {
         type: DataTypes.INTEGER,
         allowNull: false,
-      },
-      date: {
-        type: DataTypes.DATEONLY,
-        allowNull: false,
-      },
-      price: {
-        type: DataTypes.DECIMAL,
-        allowNull: false,
-      },
-      // Falta Payment y Transaction ID
+      }
     },
     {
       timestamps: false,
