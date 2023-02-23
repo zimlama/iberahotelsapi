@@ -61,7 +61,7 @@ async function postNewUser(req, res) {
         res.status(500).json({ err: err });
     };
 }
-//!--------------
+
 
 //! GET signIn user --------------
 
@@ -117,6 +117,12 @@ async function DisableUser(req, res) {
     };
 
 };
+
+//!-------  GetUserById
+
+
+
+
 
 //!--------------//
 

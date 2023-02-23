@@ -1,9 +1,10 @@
 const { Hotel, Room } = require("../db");
 const { Op } = require("sequelize");
 
-//!! GET de Hotels
+//!! GET de Hotels / byCity
 
 const getAllHotels = async (req, res) => {
+  const city= req.query.city
   try {
     const allHotels = await Hotel.findAll({
       include: [
@@ -22,7 +23,14 @@ const getAllHotels = async (req, res) => {
         },
       ],
     });
-    res.status(200).json(allHotels);
+    if(city){
+      let cities = await allHotels.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
+    cities.length?
+    res.status(200).json(cities) :
+    res.status(404).json("No Hay hoteles en esta ciudad")
+  }else{
+    res.status(200).json(allHotels)
+  }
   } catch (e) {
     res.status(404).json(e.message);
   }
@@ -83,8 +91,19 @@ const getHotelById = async (req, res, next) => {
     res.status(404).json("No se encontro el hotel");
   }
 };
+
+
+
+ 
+
+
+
+
+
 module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
+  
+  
 };

@@ -36,15 +36,18 @@ const {Hotel, Room} = require("../db")
 
  const getSearchHotels = async (req, res) =>{
     const { city } = req.query.city
+    console.log("primeroo")
     let hotelsTotal = await getAllHotels();
-    
+    console.log("estamos afuera")
         if(city){
             let hotelsName = await hotelsTotal.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
+            console.log(hotelsName,"HOTELSNAME")
             hotelsName.length ?
             res.status(200).send( hotelsName) :
             res.status(404).send("No existe el Hotel");
         }
         else{
+            console.log("PAFUERAA")
             res.status(200).send(hotelsTotal)
         }
  }
