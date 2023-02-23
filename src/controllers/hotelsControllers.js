@@ -80,11 +80,39 @@ const getHotelById = async (req, res, next) => {
     });
     res.status(200).json(hotel);
   } catch (err) {
-    res.status(404).json("No se encontro el hotel");
+    res.status(404).sonj("No se encontro el hotel");
   }
 };
+
+//! DELETE Hotel -------------- byLAMA
+
+const deleteHotel = async (req, res) => {
+
+  try {
+
+    let { idHotels } = req.params;
+
+    Hotel.destroy({
+      where: {
+        idHotels: idHotels
+      }
+    })
+
+    res.status(200).json({ message: "Hotel deleted" });
+
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+
 module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
+  deleteHotel
 };
