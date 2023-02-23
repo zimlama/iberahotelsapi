@@ -35,9 +35,9 @@ const {Hotel, Room} = require("../db")
 
 
  const getSearchHotels = async (req, res) =>{
-    const { city } = req.query.city
-    let hotelsTotal = await getAllHotels();
-    
+    try{
+        const { city } = req.query.city
+        let hotelsTotal = await getAllHotels();
         if(city){
             let hotelsName = await hotelsTotal.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
             hotelsName.length ?
@@ -47,6 +47,10 @@ const {Hotel, Room} = require("../db")
         else{
             res.status(200).send(hotelsTotal)
         }
+    } catch(err) {
+        res.status(400).json({ error: err});
+    }
+    
  }
 
 
