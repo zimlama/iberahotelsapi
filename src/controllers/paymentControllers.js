@@ -44,7 +44,7 @@ async function paymentValidation(req, res) {
         },
       ],
       back_urls: {
-        success: "https://google.com/",
+        success: "https://iberahotelsfront-production.up.railway.app",
       },
       auto_return: "approved",
       binary_mode: true,
@@ -56,7 +56,7 @@ async function paymentValidation(req, res) {
     mercadopago.preferences
       .create(preference)
       .then(function (response) {
-        res.status(201).json(response);
+        res.status(201).send(response.body.init_point);
       })
       .catch(function (error) {
         res.status(500).json({ error: error });
@@ -69,9 +69,16 @@ async function paymentValidation(req, res) {
 //Notificacion de pago de mercadopago, para guardar en la base de datos
 
 async function paymentNotification(req, res) {
+<<<<<<< HEAD
   const { query } = req;
   const topic = query.topic || query.type;
 
+=======
+  const {query} = req
+  // relaizando pureba de req byLeo
+  console.log("esto es req: ", req);
+  const topic = query.topic || query.type
+>>>>>>> origin
   switch (topic) {
     case "payment":
       const paymentId = query.id || query["data.id"];
