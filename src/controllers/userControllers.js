@@ -47,7 +47,7 @@ async function postNewUser(req, res) {
         let ceateUser = await User.findOrCreate({where: user});
         return res.status(201).send({ message: "User was created" });
     } catch(err){
-        res.status(500).json({ error: error});
+        res.status(500).json({ error: err});
     };
 }
 

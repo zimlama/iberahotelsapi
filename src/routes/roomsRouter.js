@@ -1,5 +1,5 @@
 const {Router} = require('express');
-const {getAllRooms, postNewRoom, postCreateRoomInventory, postReserveRoomInventory} = require('../controllers/roomsControllers.js');
+const {getAllRooms, postNewRoom, postCreateRoomInventory, postReserveRoomInventory,} = require('../controllers/roomsControllers.js');
 
 
 const router = Router();

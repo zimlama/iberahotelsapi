@@ -11,7 +11,7 @@ module.exports = (sequelize) => {
       idHotels: {
         type: DataTypes.STRING(7),
         allowNull: false,
-        // primaryKey: true,
+        primaryKey: true,
       },
       name: {
         type: DataTypes.STRING,

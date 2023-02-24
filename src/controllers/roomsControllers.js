@@ -78,11 +78,41 @@ async function postReserveRoomInventory(req, res){
 
 //!--------------
 
+// const getRoomById = async (req, res, next) => {
+//   const { id } = req.params;
+//   try {
+//     const rooms = await Room.findOne({
+//       where: {
+//         idHotels: id,
+//       },
+//       // include: [
+//       //   {
+//       //     model: Room,
+//       //     as: "rooms",
+//       //     attributes: [
+//       //       "idRooms",
+//       //       "name",
+//       //       "image",
+//       //       "bed_quantity",
+//       //       "price",
+//       //       "description",
+//       //       "availability",
+//       //       "status",
+//       //     ],
+//       //   },
+//       // ],
+//     });
+//     res.status(200).json(rooms);
+//   } catch (err) {
+//     res.status(404).json("No se encontro el room");
+//   }
+// };
 
 //!!!!
 module.exports = {
   getAllRooms,
   postNewRoom,
   postCreateRoomInventory,
-  postReserveRoomInventory
+  postReserveRoomInventory,
+  
 };
