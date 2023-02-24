@@ -11,6 +11,7 @@ const getAllHotels = async (req, res) => {
           model: Room,
           as: "rooms",
           attributes: [
+            "idRooms",
             "name",
             "image",
             "bed_quantity",
