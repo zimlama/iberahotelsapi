@@ -6,11 +6,12 @@ module.exports = (sequelize) => {
   sequelize.define(
     "hotel",
     {
+      
       //ID : Que lo defina el sistema
       idHotels: {
         type: DataTypes.STRING(7),
         allowNull: false,
-        primaryKey: true,
+        // primaryKey: true,
       },
       name: {
         type: DataTypes.STRING,
@@ -29,8 +30,8 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       image: {
-        type: DataTypes.STRING,
-        
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        allowNull: false,
       },
       stars: {
         type: DataTypes.INTEGER,
