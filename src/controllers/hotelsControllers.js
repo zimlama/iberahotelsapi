@@ -3,6 +3,8 @@ const { Op } = require("sequelize");
 
 //!! GET de Hotels / byCity
 
+//!! GET de Hotels / byCity
+
 const getAllHotels = async (req, res) => {
   const city= req.query.city
   try {
@@ -34,8 +36,7 @@ const getAllHotels = async (req, res) => {
   } catch (e) {
     res.status(404).json(e.message);
   }
-};
-
+}
 //! POST create hotel -------------- byLAMA
 const postNewHotel = async (req, res) => {
   let { idHotels, name, address, city, description, image, stars, status } = req.body;
