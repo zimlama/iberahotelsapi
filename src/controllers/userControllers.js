@@ -43,22 +43,11 @@ async function postNewUser(req, res) {
         if (!isEmailCheck(email)) {
             return res.status(412).send({ message: "information required" });
         }
-
-        const allUser = await User.findAll();
-
-        let user = { email };
+        let user = { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige, user_password };
         let ceateUser = await User.findOrCreate({ where: user });
-
-        const findUser = allUser.find((u) => u.email === email);
-
-        if (findUser) {
-            return res.status(201).send({ message: "User already exist" });
-        } else {
-            return res.status(201).send({ message: "User was created" });
-        }
-
+        return res.status(201).send({ message: "User was created" });
     } catch (err) {
-        res.status(500).json({ err: err });
+        res.status(500).json({ error: error });
     };
 }
 //!--------------
