@@ -7,33 +7,30 @@ module.exports = (sequelize) => {
     "inventory",
     {
       //ID : Que lo defina el sistema
-      id: {
-        type: DataTypes.INTEGER,
-        autoIncrement: true,
-        primaryKey: true,
+      City: {
+        type: DataTypes.STRING,
       },
-      idRoomInventory: {
-        type: DataTypes.STRING(11),
+      Hotel: {
+        type: DataTypes.INTEGER,
+      },
+      RoomNumber: {
+        type: DataTypes.INTEGER,
         allowNull: false,
       },
-      idUsers: {
+      idHotels: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      idTypeofrooms: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      checkIN: {
         type: DataTypes.ARRAY(DataTypes.STRING),
       },
-      check_in: {
-        type: DataTypes.ARRAY(DataTypes.DATE),
+      checkOUT: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
       },
-      checkinUNIX: {
-        type: DataTypes.ARRAY(DataTypes.INTEGER),
-      },
-      check_out: {
-        type: DataTypes.ARRAY(DataTypes.DATE),
-      },
-      checkoutUNIX: {
-        type: DataTypes.ARRAY(DataTypes.INTEGER),
-      },
-    },
-    {
-      timestamps: false,
     }
   );
 };

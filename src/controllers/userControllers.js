@@ -43,7 +43,7 @@ async function postNewUser(req, res){
         let ceateUser = await User.findOrCreate({where: user});
         return res.status(201).send({ message: "User was created" });
     } catch(err){
-        res.status(500).json({ error: error});
+        res.status(500).json({ error: err});
     };
 }
 //!--------------
@@ -69,7 +69,7 @@ async function signIn(req, res){
             }
         })
     } catch(err){
-        res.status(400).json({ error: error});
+        res.status(400).json({ error: err});
     }
 }
 

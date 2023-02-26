@@ -1,8 +1,12 @@
 const {Router} = require('express');
-const {getSearchHotels} = require('../controllers/searchControllers.js');
+const { getHotels } = require('../controllers/searchControllers');
+
 
 
 const router = Router();
 
+router.get('/?city', getHotels);
+router.get('/', getHotels);
 
-router.get('/', getSearchHotels);
+
+module.exports = router;
