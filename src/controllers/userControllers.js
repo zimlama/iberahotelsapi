@@ -75,66 +75,113 @@ async function signIn(req, res) {
     } catch (err) {
         res.status(400).json({ error: err });
     }
-}
 
+    //!-------------- disable    ------ enable  
 
-//!--------------
+    async function DisableUser(req, res) {
 
-//!-------------- disable    ------ enable  
+        try {
 
-async function DisableUser(req, res) {
+            let { email } = req.body;
 
-    try {
+            const user = await User.findOne({
+                where: {
+                    email: email
+                }
+            });
 
-        let { email } = req.body;
-
-        const user = await User.findOne({
-            where: {
-                email: email
+            if (user.status === "active") {
+                user.update({ status: "disabled" });
+            } else if (user.status === "disabled") {
+                user.update({ status: "active" });
             }
-        });
 
-        if (user.status === "active") {
-            user.update({ status: "disabled" });
-        } else if (user.status === "disabled") {
-            user.update({ status: "active" });
-        }
+            res.send(user);
 
-        res.send(user);
+        } catch (error) {
 
-    } catch (error) {
+            console.log(error);
 
-        console.log(error);
+        };
 
     };
 
-};
+    //!--------------// get User
 
-//!--------------// get User
-
-async function getUser(req, res) {
+    async function getUser(req, res) {
 
 
-    const { email } = req.body;
+        const { email } = req.body;
 
-    if (email) {
-        const findUser = await User.findAll({
-            where: { email: email }
-        });
+        if (email) {
+            const findUser = await User.findAll({
+                where: { email: email }
+            });
 
-        if (findUser.length === 0) {
-            return res.status(404).send("User not found")
+            if (findUser.length === 0) {
+                return res.status(404).send("User not found")
+            }
+
+            res.json(findUser)
         }
 
-        res.json(findUser)
+    };
+
+    //!-------------- disable    ------ enable  
+
+    async function DisableUser(req, res) {
+
+        try {
+
+            let { email } = req.body;
+
+            const user = await User.findOne({
+                where: {
+                    email: email
+                }
+            });
+
+            if (user.status === "active") {
+                user.update({ status: "disabled" });
+            } else if (user.status === "disabled") {
+                user.update({ status: "active" });
+            }
+
+            res.send(user);
+
+        } catch (error) {
+
+            console.log(error);
+
+        };
+
+    };
+
+    //!--------------// get User
+
+    async function getUser(req, res) {
+
+
+        const { email } = req.body;
+
+        if (email) {
+            const findUser = await User.findAll({
+                where: { email: email }
+            });
+
+            if (findUser.length === 0) {
+                return res.status(404).send("User not found")
+            }
+
+            res.json(findUser)
+        }
+
+    };
+
+    module.exports = {
+        getAllUsers,
+        postNewUser,
+        signIn,
+        DisableUser,
+        getUser
     }
-
-};
-
-module.exports = {
-    getAllUsers,
-    postNewUser,
-    signIn,
-    DisableUser,
-    getUser
-}

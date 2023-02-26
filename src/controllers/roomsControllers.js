@@ -137,4 +137,5 @@ module.exports = {
   postReserveRoomInventory,
   deleteRoom,
   DisableRoom
+
 };

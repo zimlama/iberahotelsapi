@@ -2,6 +2,7 @@ const { Router } = require('express');
 const { getAllRooms, postNewRoom, postCreateRoomInventory, postReserveRoomInventory, deleteRoom, DisableRoom } = require('../controllers/roomsControllers.js');
 
 
+
 const router = Router();
 
 

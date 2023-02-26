@@ -149,7 +149,6 @@ async function DisableHotel(req, res) {
 
 };
 
-
 module.exports = {
   getAllHotels,
   postNewHotel,

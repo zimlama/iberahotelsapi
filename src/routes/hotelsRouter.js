@@ -19,4 +19,5 @@ router.delete("/delete/:idHotels", deleteHotel);
 
 router.put("/disable/:idHotels", DisableHotel)
 
+
 module.exports = router;
