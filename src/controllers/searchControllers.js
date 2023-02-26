@@ -1,68 +1,68 @@
-const {Hotel, Room} = require("../db")
-
-
-// const getSearchHotels = async (req, res) =>{
-// 	const { name } = req.query.name
-//  try {
-//     if(name){
-//         let buscarHotelDb = await Hotel.findAll({
-//             include: {
-//                 model: Room,
-//                 attributes: ['name'],
-//                 through: {attributes: [] }
-//              },
-//             where:{
-//                 name:{
-//                     [Op.iLike]: "%" + name +"%"
-//                 }
-//             }, 
-//             order: [
-//                 ["name", "DESC"]
-//             ],
-
-//         })
-//         let dbtotal  = buscarHotelDb.map((J) => J.toJSON())
-//      dbtotal.forEach(e => {
-//         e.rooms = e.rooms.map((x) => x.name).filter(p => p != null).join(', ')
-//       })
-//       let TotalDb = dbtotal.filter(e => e.name.toLowerCase().includes(name.toLocaleLowerCase()));
-//       let TotalDb1 = TotalDb.sort((a, b) => a.name.localeCompare(b.name))
-//       res.send(TotalDb.length ? TotalDb1 : 'Hotels no found')
-//     }
-//  } catch (error) {
-//     console.log(error)
-//  }}
-
-
- const getSearchHotels = async (req, res) =>{
+// const { query } = require("express");
+const { Inventory, Hotel } = require("../db");
+const { Op } = require('sequelize');
+const diacritics = require('diacritics');
+//! GET getSearchHotels user --------------
+async function getHotels(req, res){
     try{
-        const { city } = req.query.city
-        let hotelsTotal = await getAllHotels();
-        if(city){
-            let hotelsName = await hotelsTotal.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
-            hotelsName.length ?
-            res.status(200).send( hotelsName) :
-            res.status(404).send("No existe el Hotel");
+        const citySearch = diacritics.remove(req.query.city).toLowerCase();
+        if(citySearch){
+            //! filtar los hoteles que hay en la ciudad(tabla Hotel) --------------
+            const inventoryCity = await Hotel.findAll({
+                where: {
+                    city: {
+                        [Op.like]: '%' + citySearch + '%'
+                    }
+                }
+            });
+            //! limpiar array del get realizado a sequelize (cleanResults)
+            const inventoryCityClean = inventoryCity.map(result => result.get({ plain: true }));
+            //!--------------
+            //! filtar cantidad de habitaciones disponibles(tabla Inventory) --------------
+            const hotelList =inventoryCity.map(el => el.idHotels);
+            const sumHotelRooms = await Inventory.findAll({
+                attributes: ['idHotels', 'idTypeofrooms', [Inventory.sequelize.fn('SUM', Inventory.sequelize.col('idTypeofrooms')), 'total']],
+                where: {
+                  idHotels: {
+                    [Op.in]: hotelList
+                  },
+                  checkIN: {
+                    [Op.eq]: []
+                  }
+                },
+                group: ['idTypeofrooms', 'idHotels']
+            });
+            //! limpiar array del get realizado a sequelize (cleanResults)
+            const sumHotelRoomsClean = sumHotelRooms.map(result => result.get({ plain: true }));
+            //!--------------
+            //! unir la informacion de (tabla Inventory y Hotel) --------------
+            const mergedHotels = inventoryCityClean.map(hotel => {
+                const inventoryItem = sumHotelRoomsClean.find(item => item.idHotels === hotel.idHotels);
+                return { ...hotel, ...inventoryItem };
+            });  
+            console.log('esto en if city: ', mergedHotels);
+            res.status(201).json(mergedHotels);
+            //!--------------
+            // const inventoryCity = await Inventory.findAll({
+            //     include: {
+            //       model: Hotels,
+            //       where: {
+            //         city: {
+            //             [Op.like]: '%' + citySearch + '%'
+            //         }
+            //       }
+            //     }
+            // });
+            // res.status(201).json(inventoryCity); 
+        } else if(!citySearch){
+            const inventoryAllcities = await Inventory.findAll({});
+            res.status(201).json(inventoryAllcities);
         }
-        else{
-            res.status(200).send(hotelsTotal)
-        }
-    } catch(err) {
-        res.status(400).json({ error: err});
+    } catch(err){
+        res.status(401).json({ error: err})
     }
-    
- }
-
-
-
-
-
-
-
-
-
-
-
+}
+//!--------------
  module.exports = {
-	getSearchHotels
+	getHotels
  }
