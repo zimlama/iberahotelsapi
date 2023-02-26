@@ -75,113 +75,114 @@ async function signIn(req, res) {
     } catch (err) {
         res.status(400).json({ error: err });
     }
+}
 
-    //!-------------- disable    ------ enable  
+//!-------------- disable    ------ enable  
 
-    async function DisableUser(req, res) {
+async function DisableUser(req, res) {
 
-        try {
+    try {
 
-            let { email } = req.body;
+        let { email } = req.body;
 
-            const user = await User.findOne({
-                where: {
-                    email: email
-                }
-            });
-
-            if (user.status === "active") {
-                user.update({ status: "disabled" });
-            } else if (user.status === "disabled") {
-                user.update({ status: "active" });
+        const user = await User.findOne({
+            where: {
+                email: email
             }
+        });
 
-            res.send(user);
-
-        } catch (error) {
-
-            console.log(error);
-
-        };
-
-    };
-
-    //!--------------// get User
-
-    async function getUser(req, res) {
-
-
-        const { email } = req.body;
-
-        if (email) {
-            const findUser = await User.findAll({
-                where: { email: email }
-            });
-
-            if (findUser.length === 0) {
-                return res.status(404).send("User not found")
-            }
-
-            res.json(findUser)
+        if (user.status === "active") {
+            user.update({ status: "disabled" });
+        } else if (user.status === "disabled") {
+            user.update({ status: "active" });
         }
 
-    };
+        res.send(user);
 
-    //!-------------- disable    ------ enable  
+    } catch (error) {
 
-    async function DisableUser(req, res) {
-
-        try {
-
-            let { email } = req.body;
-
-            const user = await User.findOne({
-                where: {
-                    email: email
-                }
-            });
-
-            if (user.status === "active") {
-                user.update({ status: "disabled" });
-            } else if (user.status === "disabled") {
-                user.update({ status: "active" });
-            }
-
-            res.send(user);
-
-        } catch (error) {
-
-            console.log(error);
-
-        };
+        console.log(error);
 
     };
 
-    //!--------------// get User
+};
 
-    async function getUser(req, res) {
+//!--------------// get User
+
+async function getUser(req, res) {
 
 
-        const { email } = req.body;
+    const { email } = req.body;
 
-        if (email) {
-            const findUser = await User.findAll({
-                where: { email: email }
-            });
+    if (email) {
+        const findUser = await User.findAll({
+            where: { email: email }
+        });
 
-            if (findUser.length === 0) {
-                return res.status(404).send("User not found")
-            }
-
-            res.json(findUser)
+        if (findUser.length === 0) {
+            return res.status(404).send("User not found")
         }
 
-    };
-
-    module.exports = {
-        getAllUsers,
-        postNewUser,
-        signIn,
-        DisableUser,
-        getUser
+        res.json(findUser)
     }
+
+};
+
+//!-------------- disable    ------ enable  
+
+async function DisableUser(req, res) {
+
+    try {
+
+        let { email } = req.body;
+
+        const user = await User.findOne({
+            where: {
+                email: email
+            }
+        });
+
+        if (user.status === "active") {
+            user.update({ status: "disabled" });
+        } else if (user.status === "disabled") {
+            user.update({ status: "active" });
+        }
+
+        res.send(user);
+
+    } catch (error) {
+
+        console.log(error);
+
+    };
+
+};
+
+//!--------------// get User
+
+async function getUser(req, res) {
+
+
+    const { email } = req.body;
+
+    if (email) {
+        const findUser = await User.findAll({
+            where: { email: email }
+        });
+
+        if (findUser.length === 0) {
+            return res.status(404).send("User not found")
+        }
+
+        res.json(findUser)
+    }
+
+};
+
+module.exports = {
+    getAllUsers,
+    postNewUser,
+    signIn,
+    DisableUser,
+    getUser
+};
