@@ -4,11 +4,13 @@ const { Unlocode } = require("../db");
 async function getCities(req, res){
   try {
     const allCities = await Unlocode.findAll({
-    attributes: ['id', 'Name', 'NameWoDiacritics']
+    attributes: ["id" , "NameWoDiacritics"]
     });
+    
+
     return res.status(200).send(allCities);
   } catch(err){
-    res.status(400).json({ error: error});
+    res.status(400).json({ error: err});
   }
 }
 
