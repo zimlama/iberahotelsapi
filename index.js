@@ -17,17 +17,16 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const server = require('./src/app.js');
-const { loadAllModelsInDB } = require('./src/controllers/loadData.js')
-const { conn, Hotel } = require('./src/db.js');
-
+const server = require("./src/app.js");
+const { loadAllModelsInDB } = require("./src/controllers/loadData.js");
+const { conn, Hotel } = require("./src/db.js");
 
 require("dotenv").config();
 const { PORT } = process.env;
 //Syncing all the models at once.
 conn.sync({ force: true }).then(async () => {
- server.listen(PORT, async () => {
-  loadAllModelsInDB(); // eslint-disable-line no-console
-  console.log(`istening at ${PORT}`);    
- });
+  server.listen(PORT, async () => {
+    loadAllModelsInDB(); // eslint-disable-line no-console
+    console.log(`istening at ${PORT}`);
+  });
 });
