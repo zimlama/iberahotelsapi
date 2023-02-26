@@ -1,4 +1,4 @@
-const{Hotel, Room, Amenities,User, Services, Unlocode, Typeofroom} = require('../db');
+const{Hotel, Room, Amenities,User, Services, Unlocode, Typeofroom, Inventory} = require('../db');
 
 const loadhotels = require('../data/hotels.json');
 const loadRooms = require('../data/rooms.json');
@@ -7,6 +7,7 @@ const loadUsers = require('../data/users.json');
 const loadServices = require('../data/service.json');
 const loadUnlocode = require('../data/unlocode.json');
 const loadTypeofroom = require('../data/typeofroom.json');
+const loadInventory = require('../data/inventory.json');
 
 async function loadAllModelsInDB(){
   try{
@@ -24,6 +25,8 @@ async function loadAllModelsInDB(){
     console.log('Cities local code  loaded ok to DB');
     await Typeofroom.bulkCreate(loadTypeofroom);
     console.log('Type of Room local code  loaded ok to DB');
+    await Inventory.bulkCreate(loadInventory);
+    console.log('Inventory loaded ok to DB');
   } catch(error){
     console.log(error);
   }

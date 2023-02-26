@@ -44,11 +44,14 @@ const postNewRoom = async (req, res) => {
 //! POST create room inventory --------------
 async function postCreateRoomInventory(req, res){
   try{
-      let { idRoomInventory, id } = req.body;
-      if ( !containLettersCheck(idRoomInventory) && !containNumbersCheck(idRoomInventory) || idRoomInventory.length !== 11){
+      let { RoomNumber, idHotels, idTypeofrooms }  = req.body;
+      console.log("esto es RoomNumber.length: ", RoomNumber.toString().length)
+      if ( RoomNumber.toString().length !== 4){
           return res.status(412).send({ message: "information required" });
       }
-      let roomInventory = { idRoomInventory, id };
+      City = idHotels.slice(0,5);
+      Hotel = parseInt(idHotels.slice(5));
+      let roomInventory = { City, Hotel, RoomNumber, idHotels, idTypeofrooms };
       await Inventory.findOrCreate({
         where: roomInventory,
       });
