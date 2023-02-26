@@ -40,7 +40,7 @@ async function getHotels(req, res){
                 const inventoryItem = sumHotelRoomsClean.find(item => item.idHotels === hotel.idHotels);
                 return { ...hotel, ...inventoryItem };
             });  
-            console.log('esto en if city: ', mergedHotels);
+            console.log('esto en if city: ', inventoryCityClean);
             res.status(201).json(mergedHotels);
             //!--------------
             // const inventoryCity = await Inventory.findAll({
