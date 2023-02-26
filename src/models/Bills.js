@@ -23,7 +23,30 @@ module.exports = (sequelize) => {
         type: DataTypes.DECIMAL,
         allowNull: false,
       },
-      // Falta Payment y Transaction ID
+      payment_status: {
+        type: DataTypes.ENUM("approved", "failed"),
+        allowNull: true,
+      },
+      date_approved: {
+        type: DataTypes.DATE,
+        allowNull: true,
+      },
+      id_payment: {
+        type: DataTypes.BIGINT,
+        allowNull: true,
+      },
+      authorization_code: {
+        type: DataTypes.BIGINT,
+        allowNull: true,
+      },
+      mp_id_order: {
+        type: DataTypes.BIGINT,
+        allowNull: true,
+      },
+      fee_mp: {
+        type: DataTypes.DECIMAL,
+        allowNull: true,
+      },
     },
     {
       timestamps: false,
