@@ -6,7 +6,7 @@ const { Op } = require("sequelize");
 //!! GET de Hotels / byCity
 
 const getAllHotels = async (req, res) => {
-  const city= req.query.city
+  const city = req.query.city
   try {
     const allHotels = await Hotel.findAll({
       include: [
@@ -14,6 +14,7 @@ const getAllHotels = async (req, res) => {
           model: Room,
           as: "rooms",
           attributes: [
+            "idRooms",
             "name",
             "image",
             "bed_quantity",
@@ -25,14 +26,14 @@ const getAllHotels = async (req, res) => {
         },
       ],
     });
-    if(city){
+    if (city) {
       let cities = await allHotels.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
-    cities.length?
-    res.status(200).json(cities) :
-    res.status(404).json("No Hay hoteles en esta ciudad")
-  }else{
-    res.status(200).json(allHotels)
-  }
+      cities.length ?
+        res.status(200).json(cities) :
+        res.status(404).json("No Hay hoteles en esta ciudad")
+    } else {
+      res.status(200).json(allHotels)
+    }
   } catch (e) {
     res.status(404).json(e.message);
   }
@@ -89,11 +90,70 @@ const getHotelById = async (req, res, next) => {
     });
     res.status(200).json(hotel);
   } catch (err) {
-    res.status(404).json("No se encontro el hotel");
+    res.status(404).sonj("No se encontro el hotel");
   }
 };
+
+//! DELETE Hotel -------------- byLAMA
+
+const deleteHotel = async (req, res) => {
+
+  try {
+
+    let { idHotels } = req.params;
+
+    Hotel.destroy({
+      where: {
+        idHotels: idHotels
+      }
+    })
+
+    res.status(200).json({ message: "Hotel deleted" });
+
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+//!-------------- disable    ------ enable  
+
+async function DisableHotel(req, res) {
+
+  try {
+
+    let { idHotels } = req.params;
+
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: idHotels
+      }
+    });
+
+    if (hotel.status === true) {
+      hotel.update({ status: false });
+    } else if (hotel.status === false) {
+      hotel.update({ status: true });
+    }
+
+    res.send(hotel);
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+
 module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
+  deleteHotel,
+  DisableHotel
 };
