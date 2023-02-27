@@ -1,0 +1,72 @@
+[
+    {
+        "cat_room_type_id": 1,
+        "name": "Habitación Estándar Doble",
+        "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057570.jpg?k=91cef1b4f559fcd840351e910552741b82f08a56adba4a262f28b36c3d6d6b32&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930181.jpg?k=3bb21bb6bf84b3d46cfdc988b7b26445a55dc60542b1d6e59be937ca35a319d1&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930136.jpg?k=188647fc81467f62ee213dcb371ecadc927980779e29fac3ac2955491037fbc7&o="
+        ],
+        "description": "Es un espacio que combina comodidad y privacidad para los viajeros con un presupuesto reducido. Nuestra habitación doble es una opción económica para dos personas, con todas las características básicas necesarias para garantizar una estadía confortable y total privacidad.",
+        "price": "421"
+    },
+    {
+        "cat_room_type_id": 2,
+        "name": "Habitación Familiar",
+        "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
+            "https://i.pinimg.com/736x/11/5d/b6/115db62de248af13963daf321c9d3df7.jpg",
+            "http://www.sellex.es/img/noticias/Hotel_Italia_Camas_Plegables.jpg"
+        ],
+        "description": "Un espacio con la versatilidad necesaria para recibir cómodamente a una familia o un grupo de amigos. En nuestra habitación familiar, puedes encontrar una litera y dos camas individuales",
+        "price": "574"
+    },
+    {
+        "cat_room_type_id": 3,
+        "name": "Micro",
+        "image": [
+            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
+            "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
+            "https://www.eltiempo.com/uploads/2019/10/19/5dab7d4805bb9.jpeg",
+            "https://cms.saharalasvegas.com/wp-content/uploads/2020/08/StoryTower_1400x700_SLSDouble1-1024x512.jpg"
+        ],
+        "description": "Similar a una cabina de tren o de alguna embarcación, esta es nuestra opción más básica para pasar la noche. Compacta y modesta, la habitación micro es perfecta si buscas un lugar para dormir y un área pequeña para guardar tus pertenencias",
+        "price": "289"
+    },
+    {
+        "cat_room_type_id": 4,
+        "name": "Suite",
+        "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896899.jpg?k=a7fe6747d2e86dcd184056fbd8eb8f2d09e2c5e4e90a8ade5f61e6741ab668da&o=",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930089.jpg?k=74b40fadd05c5eb415e8828b3f256d399d1c1df35e8e29000801811a83bd45e2&o="
+        ],
+        "description": "El siguiente nivel de comodidad para alguien que necesita un descanso después de las aventuras del día. Estas amplias habitaciones cuentan con baño privado, cama king, sofás y sillas y, dependiendo de la ubicación, un balcón privado para disfrutar de vistas hermosas. Diseñada con un buen ojo para los detalles, las suites están equipadas para tener comodidad con estilo.",
+        "price": "530"
+    },
+    {
+        "cat_room_type_id": 5,
+        "name": "Deluxe",
+        "image": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
+            "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
+            "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
+            "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/suitew6_orig.jpg",
+            "https://media-magazine.trivago.com/wp-content/uploads/2020/03/31092413/hoteles-lloret-de-mar-gran-hotel-monterrey-habitacion-doble.jpeg0"
+        ],
+        "description": "Perfecta para los huéspedes que buscan un poco más, nuestra opción Deluxe cuenta con un elegante diseño industrial zen y una cama con plataforma de madera tamaño king. Si estás buscando una habitación espaciosa después de un día explorando la ciudad, esta es para ti.",
+        "price": "673"
+    }
+]

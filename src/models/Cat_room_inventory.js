@@ -4,32 +4,35 @@ const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define(
-    "inventory",
+    "cat_room_inventory",
     {
-      //ID : Que lo defina el sistema
-      City: {
+      city: {
         type: DataTypes.STRING,
       },
-      Hotel: {
+      hotel: {
         type: DataTypes.INTEGER,
       },
-      RoomNumber: {
+      room_number: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
-      idHotels: {
+      hotel_id: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      idTypeofrooms: {
+      cat_room_type_id: {
+        type: DataTypes.INTEGER,
+        foreignKey: true
+      },
+      room_check_in: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+      },
+      room_check_out: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+      },
+      price: {
         type: DataTypes.INTEGER,
         allowNull: false,
-      },
-      checkIN: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
-      },
-      checkOUT: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
       },
     }
   );
