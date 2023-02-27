@@ -34,17 +34,25 @@ async function getAllUsers(req, res, next) {
 
 async function postNewUser(req, res) {
     try {
-        /*let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
-        let user_password = await bcrypt.hashSync(req.body.user_password, 10);
-        if (!onlyLettersCheck(first_name) || !onlyLettersCheck(last_name) || !onlyLettersCheck(nationality) || !onlyLettersCheck(genre) || !onlyDateCheck(date_birth) || !onlyLettersCheck(type_doc) || !onlyNumbersCheck(identification_doc) || !isEmailCheck(email) || !onlyNumbersCheck(mobile) || !httpsLinkCheck(image) || !statusCheck(status) || !priviligeCheck(privilige) || !user_password) {
-            return res.status(412).send({ message: "information required" });*/
+        // let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
+        // let user_password = await bcrypt.hashSync(req.body.user_password, 10);
+        // if (!onlyLettersCheck(first_name) || !onlyLettersCheck(last_name) || !onlyLettersCheck(nationality) || !onlyLettersCheck(genre) || !onlyDateCheck(date_birth) || !onlyLettersCheck(type_doc) || !onlyNumbersCheck(identification_doc) || !isEmailCheck(email) || !onlyNumbersCheck(mobile) || !httpsLinkCheck(image) || !statusCheck(status) || !priviligeCheck(privilige) || !user_password) {
+        //     return res.status(412).send({ message: "information required" });
+            
+        let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige, user_password } = req.body;
 
-        let { email } = req.body;
+        
         if (!isEmailCheck(email)) {
             return res.status(412).send({ message: "information required" });
         }
+        
+        console.log("Pollito")
+
         let user = { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige, user_password };
+        console.log("Gallina")
+        
         let ceateUser = await User.findOrCreate({where: user});
+
         return res.status(201).send({ message: "User was created" });
     } catch(err){
         res.status(500).json({ error: err});
@@ -80,34 +88,47 @@ async function signIn(req, res) {
 //!-------------- disable    ------ enable  
 
 async function DisableUser(req, res) {
-
     try {
-
         let { email } = req.body;
-
         const user = await User.findOne({
             where: {
                 email: email
             }
         });
-
         if (user.status === "active") {
             user.update({ status: "disabled" });
         } else if (user.status === "disabled") {
             user.update({ status: "active" });
         }
-
         res.send(user);
-
     } catch (error) {
-
         console.log(error);
-
     };
-
 };
 
-//!-------  GetUserById
+//!-------  PutUserProfile
+
+async function putUser(req,res) {
+    const { id } = req.params;
+    const dataEdit = req.body;
+    let {email} = req.body
+console.log(id)
+
+try {
+        await User.update(dataEdit,
+            {
+                where: { email: email }
+            });
+        if(id){                
+                return res.status(200).send("Updated User");
+            }
+            else {
+                return res.status(200).send("Id needed");
+            }
+    } catch (error) {
+        res.status(400).json({ error: error.message })
+    }
+};
 
 
 
@@ -120,4 +141,5 @@ module.exports = {
     postNewUser,
     signIn,
     DisableUser,
+    putUser,
 }
