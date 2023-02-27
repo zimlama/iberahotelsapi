@@ -158,6 +158,47 @@ async function DisableUser(req, res) {
 
 };
 
+//!-------------- Modifi user -------------------------------  
+
+async function ModifyUser(req, res) {
+
+    try {
+
+        let { email } = req.params;
+        let { first_name, last_name, nationality, date_birth, mobile } = req.body;
+
+        const user = await User.findOne({
+            where: {
+                email: email
+            }
+        });
+
+        if (user) {
+
+            user.update({
+                first_name: first_name,
+                last_name: last_name,
+                nationality: nationality,
+                date_birth: date_birth,
+                mobile: mobile
+            });
+
+            res.send(user);
+
+        } else {
+
+            res.send("user not found");
+
+        }
+
+    } catch (error) {
+
+        console.log(error);
+
+    };
+
+}
+
 //!--------------// get User
 
 async function getUser(req, res) {
@@ -184,5 +225,6 @@ module.exports = {
     postNewUser,
     signIn,
     DisableUser,
-    getUser
+    getUser,
+    ModifyUser
 };
