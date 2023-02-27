@@ -149,10 +149,64 @@ async function DisableHotel(req, res) {
 
 };
 
+//!-------------- Mofify Hotel Data --------------------------  
+
+async function ModifyHotel(req, res) {
+
+  try {
+
+    let { idHotels } = req.params;
+    let { name, address, city, description, stars } = req.body;
+
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: idHotels
+      }
+    });
+
+    if (hotel) {
+
+      hotel.update({
+        name: name,
+        address: address,
+        city: city,
+        description: description,
+        stars: stars
+      });
+
+      res.send(hotel);
+
+    } else {
+
+      res.send("hotel not found");
+
+    }
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
 module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
   deleteHotel,
-  DisableHotel
+  DisableHotel,
+  ModifyHotel
 };
+
+
+/*
+
+    "name": "Hotel Arrecifes",
+    "address": "Ruta Nac N´8 KM 175.5, Arrecifes, Provincia de Buenos Aires, Argentina",
+    "city": "arrecifes",
+    "description": "Ubicación Excelente en general para turismo, diversión, comidas y transporte",
+    "image": ["https://q-xx.bstatic.com/xdata/images/hotel/max500/252909565.jpg?k=0ca82960b06f3591e6746f80fdbef4fa3550073288b2a36ab476891b1b9c221d&o="],
+    "stars": 5, 
+
+    */

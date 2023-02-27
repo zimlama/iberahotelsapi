@@ -128,6 +128,46 @@ async function DisableRoom(req, res) {
 
 };
 
+//------------------Modify Rooom ------------------------
+
+async function ModifyRoom(req, res) {
+
+  try {
+
+    let { idRooms } = req.params;
+    let { name, bed_quantity, price, description } = req.body;
+
+    const room = await Room.findOne({
+      where: {
+        idRooms: idRooms
+      }
+    });
+
+    if (room) {
+
+      room.update({
+        name: name,
+        bed_quantity: bed_quantity,
+        price: price,
+        description: description
+      });
+
+      res.send(room);
+
+    } else {
+
+      res.send("Room not found");
+
+    }
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
 
 //!!!!
 module.exports = {
@@ -136,6 +176,6 @@ module.exports = {
   postCreateRoomInventory,
   postReserveRoomInventory,
   deleteRoom,
-  DisableRoom
-
+  DisableRoom,
+  ModifyRoom
 };
