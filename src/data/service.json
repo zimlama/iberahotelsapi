@@ -1,9 +1,9 @@
 [
     {
         "name": "desayuno",
-        "description":"expectacular desayuno continental",
+        "description": "expectacular desayuno continental",
         "price": 10,
-        "image": "https://www.istockphoto.com/es/foto/composici%C3%B3n-con-un-desayuno-en-la-tabla-balnced-dieta-gm475716160-65489357",
+        "image": "https://images.ecestaticos.com/G8-gUJ6nZX44fmN3KoIDwja5b_I=/239x71:2026x1410/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdf5%2Ff64%2F3c6%2Fdf5f643c69ab51813e984c20a2d0228e.jpg",
         "status": true
     },
     {
@@ -74,6 +74,69 @@
         "description": "Ud podra reunirse con sus clientes o proveedores generando nuevos acuerdos en un ambiente agradable",
         "price": 2000,
         "image": "https://media.istockphoto.com/id/517013990/es/foto/tienen-derecho-en-pista.jpg?s=612x612&w=0&k=20&c=SQ5VmgeUhESzS_ADwzrx2Lk4mBxZ0vkZyFQt0JLuLEY=",
+        "status": true
+    },
+    {
+        "name": "Parque de Aventuras",
+        "description": "Nuestro parque de aventuras es ideal para parejas, familias e intrépidos aventureros que deseen disfrutar del hermoso paisaje santandereano. En cada uno de los circuitos te brindamos una charla técnica antes de iniciar tu aventura con un cable vuelo de 180 m de largo. Luego atravesarás varios puentes de equilibrio que se encuentran entre árboles, tienen entre 5 y 8 metros de largo.",
+        "price": 2500,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/trekking-san-gil-104-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Cuatrimotos",
+        "description": "Recorrido por zonas verdes a las afueras del municipio de Curití, puedes ir acompañado de una persona en la misma moto o sólo. Disfruta de la tranquilidad que despliega el bello paisaje natural durante 1 hora.",
+        "price": 2500,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/actividades-de-aventuras-san-gil-cuatrimotos-101-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Espeleísmo en la Caverna del Indio",
+        "description": "Descubre la madre Tierra en un tour de 1 hora y 30 minutos aproximadamente por una caverna que cuenta con diferentes salones y formaciones geológicas. Tiene una quebrada subterránea y al final debes hacer un salto al vacío, en un pozo de 5 metros de altura. ¡Ingresas volando y sales nadando!",
+        "price": 2500,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/cueva-del-indio-san-gil-102-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Torrentismo en las Cascadas de Juan Curí",
+        "description": "Inicialmente hay que hacer una caminata de 35 minutos al sitio en donde comienza la actividad. Luego inicias el descenso de 50 metros de altura en donde encontrarás secciones de muro o roca, caída libre y una sección de Canyoning. Mientras realizas el descenso vas a sentir la caída del agua de la Quebrada la Chorrera y al final disfrutar del baño en el pozo natural labrado por la cascada al caer.",
+        "price": 3500,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/torrentismo-cascada-juan-curi-san-gil-103-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Espeleísmo Cueva de la Vaca",
+        "description": "Fascinante tour familiar de 1:30 horas a 90 metros de profundidad, cueva catalogada como una de las 5 mejores del mundo, sus formaciones son el deleite de los apasionados de la espeleología. Encontrarás un desafío de inmersión bajo el agua para entrar y salir de ella.",
+        "price": 3200,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/cueva-de-la-vaca-san-gil-104-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Parapente Familiar",
+        "description": "Vuelo termodinámico a través de ráfagas de viento ascendentes, con una duración de 12 a 14 minutos en un parapente biplaza, acompañados de un piloto profesional; sillas equipadas con paracaídas y un sistema de airbag para amortiguar el aterrizaje.",
+        "price": 2800,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/parapente-san-gil-101-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Parapente en el Cañón del Chicamocha",
+        "description": "Hacemos realidad tu sueño de volar sobre el majestuoso Cañón del Chicamocha, segundo mejor vuelo de Sur América y N°1 de Colombia. Vuelo térmico, con una duración de 18 a 22 minutos en parapente tándem acompañado de un piloto profesional a una altura aproximada de 1.550 msnm.",
+        "price": 2800,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/parapente-chicamocha-105-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Bungee Jumping",
+        "description": "¿Y todavía lo estás pensando? Anímate a vivir esta experiencia y comprueba tú mismo que… ¡sentirse uno con el cielo nunca fue tan fácil! Porque la aventura va en tus venas ¡vive al máximo tu salto de 70 metros! Puedes realizar el salto individual o en pareja.",
+        "price": 2800,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/bungee-jumping-san-gil-101-820x410.jpg",
+        "status": true
+    },
+    {
+        "name": "Rafting o Canotaje Iberá",
+        "description": "Salida desde San Gil en transporte hasta el Puente Simacota aproximadamente una hora de trayecto, hasta el sitio conocido como puente Vásquez. Recibirán sus equipos y una charla de seguridad, seguido de una práctica especifica de comandos antes de ir a los rápidos. Más de 2 horas en el río pasando por 11 rápidos famosos como, el despertador, laberinto 1, laberinto 2, sorpresa y finalizan en las juntas. Recorrido ideal para amantes de la adrenalina! Se requiere saber nadar, estar en buen estado de salud y condición física. Rápidos clase III, IV y V.",
+        "price": 3200,
+        "image": "https://sangilextremo.com.co/wp-content/uploads/2020/01/bungee-jumping-san-gil-101-820x410.jpg",
         "status": true
     }
 ]
