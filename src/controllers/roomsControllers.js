@@ -6,10 +6,9 @@ const { containLettersCheck, containNumbersCheck, onlyNumbersCheck } = require('
 const getAllRooms = async (req, res) => {
   try {
     const allRooms = await Room.findAll({});
-    //console.log(allRooms)
     return res.status(200).send(allRooms);
-  } catch (e) {
-    console.log(e);
+  } catch (err) {
+    res.status(400).json({ error: err});
   }
 };
 
@@ -45,19 +44,20 @@ const postNewRoom = async (req, res) => {
 //! POST create room inventory --------------
 async function postCreateRoomInventory(req, res){
   try{
-      let { idRoomInventory, id } = req.body;
-      if ( !containLettersCheck(idRoomInventory) && !containNumbersCheck(idRoomInventory) || idRoomInventory.length !== 11){
+      let { RoomNumber, idHotels, idTypeofrooms }  = req.body;
+      console.log("esto es RoomNumber.length: ", RoomNumber.toString().length)
+      if ( RoomNumber.toString().length !== 4){
           return res.status(412).send({ message: "information required" });
       }
-      let roomInventory = { idRoomInventory, id };
-      console.log("esot es roomInventory: ",roomInventory);
-      let CreateInv = await Inventory.findOrCreate({
+      City = idHotels.slice(0,5);
+      Hotel = parseInt(idHotels.slice(5));
+      let roomInventory = { City, Hotel, RoomNumber, idHotels, idTypeofrooms };
+      await Inventory.findOrCreate({
         where: roomInventory,
       });
-      console.log("aca esta el CreateInv:", CreateInv);
       return res.status(201).send({ message: "Room was created" });
   } catch(err){
-      res.status(500).json({ error: error});
+      res.status(500).json({ error: err});
   };
 }
 //!--------------
@@ -70,7 +70,7 @@ async function postReserveRoomInventory(req, res){
     console.log("esto es idUser: ", id);
     console.log("esto es checkin: ", checkin);
     console.log("esto es checkout: ", checkout);
-    return res.status(201).send({ message: idUser });
+    return res.status(201).send({ message: idUser, id });
   } catch(err){
     res.status(500).json({ error: error});
   }

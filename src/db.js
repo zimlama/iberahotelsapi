@@ -5,9 +5,10 @@ const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
 // la linea 8 se descomenta y la 10 se comentar para hacer test en la local DB
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,{
+
+// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`, {
 // la linea 10 se debe dejar en el main para que el railway use la DB de railway (const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {)
-//const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,{
+const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,{
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
@@ -49,7 +50,8 @@ const {
   Room,
   Services,
   Inventory,
-  Typeofroom
+  Typeofroom,
+  Reservation,
 } = sequelize.models;
 
 // Aca vendrian las relaciones
@@ -81,17 +83,24 @@ Partners.belongsTo(User);
 //relacion entre Hotel y About_us
 Hotel.hasOne(About_us);
 About_us.belongsTo(Hotel);
-//relacion entre User y Inventory
+// //relacion entre User y Inventory
 User.belongsToMany(Inventory, { through: "User_Inventory" });
 Inventory.belongsToMany(User, { through: "User_Inventory" });
-//relacion entre User y Inventory
+// //relacion entre User y Inventory
 Room.belongsToMany(Inventory, { through: "Room_Inventory" });
 Inventory.belongsToMany(Room, { through: "Room_Inventory" });
-//relacion entre Inventory y TypeOfRoom
-Inventory.belongsTo(Typeofroom, { foreignKey: "id" });
-// irRoom unico -> unico tipoderoom
-Typeofroom.hasMany(Inventory, { foreignKey: "id" } );
-// hab, duplex -> varios idRoom
+//Relacion entre reservaciones y rooms
+Room.hasMany(Reservation, { as: "room_reservation", foreignKey: "idRooms" });
+Reservation.belongsTo(Room, { as: "room_reservation" });
+Hotel.hasMany(Reservation, { as: "room_reservation", foreignKey: "idHotels" });
+// Relacion Inventario con Typeofroom y Hotel
+Typeofroom.hasMany(Inventory, { as: "typeofroom_inventory", foreignKey: "idTypeofrooms" });
+Inventory.belongsTo(Typeofroom, { as: "typeofroom_inventory" }); // En la segunda prueba quitamos y funicono
+Hotel.hasMany(Inventory, { as: "typeofroom_inventory", foreignKey: "idHotels" });
+
+
+
+
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
