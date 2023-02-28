@@ -7,7 +7,7 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 // la linea 8 se descomenta y la 10 se comentar para hacer test en la local DB
 //const sequelize = new Sequelize(
 // `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
-//{
+// {
 // la linea 10 se debe dejar en el main para que el railway use la DB de railway (const sequelize = new Sequelize(`postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`, {)
 const sequelize = new Sequelize(
   `postgresql://postgres:2oNnBI3ZZ2BjWiAMBuhc@containers-us-west-182.railway.app:7595/railway`,
@@ -88,13 +88,11 @@ Hotel.hasOne(About_us);
 About_us.belongsTo(Hotel);
 
 //! Relacion cat_inventory(inventory), cat_room_type(room_type) y cat_hotel_info(hotel_info) ----------------
-Cat_hotel_info.hasMany(Cat_room_inventory, { foreignKey: 'hotel_id' });
-Cat_room_inventory.belongsTo(Cat_hotel_info, { foreignKey: 'hotel_id' });
-Cat_room_inventory.belongsTo(Cat_room_type, { foreignKey: 'cat_room_type_id' });
-Cat_room_type.hasMany(Cat_room_inventory, { foreignKey: 'cat_room_type_id' });
+Cat_hotel_info.hasMany(Cat_room_inventory, { foreignKey: "hotel_id" });
+Cat_room_inventory.belongsTo(Cat_hotel_info, { foreignKey: "hotel_id" });
+Cat_room_inventory.belongsTo(Cat_room_type, { foreignKey: "cat_room_type_id" });
+Cat_room_type.hasMany(Cat_room_inventory, { foreignKey: "cat_room_type_id" });
 //!----------------
-
-
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
