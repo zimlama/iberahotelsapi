@@ -30,7 +30,6 @@ const postNewBills = async (req, res) => {
         idUser,
       }
       let newbill = await Bills.create(bill);
-      console.log('esto es newbill', newbill)
       //res.status(200).json(createdBill);
       let preference = {
         items: [
