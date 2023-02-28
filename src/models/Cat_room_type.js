@@ -4,17 +4,24 @@ const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define(
-    "typeofroom",
+    "cat_room_type",
     {
-      //ID : Que lo defina el sistema
+      cat_room_type_id: {
+        type: DataTypes.INTEGER,
+        autoIncrement: true,
+        primaryKey: true,
+      },
       name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      bed_quantity: {
-        type: DataTypes.INTEGER,
+      image: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+      },
+      description:  {
+        type: DataTypes.TEXT,
         allowNull: false,
-      }
+      },
     },
     {
       timestamps: false,
