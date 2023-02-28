@@ -28,9 +28,9 @@ const postNewBills = async (req, res) => {
         date,
         price,
         idUser,
-      };
-      console.log('esto es bill', bill)
+      }
       let newbill = await Bills.create(bill);
+      console.log('esto es newbill', newbill)
       //res.status(200).json(createdBill);
       let preference = {
         items: [
