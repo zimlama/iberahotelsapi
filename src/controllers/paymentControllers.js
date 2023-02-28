@@ -2,9 +2,6 @@ require("dotenv").config();
 const { Bills } = require("../db");
 const {
   ACCESS_TOKEN,
-  FRONT_URL_SUCCESS,
-  FRONT_URL_PENDING,
-  FRONT_URL_FAILED,
   BACK_URL_SUCCESS,
   BACK_URL_FAILED,
   BACK_URL_PENDING,
@@ -44,7 +41,9 @@ async function paymentValidation(req, res) {
         },
       ],
       back_urls: {
-        success: "https://iberahotelsfront-production.up.railway.app",
+        success: BACK_URL_SUCCESS,
+        failed: BACK_URL_FAILED,
+        pending: BACK_URL_PENDING,
       },
       auto_return: "approved",
       binary_mode: true,
@@ -69,7 +68,7 @@ async function paymentValidation(req, res) {
 //Notificacion de pago de mercadopago, para guardar en la base de datos
 
 async function paymentNotification(req, res) {
-  const {query} = req
+  const { query } = req
   // relaizando pureba de req byLeo
   console.log("esto es req: ", req);
   const topic = query.topic || query.type
