@@ -1,7 +1,6 @@
 const { Hotel, Room } = require("../db");
 const { Op } = require("sequelize");
 
-//!! GET de Hotels / byCity
 
 //!! GET de Hotels / byCity
 
@@ -29,7 +28,7 @@ const getAllHotels = async (req, res) => {
       let cities = await allHotels.filter(e => e.city.toLowerCase().includes(city.toLowerCase()))
     cities.length?
     res.status(200).json(cities) :
-    res.status(404).json("No Hay hoteles en esta ciudad")
+    res.status(404).json("There are no hotels in this city")
   }else{
     res.status(200).json(allHotels)
   }
@@ -92,9 +91,99 @@ const getHotelById = async (req, res, next) => {
     res.status(404).json("No se encontro el hotel");
   }
 };
+//!-------------- disable    ------ enable  
+
+async function DisableHotel(req, res) {
+
+  try {
+
+    let { idHotels } = req.params;
+
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: idHotels
+      }
+    });
+
+    if (hotel.status === true) {
+      hotel.update({ status: false });
+    } else if (hotel.status === false) {
+      hotel.update({ status: true });
+    }
+
+    res.send(hotel);
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+//!-------------- Mofify Hotel Data --------------------------  
+
+async function ModifyHotel(req, res) {
+
+  try {
+
+    let { idHotels } = req.params;
+    let { name, address, city, description, stars } = req.body;
+
+    const hotel = await Hotel.findOne({
+      where: {
+        idHotels: idHotels
+      }
+    });
+
+    if (hotel) {
+
+      hotel.update({
+        name: name,
+        address: address,
+        city: city,
+        description: description,
+        stars: stars
+      });
+
+      res.send(hotel);
+
+    } else {
+
+      res.send("hotel not found");
+
+    }
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+//! DELETE Hotel -------------- byLAMA
+
+const deleteHotel = async (req, res) => {
+
+  try {
+
+    let { idHotels } = req.params;
+
+    Hotel.destroy({
+      where: {
+        idHotels: idHotels
+      }
+    })
+
+    res.status(200).json({ message: "Hotel deleted" });
 
 
+  } catch (error) {
 
+    console.log(error);
+
+  };
+
+};
  
 
 
@@ -105,6 +194,7 @@ module.exports = {
   getAllHotels,
   postNewHotel,
   getHotelById,
-  
-  
+  DisableHotel,
+  ModifyHotel,
+  deleteHotel,
 };

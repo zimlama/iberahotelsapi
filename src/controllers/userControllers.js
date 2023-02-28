@@ -108,29 +108,65 @@ async function DisableUser(req, res) {
 
 //!-------  PutUserProfile
 
-async function putUser(req,res) {
-    const { id } = req.params;
-    const dataEdit = req.body;
-    let {email} = req.body
-console.log(id)
+async function ModifyUser(req, res) {
 
-try {
-        await User.update(dataEdit,
-            {
-                where: { email: email }
+    try {
+
+        let { email } = req.params;
+        let { first_name, last_name, nationality, date_birth, mobile } = req.body;
+
+        const user = await User.findOne({
+            where: {
+                email: email
+            }
+        });
+
+        if (user) {
+
+            user.update({
+                first_name: first_name,
+                last_name: last_name,
+                nationality: nationality,
+                date_birth: date_birth,
+                mobile: mobile
             });
-        if(id){                
-                return res.status(200).send("Updated User");
-            }
-            else {
-                return res.status(200).send("Id needed");
-            }
+
+            res.send(user, "OK");
+
+        } else {
+
+            res.send("user not found");
+
+        }
+
     } catch (error) {
-        res.status(400).json({ error: error.message })
+
+        console.log(error);
+
+    };
+
+}
+
+//!--------------// get User
+
+async function getUser(req, res) {
+
+
+    const { email } = req.body;
+
+    if (email) {
+        const findUser = await User.findAll({
+            where: { email: email }
+        });
+
+        if (findUser.length === 0) {
+            return res.status(404).send("User not found")
+        }
+
+        res.json(findUser)
     }
+
 };
-
-
 
 
 
@@ -141,5 +177,6 @@ module.exports = {
     postNewUser,
     signIn,
     DisableUser,
-    putUser,
+    ModifyUser,
+    getUser
 }

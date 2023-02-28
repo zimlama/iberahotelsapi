@@ -76,6 +76,103 @@ async function postReserveRoomInventory(req, res){
   }
 }
 
+
+//!------------------Modify Rooom ------------------------
+
+async function ModifyRoom(req, res) {
+
+  try {
+
+    let { idRooms } = req.params;
+    let { name, bed_quantity, price, description } = req.body;
+
+    const room = await Room.findOne({
+      where: {
+        idRooms: idRooms
+      }
+    });
+
+    if (room) {
+
+      room.update({
+        name: name,
+        bed_quantity: bed_quantity,
+        price: price,
+        description: description
+      });
+
+      res.send(room);
+
+    } else {
+
+      res.send("Room not found");
+
+    }
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+//!------------------Disable Rooom ------------------------
+
+async function DisableRoom(req, res) {
+
+  try {
+
+    let { idRooms } = req.params;
+
+    const room = await Room.findOne({
+      where: {
+        idRooms: idRooms
+      }
+    });
+
+    if (room.status === true) {
+      room.update({ status: false });
+    } else if (room.status === false) {
+      room.update({ status: true });
+    }
+
+    res.send(room);
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+//!-------------- Delete Room ----------------------
+
+const deleteRoom = async (req, res) => {
+
+  try {
+
+    let { idRooms } = req.params;
+
+    Room.destroy({
+      where: {
+        idRooms: idRooms
+      }
+    })
+
+    res.status(200).json({ message: "Room deleted" });
+
+
+  } catch (error) {
+
+    console.log(error);
+
+  };
+
+};
+
+
 //!--------------
 
 // const getRoomById = async (req, res, next) => {
@@ -114,5 +211,7 @@ module.exports = {
   postNewRoom,
   postCreateRoomInventory,
   postReserveRoomInventory,
-  
+  ModifyRoom,
+  DisableRoom,
+  deleteRoom
 };
