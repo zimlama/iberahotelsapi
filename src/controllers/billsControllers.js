@@ -17,7 +17,6 @@ const mercadopago = require("mercadopago");
 //!POST purchase
 const postNewBills = async (req, res) => {
   let { item, quantity, date, price, idUser } = req.body;
-  console.log("aca esta el body:", req.body);
   let check = onlyDateCheck(date); // ver si validamos el id usuaruio
   if (!item || !quantity || !date || !price || check !== true) {
     return res.status(412).send({ message: "informacion incompleta" });
@@ -30,7 +29,6 @@ const postNewBills = async (req, res) => {
         price,
         idUser,
       };
-      console.log("aca esta el bill:", bill);
       let newbill = await Bills.create(bill);
       //res.status(200).json(createdBill);
       let preference = {
@@ -51,8 +49,8 @@ const postNewBills = async (req, res) => {
         auto_return: "approved",
         binary_mode: true,
         notification_url:
-          //"https://iberahotelsapi-production.up.railway.app/bills/payment/notification",
-          "https://ec3b-2800-40-2f-d24-d0d-24ff-9d2d-c5b2.sa.ngrok.io/bills/payment/notification",
+          "https://iberahotelsapi-production.up.railway.app/bills/payment/notification",
+        //"https://ec3b-2800-40-2f-d24-d0d-24ff-9d2d-c5b2.sa.ngrok.io/bills/payment/notification",
       };
       mercadopago.preferences
         .create(preference)
@@ -70,7 +68,6 @@ const postNewBills = async (req, res) => {
 
 async function paymentNotification(req, res) {
   const { query } = req;
-  console.log("esto es req: ", query);
   const topic = query.topic || query.type;
   //var merchantOrder;
   //var payment;
@@ -93,10 +90,10 @@ async function paymentNotification(req, res) {
         }
       )
         .then((numRowsAffected) => {
-          console.log(`Se actualizaron ${numRowsAffected} registros`);
+          //console.log(`Se actualizaron ${numRowsAffected} registros`);
         })
         .catch((err) => {
-          console.error("Error al actualizar registros:", err);
+          //console.error("Error al actualizar registros:", err);
         });
   }
   res.send();
