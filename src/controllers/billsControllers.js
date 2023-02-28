@@ -29,6 +29,7 @@ const postNewBills = async (req, res) => {
         price,
         idUser,
       };
+      console.log('esto es bill', bill)
       let newbill = await Bills.create(bill);
       //res.status(200).json(createdBill);
       let preference = {
@@ -76,7 +77,6 @@ async function paymentNotification(req, res) {
       const paymentId = query.id || query["data.id"];
       const payment = await mercadopago.payment.findById(paymentId);
       const idS = payment.body.additional_info.items.map((e) => e.id);
-      console.log('esto es payment.body.status', payment.body.status)
       Bills.update(
         {
           payment_status: payment.body.status,
