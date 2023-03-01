@@ -94,37 +94,27 @@ const getHotelById = async (req, res, next) => {
   }
 };
 
-//! DELETE Hotel -------------- byLAMA
 
+//! Init Cambios @Felipe y @Leo --------------
+//!-------------- Delete Hotel ----------------------
 const deleteHotel = async (req, res) => {
-
   try {
-
     let { idHotels } = req.params;
-
     Hotel.destroy({
       where: {
         idHotels: idHotels
       }
     })
 
-    res.status(200).json({ message: "Hotel deleted" });
-
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json({ message: "Hotel delete" });
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
 
 };
-
 //!-------------- disable    ------ enable  
-
 async function DisableHotel(req, res) {
-
   try {
-
     let { idHotels } = req.params;
 
     const hotel = await Hotel.findOne({
@@ -139,25 +129,17 @@ async function DisableHotel(req, res) {
       hotel.update({ status: true });
     }
 
-    res.send(hotel);
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json(hotel);
+    //res.send(hotel);
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
-
 };
-
 //!-------------- Mofify Hotel Data --------------------------  
-
 async function ModifyHotel(req, res) {
-
   try {
-
     let { idHotels } = req.params;
     let { name, address, city, description, stars } = req.body;
-
     const hotel = await Hotel.findOne({
       where: {
         idHotels: idHotels
@@ -165,7 +147,6 @@ async function ModifyHotel(req, res) {
     });
 
     if (hotel) {
-
       hotel.update({
         name: name,
         address: address,
@@ -174,21 +155,18 @@ async function ModifyHotel(req, res) {
         stars: stars
       });
 
-      res.send(hotel);
-
+      res.status(201).json(hotel);
+      //res.send(hotel);
     } else {
-
-      res.send("hotel not found");
-
+      res.status(404).json({msg: "hotel not found"});
+      //res.send("hotel not found");
     }
-
-  } catch (error) {
-
-    console.log(error);
-
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
 
 };
+//! End Cambios @Felipe y @Leo --------------
 
 module.exports = {
   getAllHotels,

@@ -72,28 +72,24 @@ async function postReserveRoomInventory(req, res) {
     res.status(500).json({ error: error });
   }
 }
+//!--------------
 
+//! Init Cambios @Felipe y @Leo --------------
 //!-------------- Delete Room ----------------------
 
 const deleteRoom = async (req, res) => {
-
+  
   try {
-
     let { idRooms } = req.params;
-
+    console.log('esto es idRooms: ', idRooms);
     Room.destroy({
       where: {
         idRooms: idRooms
       }
     })
-
-    res.status(200).json({ message: "Room deleted" });
-
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json({ message: "Room deleted" });
+  } catch (err) {
+    res.status(401).json({ message: err });
   };
 
 };
@@ -101,73 +97,55 @@ const deleteRoom = async (req, res) => {
 //------------------Disable Rooom ------------------------
 
 async function DisableRoom(req, res) {
-
   try {
-
     let { idRooms } = req.params;
-
     const room = await Room.findOne({
       where: {
         idRooms: idRooms
       }
     });
-
     if (room.status === true) {
       room.update({ status: false });
     } else if (room.status === false) {
       room.update({ status: true });
     }
-
-    res.send(room);
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json(room);
+    //res.send(room);
+  } catch (err) {
+    res.status(401).json({ message: err });
   };
-
 };
 
 //------------------Modify Rooom ------------------------
 
 async function ModifyRoom(req, res) {
-
   try {
-
     let { idRooms } = req.params;
     let { name, bed_quantity, price, description } = req.body;
-
     const room = await Room.findOne({
       where: {
         idRooms: idRooms
       }
     });
-
     if (room) {
-
       room.update({
         name: name,
         bed_quantity: bed_quantity,
         price: price,
         description: description
       });
-
-      res.send(room);
-
+      res.status(201).json(room);
+      //res.send(room);
     } else {
 
       res.send("Room not found");
 
     }
-
-  } catch (error) {
-
-    console.log(error);
-
+  } catch (err) {
+    res.status(401).json({ message: err });
   };
-
 };
-
+//! End Cambios @Felipe y @Leo --------------
 
 //!!!!
 module.exports = {

@@ -32,6 +32,23 @@ async function getAllUsers(req, res, next) {
 // terminar de arreglar linea 44 next(err);
 // revisando pull req
 
+// async function postNewUser(req, res){
+//     try{
+//         let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
+//         let user_password = await bcrypt.hashSync(req.body.user_password, 10);
+//         if ( !onlyLettersCheck(first_name) || !onlyLettersCheck(last_name) || !onlyLettersCheck(nationality) || !onlyLettersCheck(genre) || !onlyDateCheck(date_birth) || !onlyLettersCheck(type_doc) || !onlyNumbersCheck(identification_doc) || !isEmailCheck(email) || !onlyNumbersCheck(mobile) || !httpsLinkCheck(image) || !statusCheck(status) || !priviligeCheck(privilige) || !user_password ){
+//             return res.status(412).send({ message: "information required" });
+//         }
+//         let user = { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige, user_password };
+//         let ceateUser = await User.findOrCreate({where: user});
+//         return res.status(201).send({ message: "User was created" });
+//     } catch(err){
+//         res.status(500).json({ error: err});
+//     };
+// }
+// //!--------------
+//! Init Cambios @Felipe y @Leo --------------
+
 async function postNewUser(req, res) {
     try {
         /*let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
@@ -50,80 +67,70 @@ async function postNewUser(req, res) {
         res.status(500).json({ err: err });
     };
 }
-//!--------------
+//! End Cambios @Felipe y @Leo --------------
 
-//! GET signIn user --------------
+// //! GET signIn user --------------
+// async function signIn(req, res){
+//     try{
+//         let { email, user_password } = req.body;
+//         User.findOne({
+//             where: {
+//                 email: email
+//             }
+//         }).then(user => {
+//             if(!user) {
+//                 res.status(404).json({msg: "User don't found"})
+//             } else {
+//                 if(bcrypt.compareSync(user_password, user.user_password)){
+//                     res.status(201).json({ msg: "TRUE"}) 
+//                 } else {
+//                     res.status(401).json({ msg: "Invalid Password"})
+//                 }
+//             }
+//         })
+//     } catch(err){
+//         res.status(400).json({ error: err});
+//     }
+// }
+//! body json
+// { 
+// 	"email" : "zimlama@gmail.com",
+// 	"user_password" : "leoWasHere"
+// }
+// //!--------------
 
-async function signIn(req, res) {
-    try {
-        let { email, user_password } = req.body;
-        User.findOne({
-            where: {
-                email: email
-            }
-        }).then(user => {
-            if (!user) {
-                res.status(404).json({ msg: "User don't found" })
-            } else {
-                if (bcrypt.compareSync(user_password, user.user_password)) {
-                    res.status(201).json({ msg: "TRUE" })
-                } else {
-                    res.status(401).json({ msg: "Invalid Password" })
-                }
-            }
-        })
-    } catch (err) {
-        res.status(400).json({ error: err });
-    }
-}
-
+//! Init Cambios @Felipe y @Leo --------------
 //!-------------- disable    ------ enable  
-
 async function DisableUser(req, res) {
-
     try {
-
         let { email } = req.body;
-
         const user = await User.findOne({
             where: {
                 email: email
             }
         });
-
         if (user.status === "active") {
             user.update({ status: "disabled" });
         } else if (user.status === "disabled") {
             user.update({ status: "active" });
         }
-
-        res.send(user);
-
-    } catch (error) {
-
-        console.log(error);
-
+        res.status(201).json(user);
+        //res.send(user);
+    } catch (err) {
+        res.status(401).json({ message: err });
     };
-
 };
-
 //!-------------- Modifi user -------------------------------  
-
 async function ModifyUser(req, res) {
-
     try {
-
         let { email } = req.params;
         let { first_name, last_name, nationality, date_birth, mobile } = req.body;
-
         const user = await User.findOne({
             where: {
                 email: email
             }
         });
-
         if (user) {
-
             user.update({
                 first_name: first_name,
                 last_name: last_name,
@@ -131,27 +138,24 @@ async function ModifyUser(req, res) {
                 date_birth: date_birth,
                 mobile: mobile
             });
-
-            res.send(user);
+            res.status(201).json(user);
+            //res.send(user);
 
         } else {
-
-            res.send("user not found");
-
+            res.status(404).json({msg: "user not found"});
+            //res.send("user not found");
         }
-
-    } catch (error) {
-
-        console.log(error);
-
+    } catch (err) {
+        res.status(401).json({ message: err });
     };
-
 }
+//!--------------
+//! End Cambios @Felipe y @Leo --------------
+
 
 module.exports = {
     getAllUsers,
     postNewUser,
-    signIn,
     DisableUser,
     ModifyUser
 };
