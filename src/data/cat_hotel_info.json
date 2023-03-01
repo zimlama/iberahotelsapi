@@ -1,8 +1,8 @@
 [
   {
-    "idHotels": "ARACF01",
+    "hotel_id": "ARACF01",
     "name": "Hotel Arrecifes",
-    "address": "Ruta Nac N´8 KM 175.5, Arrecifes, Provincia de Buenos Aires, Argentina",
+    "address": "Ruta Nac N8 KM 175.5, Arrecifes, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
     "description": "Ubicación Excelente en general para turismo, diversión, comidas y transporte",
     "image": ["https://q-xx.bstatic.com/xdata/images/hotel/max500/252909565.jpg?k=0ca82960b06f3591e6746f80fdbef4fa3550073288b2a36ab476891b1b9c221d&o="],
@@ -10,7 +10,7 @@
     "status": true
   },
   {
-    "idHotels": "ARACF02",
+    "hotel_id": "ARACF02",
     "name": "Posada Bella Terra",
     "address": "RP51 km 69,5, Arrecifes, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
@@ -20,7 +20,7 @@
     "status": true
   },
   {
-    "idHotels": "ARACF03",
+    "hotel_id": "ARACF03",
     "name": "Inti, Hospedaje de Campo",
     "address": "XWGM+7F, Arrecifes, Provincia de Buenos Aires",
     "city": "arrecifes",
@@ -30,7 +30,7 @@
     "status": true
   },
   {
-    "idHotels": "ARACF04",
+    "hotel_id": "ARACF04",
     "name": "Estancia Arroyo de Luna",
     "address": "Calle 32",
     "city": "arrecifes",
@@ -40,7 +40,7 @@
     "status": true
   },
   {
-    "idHotels": "ARACF05",
+    "hotel_id": "ARACF05",
     "name": "Chacras De Vina",
     "address": "190 5, RN8, Viña, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
@@ -50,7 +50,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBRC01",
+    "hotel_id": "ARBRC01",
     "name": "Iberá Bariloche",
     "address": "Av. de los Pioneros 200, San Carlos de Bariloche, Río Negro, Argentina",
     "city": "san carlos de bariloche",
@@ -60,7 +60,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBUE01",
+    "hotel_id": "ARBUE01",
     "name": "Hotel NH Collection Iberá",
     "address": "Av. Sta. Fe 796, C1059ABO CABA, Argentina",
     "city": "buenos aires",
@@ -70,7 +70,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBUE02",
+    "hotel_id": "ARBUE02",
     "name": "Unique Palacio San Telmo",
     "address": "Moreno 606, C1091 CABA",
     "city": "buenos aires",
@@ -80,7 +80,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBUE03",
+    "hotel_id": "ARBUE03",
     "name": "Hotel Hilton Buenos Aires",
     "address": "Calle 31",
     "city": "buenos aires",
@@ -90,7 +90,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBUE04",
+    "hotel_id": "ARBUE04",
     "name": "HTL Urbano Buenos Aires Iberá",
     "address": "Tucumán 451, C1049 CABA, Argentina",
     "city": "buenos aires",
@@ -100,7 +100,7 @@
     "status": true
   },
   {
-    "idHotels": "ARBUE05",
+    "hotel_id": "ARBUE05",
     "name": "Alvear Icon Hotel",
     "address": "Aimé Painé 1130 piso 32, Buenos Aires, Argentina",
     "city": "buenos aires",
@@ -110,7 +110,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCNQ01",
+    "hotel_id": "ARCNQ01",
     "name": "River Hotel",
     "address": "R. Sete de Setembro, 1088 - Centro, Uruguaiana ",
     "city": "corrientes",
@@ -120,7 +120,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCNQ02",
+    "hotel_id": "ARCNQ02",
     "name": "La Alondra Iberá",
     "address": "Av. 3 de Abril 827, W3400 Corrientes",
     "city": "corrientes",
@@ -130,7 +130,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCNQ03",
+    "hotel_id": "ARCNQ03",
     "name": "Posada de la Laguna",
     "address": "Guasú Virá, Col. Carlos Pellegrini, Corrientes, Argentina",
     "city": "corrientes",
@@ -140,7 +140,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCNQ04",
+    "hotel_id": "ARCNQ04",
     "name": "Fares Turis Hotel",
     "address": "Av. Pres. Vargas, 2939 - Centro, Uruguaiana - RS, 97501-653,",
     "city": "corrientes",
@@ -150,7 +150,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCOR01",
+    "hotel_id": "ARCOR01",
     "name": "Hotel Iberá Córdoba Panorama",
     "address": "Av. Marcelo T. de Alvear 251, X5000KGE Córdoba",
     "city": "córdoba",
@@ -160,7 +160,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCOR02",
+    "hotel_id": "ARCOR02",
     "name": "Iberá Nueva Cordoba",
     "address": "San Lorenzo 163, X5000 Córdoba, Argentina",
     "city": "córdoba",
@@ -170,7 +170,7 @@
     "status": true
   },
   {
-    "idHotels": "ARCOR03",
+    "hotel_id": "ARCOR03",
     "name": "Holiday Inn Cordoba, an IHG Hotel",
     "address": "Cc Libertad, Fray Luis Beltran, Manuel Cardeñosa Y B, 5008 Córdoba",
     "city": "córdoba",
@@ -180,7 +180,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE01",
+    "hotel_id": "ARGBE01",
     "name": "H&N Hotel Boutique",
     "address": "Calle 131, Gral. Belgrano, Provincia de Buenos Aires",
     "city": "general belgrano",
@@ -190,7 +190,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE02",
+    "hotel_id": "ARGBE02",
     "name": "Hotel Brisas del Chadi",
     "address": "C. 139 697, B7223 Gral. Belgrano, Provincia de Buenos Aires, Argentina",
     "city": "general belgrano",
@@ -200,7 +200,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE03",
+    "hotel_id": "ARGBE03",
     "name": "Encanto del Salado",
     "address": "Calle 72 n 1728, B7223 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
@@ -210,7 +210,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE04",
+    "hotel_id": "ARGBE04",
     "name": "Señor Iberá",
     "address": "Calle 86 n 1728, B7250 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
@@ -220,7 +220,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE05",
+    "hotel_id": "ARGBE05",
     "name": "General Iberá",
     "address": "Calle 45 n 2300, B745 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
@@ -230,7 +230,7 @@
     "status": true
   },
   {
-    "idHotels": "ARGBE06",
+    "hotel_id": "ARGBE06",
     "name": "El sexto elemento",
     "address": "Calle 6 n 1606, B4567 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
@@ -240,7 +240,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDQ01",
+    "hotel_id": "ARMDQ01",
     "name": "Hotel Madisón Iberá",
     "address": "Calle 72 n 1728, Mar de Plata, Argentina ",
     "city": "mar del plata",
@@ -250,7 +250,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDQ02",
+    "hotel_id": "ARMDQ02",
     "name": "Hotel Hawaii",
     "address": "Chacabuco, La Perla 3146, B7600 Mar del Plata, Provincia de Buenos Aires,",
     "city": "mar del plata",
@@ -260,7 +260,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDZ01",
+    "hotel_id": "ARMDZ01",
     "name": "Hotel La madrid",
     "address": "Calle 131, c. 13-24, Mar de plata, Argentina",
     "city": "mar del plata",
@@ -270,7 +270,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDZ02",
+    "hotel_id": "ARMDZ02",
     "name": "Hotel Cordon Del Plata",
     "address": "9 De Julio 1539, Mendoza",
     "city": "mendoza",
@@ -280,7 +280,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDQ03",
+    "hotel_id": "ARMDQ03",
     "name": "Iberá Mendoza",
     "address": "Lateral Sur Del Acceso Este 4241, M5521ABB Mendoza, Argentina ",
     "city": "mendoza",
@@ -290,7 +290,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDZ03",
+    "hotel_id": "ARMDZ03",
     "name": "Hotel Crillon Mendoza",
     "address": "Peru 1065, 5500 Mendoza, Argentina ",
     "city": "mendoza",
@@ -300,7 +300,7 @@
     "status": true
   },
   {
-    "idHotels": "ARMDZ04",
+    "hotel_id": "ARMDZ04",
     "name": "Hotel Esplendor Iberá",
     "address": "Maza Y Emilio Civit, 5515 Mendoza, Argentina –",
     "city": "mendoza",
@@ -310,7 +310,7 @@
     "status": true
   },
   {
-    "idHotels": "ARNEC01",
+    "hotel_id": "ARNEC01",
     "name": "Hotel Florencia",
     "address": "Av 10 n 4365, 7630 Necochea, Argentina ",
     "city": "necochea",
@@ -320,7 +320,7 @@
     "status": true
   },
   {
-    "idHotels": "ARNEC02",
+    "hotel_id": "ARNEC02",
     "name": "Hotel Ñikén Hotel Spa & Business Center",
     "address": "87 N° 335, B7630IWE Necochea, Argentina",
     "city": "necochea",
@@ -330,7 +330,7 @@
     "status": true
   },
   {
-    "idHotels": "ARNEC03",
+    "hotel_id": "ARNEC03",
     "name": "Hotel Real",
     "address": "Avenida 79 264, 7630 Necochea, Argentina",
     "city": "necochea",
@@ -340,7 +340,7 @@
     "status": true
   },
   {
-    "idHotels": "ARNEC04",
+    "hotel_id": "ARNEC04",
     "name": "Hotel Bell Mar Iberá",
     "address": "Avenida 79 364, 7630 Necochea, Argentina",
     "city": "necochea",
@@ -350,7 +350,7 @@
     "status": true
   },
   {
-    "idHotels": "ARNEC05",
+    "hotel_id": "ARNEC05",
     "name": "Hotel President",
     "address": " Calle 4 Nº 4040, 7630 Necochea, Argentina",
     "city": "necochea",
@@ -360,7 +360,7 @@
     "status": true
   },
   {
-    "idHotels": "ARPGO01",
+    "hotel_id": "ARPGO01",
     "name": "Donaire Iberá",
     "address": "Avenida Presidente Doctor Arturo Illia 2673, 2700 Pergamino",
     "city": "pergamino",
@@ -370,7 +370,7 @@
     "status": true
   },
   {
-    "idHotels": "ARPGO02",
+    "hotel_id": "ARPGO02",
     "name": "Apart Italia B&B",
     "address": "1098 Avenida de Mayo, 2700 Pergamino, Argentina ",
     "city": "pergamino",
@@ -380,7 +380,7 @@
     "status": true
   },
   {
-    "idHotels": "ARUSH01",
+    "hotel_id": "ARUSH01",
     "name": "MIL810 Ushuaia Hotel",
     "address": "25 de Mayo 245, 9410 Ushuaia, Argentina",
     "city": "ushuaia",
@@ -390,7 +390,7 @@
     "status": true
   },
   {
-    "idHotels": "ARUSH02",
+    "hotel_id": "ARUSH02",
     "name": "La casa de Ushuaia Iberá",
     "address": " Perito Moreno 4976, 9410 Ushuaia, Argentina",
     "city": "ushuaia",
@@ -400,7 +400,7 @@
     "status": true
   },
   {
-    "idHotels": "ARUSH03",
+    "hotel_id": "ARUSH03",
     "name": "Skyline Iberá",
     "address": "1382 Gobernador Ernesto Manuel Campos, 9410 Ushuaia",
     "city": "ushuaia",
