@@ -107,57 +107,6 @@ async function DisableUser(req, res) {
 
 };
 
-//!--------------// get User
-
-async function getUser(req, res) {
-
-
-    const { email } = req.body;
-
-    if (email) {
-        const findUser = await User.findAll({
-            where: { email: email }
-        });
-
-        if (findUser.length === 0) {
-            return res.status(404).send("User not found")
-        }
-
-        res.json(findUser)
-    }
-
-};
-
-//!-------------- disable    ------ enable  
-
-async function DisableUser(req, res) {
-
-    try {
-
-        let { email } = req.body;
-
-        const user = await User.findOne({
-            where: {
-                email: email
-            }
-        });
-
-        if (user.status === "active") {
-            user.update({ status: "disabled" });
-        } else if (user.status === "disabled") {
-            user.update({ status: "active" });
-        }
-
-        res.send(user);
-
-    } catch (error) {
-
-        console.log(error);
-
-    };
-
-};
-
 //!-------------- Modifi user -------------------------------  
 
 async function ModifyUser(req, res) {
@@ -199,32 +148,10 @@ async function ModifyUser(req, res) {
 
 }
 
-//!--------------// get User
-
-async function getUser(req, res) {
-
-
-    const { email } = req.body;
-
-    if (email) {
-        const findUser = await User.findAll({
-            where: { email: email }
-        });
-
-        if (findUser.length === 0) {
-            return res.status(404).send("User not found")
-        }
-
-        res.json(findUser)
-    }
-
-};
-
 module.exports = {
     getAllUsers,
     postNewUser,
     signIn,
     DisableUser,
-    getUser,
     ModifyUser
 };
