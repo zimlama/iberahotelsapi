@@ -24,6 +24,7 @@ const postNewRoom = async (req, res) => {
     availability,
     status,
   } = req.body;
+  console.log('esto es idHotels: ', idHotels);
   try {
     await Room.create({
       idHotels,

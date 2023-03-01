@@ -5,7 +5,6 @@ const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB } = process.env;
 
 // la linea 8 se descomenta y la 10 se comentar para hacer test en la local DB
-
 // const sequelize = new Sequelize(
 // `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB}`,
 // {
