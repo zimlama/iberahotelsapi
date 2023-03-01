@@ -47,6 +47,10 @@ module.exports = (sequelize) => {
         type: DataTypes.DECIMAL,
         allowNull: true,
       },
+      active: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false,
+      },
     },
     {
       timestamps: false,
