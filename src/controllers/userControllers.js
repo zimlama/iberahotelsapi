@@ -1,4 +1,4 @@
-const{User} = require('../db');
+const { User } = require('../db');
 const { Op } = require("sequelize");
 const { onlyLettersCheck, onlyDateCheck, onlyNumbersCheck, isEmailCheck, httpsLinkCheck, statusCheck, priviligeCheck } = require('../helpfuls/regex');
 const loadUsers = require('../data/users.json');
@@ -9,11 +9,11 @@ const jwt = require("jsonwebtoken")
 //! GET show all users Users --------------
 // tema de como debo enviar el res.status del error con el next
 // terminar de arreglar linea 15 next(err);
-async function getAllUsers(req, res, next){
-    try{
-        const allUser = await User.findAll({ });
-        return res.status(200).send(allUser) 
-    } catch(err){
+async function getAllUsers(req, res, next) {
+    try {
+        const allUser = await User.findAll({});
+        return res.status(200).send(allUser)
+    } catch (err) {
         next(err);
     };
 };
@@ -48,6 +48,7 @@ async function getAllUsers(req, res, next){
 // }
 // //!--------------
 //! Init Cambios @Felipe y @Leo --------------
+
 async function postNewUser(req, res) {
     try {
         /*let { first_name, last_name, nationality, genre, date_birth, type_doc, identification_doc, email, mobile, image, status, privilige } = req.body;
@@ -151,9 +152,10 @@ async function ModifyUser(req, res) {
 //!--------------
 //! End Cambios @Felipe y @Leo --------------
 
+
 module.exports = {
     getAllUsers,
     postNewUser,
     DisableUser,
     ModifyUser
-}
+};
