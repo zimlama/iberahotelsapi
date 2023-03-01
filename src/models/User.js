@@ -12,23 +12,18 @@ module.exports = (sequelize) => {
     },
     first_name : {
         type :  DataTypes.STRING,
-        allowNull: false
     },
     last_name : {
         type: DataTypes.STRING,
-        allowNull: false
     },
     nationality:{
         type: DataTypes.STRING,
-        allowNull: false
     },
     type_doc: {
         type: DataTypes.STRING,
-        allowNull: false
     },
     identification_doc:{
         type: DataTypes.STRING,
-        allowNull: false
     },
     email : {
         type: DataTypes.STRING,
@@ -36,23 +31,18 @@ module.exports = (sequelize) => {
     },
     genre: {
         type: DataTypes.STRING,
-        allowNull: false
     },
     date_birth : {
         type: DataTypes.DATEONLY,
-        allowNull: false
     },
     mobile : {
         type: DataTypes.STRING,
-        allowNull: false
     },
     image : {
         type: DataTypes.STRING,
-        allowNull: false
     },
     status: {
         type: DataTypes.ENUM('active', 'disabled'),
-        allowNull: false,
         defaultValue: 'active'
     },
     privilige: {
@@ -61,7 +51,6 @@ module.exports = (sequelize) => {
     },
     user_password: {
         type: DataTypes.STRING,
-        allowNull: false
     }
 },
 {
