@@ -154,4 +154,4 @@ module.exports = {
     signIn,
     DisableUser,
     ModifyUser
-};
+}
