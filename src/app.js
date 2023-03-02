@@ -4,12 +4,14 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
 require('./db.js');
+const cors = require('cors');
 //cambio para aprobar bloqueo de main
 const server = express();
 //hola aca estoy
 // segunda vuelta
 server.name = 'API';
 
+server.use(cors());
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());

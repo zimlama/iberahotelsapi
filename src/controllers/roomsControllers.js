@@ -1,4 +1,4 @@
-const { Room, Inventory, Typeofroom } = require("../db");
+const { Room, Inventory, Typeofroom, Hotel } = require("../db");
 const { Op } = require("sequelize");
 const { containLettersCheck, containNumbersCheck, onlyNumbersCheck } = require('../helpfuls/regex');
 
@@ -14,32 +14,25 @@ const getAllRooms = async (req, res) => {
 
 //! POST de Rooms
 const postNewRoom = async (req, res) => {
-  let {
-    idHotels,
-    name,
-    bed_quantity,
-    image,
-    description,
-    price,
-    availability,
-    status,
-  } = req.body;
-  console.log('esto es idHotels: ', idHotels);
+
+  let { name, bed_quantity, description, price, idHotels } = req.body;
+
   try {
+
     await Room.create({
-      idHotels,
-      name,
-      bed_quantity,
-      image,
-      description,
-      price,
-      availability,
-      status,
+      idHotels: idHotels,
+      name: name,
+      bed_quantity: bed_quantity,
+      description: description,
+      price: price
     });
-    res.status(200).json({ message: "Room created" });
-  } catch (e) {
-    res.status(500).json(e.message);
+
+    res.send("room created")
+
+  } catch (error) {
+    console.log(error)
   }
+
 };
 
 //! POST create room inventory --------------
@@ -79,7 +72,7 @@ async function postReserveRoomInventory(req, res) {
 //!-------------- Delete Room ----------------------
 
 const deleteRoom = async (req, res) => {
-  
+
   try {
     let { idRooms } = req.params;
     console.log('esto es idRooms: ', idRooms);

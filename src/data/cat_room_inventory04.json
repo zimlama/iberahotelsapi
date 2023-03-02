@@ -1,0 +1,1002 @@
+[
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1505,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1605,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1705,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1805,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1905,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBRC",
+    "hotel": 1,
+    "room_number": 1115,
+    "hotel_id": "ARBRC01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1101,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1201,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1301,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1401,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1501,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1601,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1701,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1801,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1901,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1111,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1102,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1202,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1302,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1402,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1502,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1602,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1702,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1802,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1902,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1112,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1103,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1203,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1303,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1403,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1503,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1603,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1703,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1803,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1903,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1113,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1104,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1204,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1304,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1404,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1504,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1604,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1604,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1704,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1804,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1904,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1114,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1105,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1205,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1305,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1405,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1505,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1605,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1705,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1805,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1905,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 1,
+    "room_number": 1115,
+    "hotel_id": "ARBUE01",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1101,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1201,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1301,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1401,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1501,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1601,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1701,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1801,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1901,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1111,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 1,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 421
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1102,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1202,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1302,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1402,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1502,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1602,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1702,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1802,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1902,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1112,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 2,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 574
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1103,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1203,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1303,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1403,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1503,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1603,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1703,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1803,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1903,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1113,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 3,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 289
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1104,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1204,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1304,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1404,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1504,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1604,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1604,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1704,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1804,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1904,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1114,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 4,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 530
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1105,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  },
+  {
+    "city": "ARBUE",
+    "hotel": 2,
+    "room_number": 1205,
+    "hotel_id": "ARBUE02",
+    "cat_room_type_id": 5,
+    "room_check_in": [],
+    "room_check_out": [],
+    "price": 673
+  }
+]
