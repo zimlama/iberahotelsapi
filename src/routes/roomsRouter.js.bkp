@@ -1,10 +1,10 @@
-const { Router } = require('express');
-const { getAllRooms, postNewRoom, deleteRoom, DisableRoom, ModifyRoom, postCreateRoomInventory } = require('../controllers/roomsControllers.js');
+const {Router} = require('express');
+const {getAllRooms, postNewRoom, deleteRoom, DisableRoom, ModifyRoom, postCreateRoomInventory} = require('../controllers/roomsControllers.js');
 
 const router = Router();
 
 router.get('/', getAllRooms);
-router.post('/create/newRoom', postNewRoom)
+router.post('/create', postNewRoom)
 router.post('/create/inventory', postCreateRoomInventory)
 router.delete("/delete/:idRooms", deleteRoom);
 router.put("/disable/:idRooms", DisableRoom)
