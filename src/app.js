@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
 require('./db.js');
+const cors = require('cors')
 //cambio para aprobar bloqueo de main
 const server = express();
 //hola aca estoy
