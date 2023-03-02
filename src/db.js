@@ -106,4 +106,4 @@ module.exports = {
   conn: sequelize, // para importart la conexión { conn } = require('./db.js');
 };
 
-//
+////
