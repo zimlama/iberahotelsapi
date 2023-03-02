@@ -16,7 +16,7 @@ const {
 const mercadopago = require("mercadopago");
 //!POST purchase
 const postNewBills = async (req, res) => {
-  let { item, quantity, date, price, idUser } = req.body;
+  let { item, quantity, date, price, userId } = req.body;
   let check = onlyDateCheck(date); // ver si validamos el id usuaruio
   if (!item || !quantity || !date || !price || check !== true) {
     return res.status(412).send({ message: "informacion incompleta" });
@@ -27,7 +27,7 @@ const postNewBills = async (req, res) => {
         quantity,
         date,
         price,
-        idUser,
+        userId,
       }
       let newbill = await Bills.create(bill);
       //res.status(200).json(createdBill);
@@ -50,7 +50,7 @@ const postNewBills = async (req, res) => {
         binary_mode: true,
         notification_url:
           "https://iberahotelsapi-production.up.railway.app/bills/payment/notification",
-        //"https://ec3b-2800-40-2f-d24-d0d-24ff-9d2d-c5b2.sa.ngrok.io/bills/payment/notification",
+        //"https://a3a3-37-178-222-102.eu.ngrok.io/bills/payment/notification",
       };
       mercadopago.preferences
         .create(preference)
@@ -84,6 +84,7 @@ async function paymentNotification(req, res) {
           authorization_code: payment.body.authorization_code,
           mp_id_order: payment.body.order.id,
           fee_mp: payment.body.fee_details[0].amount,
+          active: true,
         },
         {
           where: { id: idS },
@@ -108,10 +109,79 @@ mercadopago.configure({
 //!GET purchase
 const getAllBills = async (req, res) => {
   try {
-    const allBills = await Bills.findAll({});
+    const allBills = await Bills.findAll(
+      { include: User }
+      );
     res.status(200).send(allBills);
   } catch (e) {
     res.status(404).json(e);
+  }
+};
+
+//!! Desactiva Bills
+// De esta manera, cuando un administrador desactiva una factura, 
+//se cambia el valor de la columna active a false en lugar 
+//de borrar la factura de la base de datos.
+const desactivaBill = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const bill = await Bills.findOne({ where: { id } });
+    if (!bill) {
+      return res.status(404).json({ message: 'Bill not found' });
+    }
+    let active = bill.active
+    if(active === true){
+    await bill.update({ active: false });
+    console.log(`Update the bills id: ${id} `);
+    }
+    if(active === false ){
+      await bill.update({ active: true });
+    console.log(`Update the bills id: ${id} `);
+    }
+    return res.status(204).json({ message: `Update the bills ${id} `});
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+};
+
+//!!
+const searchBills = async (req, res) => {
+  try {
+    const { email, status, id_payment } = req.query;
+    let where = {};
+    if (email) {
+      where = {
+        ...where,
+        '$user.email$': {
+          [Op.iLike]: `%${email}%`,
+        },
+      };
+    }
+    if (status) {
+      where = {
+        ...where,
+        payment_status: status,
+      };
+    }
+    if (id_payment) {
+      where = {
+        ...where,
+        id_payment,
+      };
+    }
+    const bills = await Bills.findAll({
+      where,
+      include: {
+        model: User,
+        as: 'user',
+        attributes: ['email', 'first_name', 'last_name'],
+      },
+    });
+    res.json({ bills });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
   }
 };
 
@@ -120,4 +190,6 @@ module.exports = {
   postNewBills,
   getAllBills,
   paymentNotification,
+  desactivaBill,
+  searchBills
 };

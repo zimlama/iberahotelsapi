@@ -89,7 +89,7 @@
         "idHotels": "ARACF02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-                "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -107,7 +107,7 @@
         "idHotels": "ARACF02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -124,7 +124,7 @@
         "idHotels": "ARACF02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -158,7 +158,7 @@
         "idHotels": "ARACF02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -175,7 +175,7 @@
         "idHotels": "ARACF03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -193,7 +193,7 @@
         "idHotels": "ARACF03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -210,7 +210,7 @@
         "idHotels": "ARACF03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -244,7 +244,7 @@
         "idHotels": "ARACF03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -261,7 +261,7 @@
         "idHotels": "ARACF04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -279,7 +279,7 @@
         "idHotels": "ARACF04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -296,7 +296,7 @@
         "idHotels": "ARACF04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -330,7 +330,7 @@
         "idHotels": "ARACF04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -347,7 +347,7 @@
         "idHotels": "ARACF05",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -365,7 +365,7 @@
         "idHotels": "ARACF05",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -382,7 +382,7 @@
         "idHotels": "ARACF05",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -416,7 +416,7 @@
         "idHotels": "ARACF05",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -433,7 +433,7 @@
         "idHotels": "ARBRC01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -451,7 +451,7 @@
         "idHotels": "ARBRC01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -468,7 +468,7 @@
         "idHotels": "ARBRC01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -502,7 +502,7 @@
         "idHotels": "ARBRC01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -519,7 +519,7 @@
         "idHotels": "ARBUE01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -537,7 +537,7 @@
         "idHotels": "ARBUE01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -554,7 +554,7 @@
         "idHotels": "ARBUE01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -588,7 +588,7 @@
         "idHotels": "ARBUE01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -605,7 +605,7 @@
         "idHotels": "ARBUE02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -623,7 +623,7 @@
         "idHotels": "ARBUE02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -640,7 +640,7 @@
         "idHotels": "ARBUE02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -674,7 +674,7 @@
         "idHotels": "ARBUE02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -691,7 +691,7 @@
         "idHotels": "ARBUE03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -709,7 +709,7 @@
         "idHotels": "ARBUE03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -726,7 +726,7 @@
         "idHotels": "ARBUE03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -760,7 +760,7 @@
         "idHotels": "ARBUE03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -777,7 +777,7 @@
         "idHotels": "ARBUE04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -795,7 +795,7 @@
         "idHotels": "ARBUE04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -812,7 +812,7 @@
         "idHotels": "ARBUE04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -846,7 +846,7 @@
         "idHotels": "ARBUE04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -863,7 +863,7 @@
         "idHotels": "ARBUE05",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -881,7 +881,7 @@
         "idHotels": "ARBUE05",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -898,7 +898,7 @@
         "idHotels": "ARBUE05",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -932,7 +932,7 @@
         "idHotels": "ARBUE05",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -949,7 +949,7 @@
         "idHotels": "ARCNQ01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -967,7 +967,7 @@
         "idHotels": "ARCNQ01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -984,7 +984,7 @@
         "idHotels": "ARCNQ01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1018,7 +1018,7 @@
         "idHotels": "ARCNQ01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1035,7 +1035,7 @@
         "idHotels": "ARCNQ02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1053,7 +1053,7 @@
         "idHotels": "ARCNQ02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1070,7 +1070,7 @@
         "idHotels": "ARCNQ02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1104,7 +1104,7 @@
         "idHotels": "ARCNQ02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1121,7 +1121,7 @@
         "idHotels": "ARCNQ03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1139,7 +1139,7 @@
         "idHotels": "ARCNQ03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1156,7 +1156,7 @@
         "idHotels": "ARCNQ03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1190,7 +1190,7 @@
         "idHotels": "ARCNQ03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1207,7 +1207,7 @@
         "idHotels": "ARCNQ04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1225,7 +1225,7 @@
         "idHotels": "ARCNQ04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1242,7 +1242,7 @@
         "idHotels": "ARCNQ04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1276,7 +1276,7 @@
         "idHotels": "ARCNQ04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1293,7 +1293,7 @@
         "idHotels": "ARCOR01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1311,7 +1311,7 @@
         "idHotels": "ARCOR01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1328,7 +1328,7 @@
         "idHotels": "ARCOR01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1362,7 +1362,7 @@
         "idHotels": "ARCOR01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1379,7 +1379,7 @@
         "idHotels": "ARCOR02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1397,7 +1397,7 @@
         "idHotels": "ARCOR02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1414,7 +1414,7 @@
         "idHotels": "ARCOR02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1448,7 +1448,7 @@
         "idHotels": "ARCOR02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1465,7 +1465,7 @@
         "idHotels": "ARCOR03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1483,7 +1483,7 @@
         "idHotels": "ARCOR03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1500,7 +1500,7 @@
         "idHotels": "ARCOR03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1534,7 +1534,7 @@
         "idHotels": "ARCOR03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1551,7 +1551,7 @@
         "idHotels": "ARGBE01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1569,7 +1569,7 @@
         "idHotels": "ARGBE01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1586,7 +1586,7 @@
         "idHotels": "ARGBE01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1620,7 +1620,7 @@
         "idHotels": "ARGBE01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1637,7 +1637,7 @@
         "idHotels": "ARGBE02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1655,7 +1655,7 @@
         "idHotels": "ARGBE02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1672,7 +1672,7 @@
         "idHotels": "ARGBE02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1706,7 +1706,7 @@
         "idHotels": "ARGBE02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1723,7 +1723,7 @@
         "idHotels": "ARGBE03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1741,7 +1741,7 @@
         "idHotels": "ARGBE03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1758,7 +1758,7 @@
         "idHotels": "ARGBE03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1792,7 +1792,7 @@
         "idHotels": "ARGBE03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1809,7 +1809,7 @@
         "idHotels": "ARGBE04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1827,7 +1827,7 @@
         "idHotels": "ARGBE04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1844,7 +1844,7 @@
         "idHotels": "ARGBE04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1878,7 +1878,7 @@
         "idHotels": "ARGBE04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1895,7 +1895,7 @@
         "idHotels": "ARGBE05",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1913,7 +1913,7 @@
         "idHotels": "ARGBE05",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -1930,7 +1930,7 @@
         "idHotels": "ARGBE05",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -1964,7 +1964,7 @@
         "idHotels": "ARGBE05",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -1981,7 +1981,7 @@
         "idHotels": "ARGBE06",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -1999,7 +1999,7 @@
         "idHotels": "ARGBE06",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2016,7 +2016,7 @@
         "idHotels": "ARGBE06",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2050,7 +2050,7 @@
         "idHotels": "ARGBE06",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2067,7 +2067,7 @@
         "idHotels": "ARMDQ01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2085,7 +2085,7 @@
         "idHotels": "ARMDQ01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2102,7 +2102,7 @@
         "idHotels": "ARMDQ01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2136,7 +2136,7 @@
         "idHotels": "ARMDQ01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2149,12 +2149,11 @@
         "availability": " ",
         "status": true
     },
-    
     {
         "idHotels": "ARMDQ02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2172,7 +2171,7 @@
         "idHotels": "ARMDQ02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2189,7 +2188,7 @@
         "idHotels": "ARMDQ02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2223,7 +2222,7 @@
         "idHotels": "ARMDQ02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2240,7 +2239,7 @@
         "idHotels": "ARMDQ03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2258,7 +2257,7 @@
         "idHotels": "ARMDQ03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2275,7 +2274,7 @@
         "idHotels": "ARMDQ03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2309,7 +2308,7 @@
         "idHotels": "ARMDQ03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2326,7 +2325,7 @@
         "idHotels": "ARMDZ01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2344,7 +2343,7 @@
         "idHotels": "ARMDZ01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2361,7 +2360,7 @@
         "idHotels": "ARMDZ01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2395,7 +2394,7 @@
         "idHotels": "ARMDZ01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2412,7 +2411,7 @@
         "idHotels": "ARMDZ02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2430,7 +2429,7 @@
         "idHotels": "ARMDZ02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2447,7 +2446,7 @@
         "idHotels": "ARMDZ02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2481,7 +2480,7 @@
         "idHotels": "ARMDZ02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2498,7 +2497,7 @@
         "idHotels": "ARMDZ03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2516,7 +2515,7 @@
         "idHotels": "ARMDZ03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2533,7 +2532,7 @@
         "idHotels": "ARMDZ03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2567,7 +2566,7 @@
         "idHotels": "ARMDZ03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2584,7 +2583,7 @@
         "idHotels": "ARMDZ04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2602,7 +2601,7 @@
         "idHotels": "ARMDZ04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2619,7 +2618,7 @@
         "idHotels": "ARMDZ04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2653,7 +2652,7 @@
         "idHotels": "ARMDZ04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2670,7 +2669,7 @@
         "idHotels": "ARNEC01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2688,7 +2687,7 @@
         "idHotels": "ARNEC01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2705,7 +2704,7 @@
         "idHotels": "ARNEC01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2739,7 +2738,7 @@
         "idHotels": "ARNEC01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2756,7 +2755,7 @@
         "idHotels": "ARNEC02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2774,7 +2773,7 @@
         "idHotels": "ARNEC02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2791,7 +2790,7 @@
         "idHotels": "ARNEC02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2825,7 +2824,7 @@
         "idHotels": "ARNEC02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2842,7 +2841,7 @@
         "idHotels": "ARNEC03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2860,7 +2859,7 @@
         "idHotels": "ARNEC03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2877,7 +2876,7 @@
         "idHotels": "ARNEC03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2911,7 +2910,7 @@
         "idHotels": "ARNEC03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -2928,7 +2927,7 @@
         "idHotels": "ARNEC04",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -2946,7 +2945,7 @@
         "idHotels": "ARNEC04",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -2963,7 +2962,7 @@
         "idHotels": "ARNEC04",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -2997,7 +2996,7 @@
         "idHotels": "ARNEC04",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -3014,7 +3013,7 @@
         "idHotels": "ARNEC05",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -3032,7 +3031,7 @@
         "idHotels": "ARNEC05",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -3049,7 +3048,7 @@
         "idHotels": "ARNEC05",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -3083,7 +3082,7 @@
         "idHotels": "ARNEC05",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -3100,7 +3099,7 @@
         "idHotels": "ARPGO01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -3118,7 +3117,7 @@
         "idHotels": "ARPGO01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -3135,7 +3134,7 @@
         "idHotels": "ARPGO01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -3169,7 +3168,7 @@
         "idHotels": "ARPGO01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -3186,7 +3185,7 @@
         "idHotels": "ARUSH01",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -3204,7 +3203,7 @@
         "idHotels": "ARUSH01",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -3221,7 +3220,7 @@
         "idHotels": "ARUSH01",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -3255,7 +3254,7 @@
         "idHotels": "ARUSH01",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -3268,12 +3267,11 @@
         "availability": " ",
         "status": true
     },
-    
     {
         "idHotels": "ARUSH02",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -3291,7 +3289,7 @@
         "idHotels": "ARUSH02",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -3308,7 +3306,7 @@
         "idHotels": "ARUSH02",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -3342,7 +3340,7 @@
         "idHotels": "ARUSH02",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
@@ -3359,7 +3357,7 @@
         "idHotels": "ARUSH03",
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
-         "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
@@ -3377,7 +3375,7 @@
         "idHotels": "ARUSH03",
         "name": "Habitación Familiar",
         "bed_quantity": "2",
-               "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
@@ -3394,7 +3392,7 @@
         "idHotels": "ARUSH03",
         "name": "Micro",
         "bed_quantity": "1",
-           "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
@@ -3428,7 +3426,7 @@
         "idHotels": "ARUSH03",
         "name": "Deluxe",
         "bed_quantity": "1",
-             "image": [
+        "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
