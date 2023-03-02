@@ -67,8 +67,8 @@ User_travel.belongsToMany(User, { through: "travel_user" });
 Bills.belongsToMany(User_travel, { through: "bills_travels" });
 User_travel.belongsToMany(Bills, { through: "bills_travels" });
 //relacion entre Bills y User
-User.hasMany(Bills, { foreignKey: "idUser" });
-Bills.belongsTo(User);
+Bills.belongsTo(User,{foreignKey: "userId"});
+User.hasMany(Bills, { foreignKey: "userId" });
 //relacion entre Services y Room
 Services.belongsToMany(Room, { through: "room_services" });
 Room.belongsToMany(Services, { through: "room_services" });

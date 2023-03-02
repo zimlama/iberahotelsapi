@@ -16,7 +16,7 @@ const {
 const mercadopago = require("mercadopago");
 //!POST purchase
 const postNewBills = async (req, res) => {
-  let { item, quantity, date, price, idUser } = req.body;
+  let { item, quantity, date, price, userId } = req.body;
   let check = onlyDateCheck(date); // ver si validamos el id usuaruio
   if (!item || !quantity || !date || !price || check !== true) {
     return res.status(412).send({ message: "informacion incompleta" });
@@ -27,7 +27,7 @@ const postNewBills = async (req, res) => {
         quantity,
         date,
         price,
-        idUser,
+        userId,
       }
       let newbill = await Bills.create(bill);
       //res.status(200).json(createdBill);
@@ -109,7 +109,9 @@ mercadopago.configure({
 //!GET purchase
 const getAllBills = async (req, res) => {
   try {
-    const allBills = await Bills.findAll({});
+    const allBills = await Bills.findAll(
+      { include: User }
+      );
     res.status(200).send(allBills);
   } catch (e) {
     res.status(404).json(e);

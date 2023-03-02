@@ -1,5 +1,6 @@
 const { Hotel, Room } = require("../db");
 const { Op } = require("sequelize");
+const cloudinary = require('cloudinary').v2;
 
 //!! GET de Hotels
 
@@ -39,9 +40,21 @@ const getAllHotels = async (req, res) => {
   }
 }
 //! POST create hotel -------------- byLAMA
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+});
 const postNewHotel = async (req, res) => {
   let { idHotels, name, address, city, description, image, stars, status } = req.body;
   try {
+    if (Array.isArray(req.body.image)) {
+      // Si se proporcionó una URL de imagen, subirla a Cloudinary y obtener la URL de la imagen
+      const result = await cloudinary.uploader.upload(req.body.image[0], {
+        public_id: name, // Asignar el nombre del hotel como public_id
+      }); // Subir solo la primera imagen del array
+      image = [result.secure_url]; // Guardar la URL de la imagen en un nuevo array
+    }
     await Hotel.findOrCreate({
       where: {
         idHotels,
