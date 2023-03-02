@@ -96,11 +96,11 @@ Cat_room_type.hasMany(Cat_room_inventory, { foreignKey: 'cat_room_type_id' });
 //!----------------
 
 // En el modelo Review
-Reviews.belongsTo(User, { foreignKey: 'idUser' });
+Reviews.belongsTo(User, { foreignKey: 'userId' });
 Reviews.belongsTo(Hotel, { foreignKey: 'hotelId' });
 
 // En el modelo User
-User.hasMany(Reviews, { foreignKey: 'idUser' });
+User.hasMany(Reviews, { foreignKey: 'userId' });
 
 // En el modelo Hotel
 Hotel.hasMany(Reviews, { foreignKey: 'hotelId' });

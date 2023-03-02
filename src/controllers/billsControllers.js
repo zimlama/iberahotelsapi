@@ -50,7 +50,7 @@ const postNewBills = async (req, res) => {
         binary_mode: true,
         notification_url:
           "https://iberahotelsapi-production.up.railway.app/bills/payment/notification",
-        //"https://1c3d-93-68-149-177.eu.ngrok.io/bills/payment/notification",
+        //"https://a3a3-37-178-222-102.eu.ngrok.io/bills/payment/notification",
       };
       mercadopago.preferences
         .create(preference)
