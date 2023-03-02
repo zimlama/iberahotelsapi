@@ -7,8 +7,8 @@ router.get('/', getAllUsers);
 router.get('/user', getUser);
 router.post('/create', postNewUser)
 router.post('/sigin', signIn)
-
 router.put("/disable", DisableUser)
-router.put("/modify/:email",ModifyUser)
+router.put("/modify/:email", ModifyUser)
+
 
 module.exports = router;

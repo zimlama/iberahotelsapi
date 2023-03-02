@@ -5,7 +5,9 @@
     "address": "Ruta Nac N´8 KM 175.5, Arrecifes, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
     "description": "Ubicación Excelente en general para turismo, diversión, comidas y transporte",
-    "image": ["https://q-xx.bstatic.com/xdata/images/hotel/max500/252909565.jpg?k=0ca82960b06f3591e6746f80fdbef4fa3550073288b2a36ab476891b1b9c221d&o="],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678403/Hotel%20Arrecifes.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -15,7 +17,9 @@
     "address": "RP51 km 69,5, Arrecifes, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
     "description": "Su fácil acceso, a tan solo 175 km de Capital Federal, hace de la Posada Bellaterra una alternativa irresistible para desconectarse del ruido y el vértigo",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/107645405.jpg?k=fb6d20f98191a16d7ef3eb670986ec18f7aadafc4d460bf60206a1516f7ff38b&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678500/Posada%20Bella%20Terra.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -25,7 +29,9 @@
     "address": "XWGM+7F, Arrecifes, Provincia de Buenos Aires",
     "city": "arrecifes",
     "description": "El Inti, hospedaje de campo se encuentra en Arrecifes, a 11 km de Arrecifes. Ofrece alojamiento con aire acondicionado y acceso a un jardín con piscina",
-    "image": ["https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678525/Inti%2C%20Hospedaje%20de%20Campo.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -35,7 +41,9 @@
     "address": "Calle 32",
     "city": "arrecifes",
     "description": "Arroyo de Luna es un espacio familiar, atendido con la mejor disposición y un personal entregado a sus huéspedes. Turismo de hotelería en el corazón de un campo argentino en proceso de transición",
-    "image": ["http://estanciasargentinas.tur.ar/images/imgLarge/1638536473.1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678594/Estancia%20Arroyo%20de%20Luna.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -45,7 +53,9 @@
     "address": "190 5, RN8, Viña, Provincia de Buenos Aires, Argentina",
     "city": "arrecifes",
     "description": "Somos un Complejo Rural de Cabañas enclavada en la tranquilidad de un pequeño pueblo rural de la Provincia de Buenos Aires, que te permite disfrutar de una gran estadía con mañanas frescas, atardeceres inolvidables y noche de charlas interminables.",
-    "image": ["https://chacrasdeviña.com.ar/wp-content/uploads/2020/10/IMG_20200226_112428510_HDR-1-1240x698.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678619/Chacras%20De%20Vina.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -55,7 +65,9 @@
     "address": "Av. de los Pioneros 200, San Carlos de Bariloche, Río Negro, Argentina",
     "city": "san carlos de bariloche",
     "description": "Este Hotel moderno, ubicado en un edificio decorado por dentro y por fuera con obras de arte locales, se encuentra a 5 km de la estación de autobuses de Bariloche, a 4 km de la playa",
-    "image": ["https://images.ctfassets.net/xdw7oj4u3s4v/5Lg0TojneaouMOsDSVQaqJ/62eadde2c9d859745fea70f3954b54ff/Web_Banner-Selina_Bariloche_Entrance_06-2019_Meero_4.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678690/Iber%C3%A1%20Bariloche.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -65,7 +77,9 @@
     "address": "Av. Sta. Fe 796, C1059ABO CABA, Argentina",
     "city": "buenos aires",
     "description": "Este hotel informal, ubicado en un tradicional edificio colonial español, junto a una estación de metro al frente del parque Plaza San Martín, se encuentra a 14 minutos a pie del adornado Teatro Colón, donde se presentan óperas.",
-    "image": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/15/3c/ac/the-hotel--v8944081.jpg?w=700&h=-1&s=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678884/Hotel%20NH%20Collection%20Iber%C3%A1.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -75,7 +89,9 @@
     "address": "Moreno 606, C1091 CABA",
     "city": "buenos aires",
     "description": "Este hotel boutique de 5 estrellas goza de una ubicación ideal en el centro de Corrientes, junto al río Corí, y ofrece habitaciones modernas con WiFi gratuita.",
-    "image": ["https://www.kayak.com.co/rimg/himg/d6/01/8a/hotelsdotcom-76218662-040d2a4d_w-651816.jpg?width=1366&height=768&xhint=666&yhint=1400&crop=true"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678920/Unique%20Palacio%20San%20Telmo.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -85,7 +101,9 @@
     "address": "Calle 31",
     "city": "buenos aires",
     "description": "Este moderno hotel con un impresionante atrio se encuentra en el lujoso distrito de Puerto Madero, a 12 minutos a pie de la histórica plaza de Mayo y a 3.1 km del Museo de Arte Moderno de Buenos Aires.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max500/403652369.jpg?k=135c728eab8726eed732712893f7703c735824cec97187ff2a15381e11c8963f&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678947/Hotel%20Hilton%20Buenos%20Aires.jpg"
+    ],
     "stars": 2,
     "status": true
   },
@@ -95,7 +113,9 @@
     "address": "Tucumán 451, C1049 CABA, Argentina",
     "city": "buenos aires",
     "description": "Este hotel tranquilo, ubicado en una calle lateral de un área comercial, se encuentra a 4 minutos a pie de la estación de metro Florida y a 11 minutos a pie del Teatro Colón y de la Plaza de Mayo.",
-    "image": ["http://dimg04.c-ctrip.com/images/0221j12000ahinexn0865.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677678972/HTL%20Urbano%20Buenos%20Aires%20Iber%C3%A1.jpg"
+    ],
     "stars": 2,
     "status": true
   },
@@ -105,7 +125,9 @@
     "address": "Aimé Painé 1130 piso 32, Buenos Aires, Argentina",
     "city": "buenos aires",
     "description": "Este hotel sofisticado, con vista al Río de la Plata, se ubica en un edificio moderno y alto con fachada de espejos, a 2 km de la estación de metro más cercana y de los cafés y los bailarines de tango de la Plaza Dorrego",
-    "image": ["https://www.clarin.com/img/2017/06/08/HJ3f9DwG-_1256x620.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679006/Alvear%20Icon%20Hotel.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -115,7 +137,9 @@
     "address": "R. Sete de Setembro, 1088 - Centro, Uruguaiana ",
     "city": "corrientes",
     "description": "Este hotel boutique de 4 estrellas goza de una ubicación ideal en el centro de Corrientes, junto al río Corí, y ofrece habitaciones modernas con WiFi gratuita",
-    "image": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/4e/b0/ef/exterior.jpg?w=700&h=-1&s=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679022/River%20Hotel.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -125,7 +149,9 @@
     "address": "Av. 3 de Abril 827, W3400 Corrientes",
     "city": "corrientes",
     "description": "Este hotel boutique sofisticado, ubicado en la ruta nacional 16, está a 13 minutos a pie de la iglesia Santa Rita de Casia, a 15 minutos a pie de la plaza Juan de Vera y a 2 km del teatro de artes escénicas Juan de Vera.",
-    "image": ["https://www.myboutiquehotel.com/photos/6930/la-alondra-casa-de-huespedes-corrientes-003-51217-1110x700.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679037/La%20Alondra%20Iber%C3%A1.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -135,7 +161,9 @@
     "address": "Guasú Virá, Col. Carlos Pellegrini, Corrientes, Argentina",
     "city": "corrientes",
     "description": "La Posada de la Laguna está situada en la reserva natural de Esteros del Iberá y cuenta con pileta al aire libre, restaurante y jardín. Hay conexión de wifi gratis.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/182347642.jpg?k=bd8a542349f1b341084ba943b38812a00f40c5a3a67f38623ba716a0ea334cab&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679055/Posada%20de%20la%20Laguna.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -145,7 +173,9 @@
     "address": "Av. Pres. Vargas, 2939 - Centro, Uruguaiana - RS, 97501-653,",
     "city": "corrientes",
     "description": "Este hotel sencillo se encuentra en una calle animada de la ciudad, a 2.8 km del puente internacional Paso de los Libres-Uruguaiana, que conecta Argentina y Brasil, y a 7 km del aeropuerto internacional de Uruguaiana",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max500/334538516.jpg?k=827711841be4f5088cf99372873ef3c5850d07195d3cc02e1e0c64de4e1e9a6f&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679072/Fares%20Turis%20Hotel.jpg"
+    ],
     "stars": 2,
     "status": true
   },
@@ -155,7 +185,9 @@
     "address": "Av. Marcelo T. de Alvear 251, X5000KGE Córdoba",
     "city": "córdoba",
     "description": "Este exclusivo hotel céntrico, situado en una moderna torre de ladrillo con vista a La Cañada, se encuentra a 3 minutos a pie de la parada de autobús más cercana y a 2 km de las exhibiciones de bellas artes en el Museo Emilio Caraffa.",
-    "image": ["https://img.nh-hotels.net/W0gk/PBp4G/original/SP_NH_panorama_132.jpg?output-quality=80&resize=1600:*&background-color=white"],
+    "image": [
+      "https://img.nh-hotels.net/W0gk/PBp4G/original/SP_NH_panorama_132.jpg?output-quality=80&resize=1600:*&background-color=white"
+    ],
     "stars": 5,
     "status": true
   },
@@ -165,7 +197,9 @@
     "address": "San Lorenzo 163, X5000 Córdoba, Argentina",
     "city": "córdoba",
     "description": "Este hotel animado y rodeado de tiendas se encuentra a 2 minutos a pie de la parada de autobuses más cercana, a 11 minutos a pie de la animada plaza San Martín y a 15 minutos a pie del parque Sarmiento.",
-    "image": ["https://media.hrs.com/media/image/15/55/fe/Selina_Nueva_Cordoba-Cordoba-Hotel_outdoor_area-962033.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679148/Selina_Nueva_Cordoba-Cordoba-Hotel_outdoor_area-962033_jje0ky.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -175,7 +209,9 @@
     "address": "Cc Libertad, Fray Luis Beltran, Manuel Cardeñosa Y B, 5008 Córdoba",
     "city": "córdoba",
     "description": "Este moderno hotel de cadena se encuentra a 6 km del estadio de fútbol Mario Alberto Kempes y a 12 km del Museo Superior de Bellas Artes Evita y el Parque Sarmiento, ubicado en el centro de Córdoba.",
-    "image": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/cc/b4/5e/fachada-del-hotel.jpg?w=500&h=-1&s=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679169/Holiday%20Inn%20Cordoba%2C%20an%20IHG%20Hotel.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -185,7 +221,9 @@
     "address": "Calle 131, Gral. Belgrano, Provincia de Buenos Aires",
     "city": "general belgrano",
     "description": "Todas las habitaciones del hotel cuentan con aire acondicionado, TV de pantalla plana con canales vía satélite, videoconsola ps3 y baño privado con bidet, secador de pelo y artículos de aseo gratuitos.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/168322534.jpg?k=65276688e72e02f7927a51828884a6386dda0fa030ea55b7a081439ff3549877&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679183/HN%20Hotel%20Boutique.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -195,7 +233,9 @@
     "address": "C. 139 697, B7223 Gral. Belgrano, Provincia de Buenos Aires, Argentina",
     "city": "general belgrano",
     "description": "Hotel discreto con habitaciones sencillas y cafetería, además de Wi-Fi y desayuno incluidos.",
-    "image": ["https://imagenes.guiahoteleraargentina.com/buenosaires/generalbelgrano/brisasdelchadi/1.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679201/Hotel%20Brisas%20del%20Chadi.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -205,7 +245,9 @@
     "address": "Calle 72 n 1728, B7223 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
     "description": "Como somos los únicos lofts en la zona tan cercanos a las termas te ofrecemos la ventaja de que puedas caminar solo 120 mts hasta el complejo y evitar el costo del estacionamiento.",
-    "image": ["https://turismobelgrano.com.ar/wp-content/uploads/2019/06/encanto-del-salado6-a8886b3d857e7d9f90e5ca1e164b34aa.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677683371/Encanto%20del%20Salado.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -215,7 +257,9 @@
     "address": "Calle 86 n 1728, B7250 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
     "description": "El Hotel Señor Iberá está cerca de varios lugares de interés.",
-    "image": ["https://turismobelgrano.com.ar/wp-content/uploads/2019/06/encanto-del-salado6-a8886b3d857e7d9f90e5ca1e164b34aa.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677683143/Se%C3%B1or%20Iber%C3%A1.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -225,7 +269,9 @@
     "address": "Calle 45 n 2300, B745 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
     "description": "El General Iberá está ubicado en el centro, a 1 km de la plaza Independencia, y ofrece habitaciones amplias con WiFi gratuita. El desayuno está incluido.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058133.jpg?k=f996c758609cbe225bccfdf8d41825e61c4ad09ad7062dc637ffcd8ca404c602&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677682999/General%20Iber%C3%A1.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -235,7 +281,9 @@
     "address": "Calle 6 n 1606, B4567 Gral. Belgrano, Provincia de Buenos Aires, Argentin",
     "city": "general belgrano",
     "description": "El sexto Elemento cuenta con el máximo confort y ofrece habitaciones amplias con WiFi gratuita. El desayuno está incluido.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058133.jpg?k=f996c758609cbe225bccfdf8d41825e61c4ad09ad7062dc637ffcd8ca404c602&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677682818/El%20sexto%20elemento.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -245,7 +293,9 @@
     "address": "Calle 72 n 1728, Mar de Plata, Argentina ",
     "city": "mar del plata",
     "description": "Hotel discreto con habitaciones sencillas y cafetería, además de Wi-Fi y desayuno incluidos.",
-    "image": ["https://turismobelgrano.com.ar/wp-content/uploads/2019/06/encanto-del-salado6-a8886b3d857e7d9f90e5ca1e164b34aa.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677682655/Hotel%20Madis%C3%B3n%20Iber%C3%A1.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -255,7 +305,9 @@
     "address": "Chacabuco, La Perla 3146, B7600 Mar del Plata, Provincia de Buenos Aires,",
     "city": "mar del plata",
     "description": "El Hotel Hawaii está cerca de varios lugares de interés, como el casino Central de Mar Del Plata, el monumento a Alfonsina Storni y la catedral de Mar del Plata.",
-    "image": ["https://www.gohawaii.com/sites/default/files/styles/image_gallery_bg_xl/public/hero-unit-images/Island-of-Hawaii-Accommodations.jpg?itok=6rQtOfzn"],
+    "image": [
+      "https://console.cloudinary.com/console/c-79292dcc82c59c96626672e5b18f72/media_library/search/asset/1bc663ee7da50202dc0622d1d8227e53/manage?sortDirection=desc&sortField=_score&search_id=recently_uploaded&q=%7B%22createdTimeOption%22%3A%22last7%22%7D&context=manage"
+    ],
     "stars": 5,
     "status": true
   },
@@ -265,7 +317,9 @@
     "address": "Calle 131, c. 13-24, Mar de plata, Argentina",
     "city": "mar del plata",
     "description": "Como somos los únicos lofts en la zona tan cercanos a las termas te ofrecemos la ventaja de que puedas caminar solo 120 mts hasta el complejo y evitar el costo del estacionamiento.",
-    "image": ["https://turismobelgrano.com.ar/wp-content/uploads/2019/06/encanto-del-salado6-a8886b3d857e7d9f90e5ca1e164b34aa.jpg"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679222/Hotel%20La%20madrid.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -275,7 +329,9 @@
     "address": "9 De Julio 1539, Mendoza",
     "city": "mendoza",
     "description": "El Hotel Cordon Del Plata está ubicado en el centro de Mendoza, a 1 km de la plaza Independencia, y ofrece habitaciones amplias con WiFi gratuita. El desayuno está incluido.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058133.jpg?k=f996c758609cbe225bccfdf8d41825e61c4ad09ad7062dc637ffcd8ca404c602&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679292/Hotel%20Cordon%20Del%20Plata.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -285,7 +341,9 @@
     "address": "Lateral Sur Del Acceso Este 4241, M5521ABB Mendoza, Argentina ",
     "city": "mendoza",
     "description": "El Hotel Ibis Mendoza está muy bien situado en la autopista MRN7 y a poca distancia del centro de Mendoza. Ofrece habitaciones con aire acondicionado y baño privado.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/260698308.jpg?k=3d18c569c06343b84f9c8311950acb792e19e56fe9bd87f6f45f4d997f0f0764&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679336/Iber%C3%A1%20Mendoza.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -295,7 +353,9 @@
     "address": "Peru 1065, 5500 Mendoza, Argentina ",
     "city": "mendoza",
     "description": "El Hotel Crillon Mendoza está ubicado en el corazón de Mendoza, a 5 minutos a pie de la Plaza Independencia. Ofrece una piscina al aire libre situada frente al establecimiento y conexión WiFi gratuita.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/7090175.jpg?k=dd27cab224655a59f598cb9d2b3a309419dc0fd2e895c3e03d2e65711688195b&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679351/Hotel%20Crillon%20Mendoza.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -305,7 +365,9 @@
     "address": "Maza Y Emilio Civit, 5515 Mendoza, Argentina –",
     "city": "mendoza",
     "description": "El Esplendor Iberá está a 300 metros del Parque Metropolitano y ofrece piscina de estilo caribeño, centro de fitness, habitaciones modernas e instalaciones de spa.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/6748679.jpg?k=75824371178717d1b7da16d16a28601b1e1988fe9d31eece8f130ca5980c3a67&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679370/Hotel%20Esplendor%20Iber%C3%A1.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -315,7 +377,9 @@
     "address": "Av 10 n 4365, 7630 Necochea, Argentina ",
     "city": "necochea",
     "description": "El Hotel Florencia está a solo 3 calles de la playa y se encuentra en Necochea. Además, ofrece conexión Wi-Fi gratuita y aparcamiento gratuito.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/180391083.jpg?k=113e3bca13cff361ea64675b032ec7c177db3e220d92a04b0010f34a1aa19aab&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679386/Hotel%20Florencia.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -325,7 +389,9 @@
     "address": "87 N° 335, B7630IWE Necochea, Argentina",
     "city": "necochea",
     "description": "El Ñikén Hotel Spa & Business Center ofrece spa, gimnasio, jardín con piscina, aparcamiento gratuito y habitaciones con conexión Wi-Fi gratuita y TV de plasma.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/34348965.jpg?k=b94ed1d1281b1e4040944931a9dc551f576fe11697110333e36b4a8bd28f10bd&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679405/Hotel%20%C3%91ik%C3%A9n%20Hotel%20Spa.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -335,7 +401,9 @@
     "address": "Avenida 79 264, 7630 Necochea, Argentina",
     "city": "necochea",
     "description": "El Hotel Real se encuentra en Necochea y ofrece salón compartido y WiFi gratuita en todas las instalaciones. La recepción está abierta las 24 horas y organiza excursiones.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/86743564.jpg?k=c6c9c6b90002e809dce3b4e78636f286cf83d211b35042c2e9ec56af3d32eb72&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679439/Hotel%20Real.jpg"
+    ],
     "stars": 3,
     "status": true
   },
@@ -345,7 +413,9 @@
     "address": "Avenida 79 364, 7630 Necochea, Argentina",
     "city": "necochea",
     "description": "El hotel Bell Mar se encuentra en Necochea, a 600 metros de la playa de Los Patos, y ofrece alojamiento con jardín, aparcamiento privado, terraza y bar.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/175375368.jpg?k=7235835ac3f20c2f109a66177dc1b7cf9a21ee8e3dae7d25731b3e741ec7ce37&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679458/Hotel%20Bell%20Mar%20Iber%C3%A1.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -355,7 +425,9 @@
     "address": " Calle 4 Nº 4040, 7630 Necochea, Argentina",
     "city": "necochea",
     "description": "El Hotel President, situado a 100 metros de la playa de Necochea, cuenta con una piscina exterior, un centro de fitness y clases de gimnasia.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/127989376.jpg?k=bd49113ad5b96e421287e79918a656d95ef8a35153907343d23ed23b57f20877&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679474/Hotel%20President.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -365,7 +437,9 @@
     "address": "Avenida Presidente Doctor Arturo Illia 2673, 2700 Pergamino",
     "city": "pergamino",
     "description": "El Donaire se encuentra en Pergamino y ofrece alojamiento con patio o balcón, conexión de wifi gratis, TV de pantalla plana, pileta al aire libre y jardín.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/368401333.jpg?k=c878c8828ffc874069d2ff7fd9bcc70ea932277325053e5493f93de45aa3cefe&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679488/Donaire%20Iber%C3%A1.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -375,7 +449,9 @@
     "address": "1098 Avenida de Mayo, 2700 Pergamino, Argentina ",
     "city": "pergamino",
     "description": "Está situado en Pergamino, a 300 metros de la plaza 25 de Mayo.El Apart Italia B&B ofrece alojamiento con salón compartido, wifi gratis y servicio de conserjería.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/127989369.jpg?k=98503d92b8440b87f5822f8243ce9daf716272b9986daa5b5204b2c403e52ae8&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679505/Apart%20Italia.jpg"
+    ],
     "stars": 4,
     "status": true
   },
@@ -385,7 +461,9 @@
     "address": "25 de Mayo 245, 9410 Ushuaia, Argentina",
     "city": "ushuaia",
     "description": "El MIL810 Ushuaia Hotel está ubicado en Ushuaia, a 150 metros de la avenida San Martín. Ofrece cómodas habitaciones con conexión wifi gratis, cafetería, salón compartido, sala de juegos y desayuno continental a diario.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/68019388.jpg?k=35b5373a182a8bf42ced540a068f59c5deb733a4499999f755bed419e75836cf&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679524/MIL810%20Ushuaia%20Hotel.jpg"
+    ],
     "stars": 5,
     "status": true
   },
@@ -395,7 +473,9 @@
     "address": " Perito Moreno 4976, 9410 Ushuaia, Argentina",
     "city": "ushuaia",
     "description": "La Casa en Ushuaia Iberá se encuentra en Ushuaia, en la región de Tierra del Fuego, cerca del club de rugby de Ushuaia, y ofrece alojamiento con wifi gratis y estacionamiento privado gratuito.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/403293475.jpg?k=9a978e019ebe426e6dbb6afa538ced23a1bbb2fc77999b32cecdcea00e56c758&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679534/La%20casa%20de%20Ushuaia%20Iber%C3%A1.jpg"
+    ],
     "stars": 2,
     "status": true
   },
@@ -405,7 +485,9 @@
     "address": "1382 Gobernador Ernesto Manuel Campos, 9410 Ushuaia",
     "city": "ushuaia",
     "description": "El Skyline 4 está situado en Ushuaia, a menos de 1 km de la bahía Encerrada y a 7 km del tren del fin del mundo. También tiene terraza y vistas al jardín.",
-    "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/355793442.jpg?k=9b0f1713363875bea2593d82acebad22636a78b34373db52bcfc68e5a0aaa1f5&o=&hp=1"],
+    "image": [
+      "https://res.cloudinary.com/dberwyxyq/image/upload/v1677679550/Skyline%20Iber%C3%A1.jpg"
+    ],
     "stars": 5,
     "status": true
   }
