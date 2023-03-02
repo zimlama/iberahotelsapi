@@ -1,5 +1,5 @@
+const { Router } = require("express");
 const {getAllUsers,postNewUser, DisableUser, ModifyUser } = require('../controllers/userControllers.js')
-
 
 const router = Router();
 
