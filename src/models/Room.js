@@ -13,6 +13,10 @@ module.exports = (sequelize) => {
         autoIncrement: true,
         primaryKey: true,
       },
+      idHotels: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       name: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -23,7 +27,10 @@ module.exports = (sequelize) => {
       },
       image: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        allowNull: false,
+        defaultValue: ["https://media.admagazine.com/photos/618a60d829327ed3de99d538/3:2/w_3498,h_2332,c_limit/86276.jpg",
+          "https://media.admagazine.com/photos/618a60d829327ed3de99d538/3:2/w_3498,h_2332,c_limit/86276.jpg",
+          "https://media.admagazine.com/photos/618a60d829327ed3de99d538/3:2/w_3498,h_2332,c_limit/86276.jpg",
+          "https://media.admagazine.com/photos/618a60d829327ed3de99d538/3:2/w_3498,h_2332,c_limit/86276.jpg"]
       },
       description: {
         type: DataTypes.TEXT,
@@ -36,11 +43,10 @@ module.exports = (sequelize) => {
       availability: {
         type: DataTypes.TEXT,
         // type : DataTypes.ARRAY(DataTypes.DATE),
-        allowNull: false,
       },
       status: {
         type: DataTypes.BOOLEAN,
-        allowNull: false,
+        defaultValue: true
       },
     },
     {

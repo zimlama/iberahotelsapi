@@ -1,5 +1,6 @@
 const { Hotel, Room } = require("../db");
 const { Op } = require("sequelize");
+const cloudinary = require('cloudinary').v2;
 
 //!! GET de Hotels
 
@@ -39,9 +40,16 @@ const getAllHotels = async (req, res) => {
   }
 }
 //! POST create hotel -------------- byLAMA
+//! POST create hotel -------------- byLAMA
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+});
 const postNewHotel = async (req, res) => {
-  let { idHotels, name, address, city, description, image, stars, status } = req.body;
+  let { idHotels, name, address, city, description, stars } = req.body;
   try {
+
     await Hotel.findOrCreate({
       where: {
         idHotels,
@@ -52,14 +60,12 @@ const postNewHotel = async (req, res) => {
         address,
         city,
         description,
-        image,
         stars,
-        status,
       },
     });
     res.status(201).json({ message: "Hotel created" });
   } catch (e) {
-    res.status(500).json(e.message);
+    console.log(e)
   }
 };
 //!-------------- byLAMA
@@ -94,37 +100,27 @@ const getHotelById = async (req, res, next) => {
   }
 };
 
-//! DELETE Hotel -------------- byLAMA
 
+//! Init Cambios @Felipe y @Leo --------------
+//!-------------- Delete Hotel ----------------------
 const deleteHotel = async (req, res) => {
-
   try {
-
     let { idHotels } = req.params;
-
     Hotel.destroy({
       where: {
         idHotels: idHotels
       }
     })
 
-    res.status(200).json({ message: "Hotel deleted" });
-
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json({ message: "Hotel delete" });
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
 
 };
-
 //!-------------- disable    ------ enable  
-
 async function DisableHotel(req, res) {
-
   try {
-
     let { idHotels } = req.params;
 
     const hotel = await Hotel.findOne({
@@ -139,25 +135,17 @@ async function DisableHotel(req, res) {
       hotel.update({ status: true });
     }
 
-    res.send(hotel);
-
-  } catch (error) {
-
-    console.log(error);
-
+    res.status(201).json(hotel);
+    //res.send(hotel);
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
-
 };
-
 //!-------------- Mofify Hotel Data --------------------------  
-
 async function ModifyHotel(req, res) {
-
   try {
-
     let { idHotels } = req.params;
     let { name, address, city, description, stars } = req.body;
-
     const hotel = await Hotel.findOne({
       where: {
         idHotels: idHotels
@@ -165,7 +153,6 @@ async function ModifyHotel(req, res) {
     });
 
     if (hotel) {
-
       hotel.update({
         name: name,
         address: address,
@@ -174,21 +161,18 @@ async function ModifyHotel(req, res) {
         stars: stars
       });
 
-      res.send(hotel);
-
+      res.status(201).json(hotel);
+      //res.send(hotel);
     } else {
-
-      res.send("hotel not found");
-
+      res.status(404).json({ msg: "hotel not found" });
+      //res.send("hotel not found");
     }
-
-  } catch (error) {
-
-    console.log(error);
-
+  } catch (err) {
+    res.status(401).json({ error: err });
   };
 
 };
+//! End Cambios @Felipe y @Leo --------------
 
 module.exports = {
   getAllHotels,
