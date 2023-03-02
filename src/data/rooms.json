@@ -22,7 +22,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -39,7 +39,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -56,7 +56,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -73,7 +73,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -90,6 +90,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -124,7 +125,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -142,7 +143,6 @@
         "bed_quantity": "1",
         "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -160,7 +160,6 @@
         "bed_quantity": "1",
         "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -177,6 +176,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -194,8 +194,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            " https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -213,7 +212,6 @@
         "bed_quantity": "1",
         "image": [
             "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -230,7 +228,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -247,7 +245,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -264,6 +262,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -281,7 +280,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -298,7 +297,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -315,7 +314,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -332,7 +331,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -349,6 +348,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -366,7 +366,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -383,7 +383,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -400,7 +400,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -417,7 +417,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -434,6 +434,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -451,7 +452,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -468,7 +469,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -485,7 +486,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -502,7 +503,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -519,6 +520,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -536,7 +538,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -553,7 +555,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -570,7 +572,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -587,7 +589,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -604,6 +606,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -621,7 +624,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -638,7 +641,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -655,7 +658,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -672,7 +675,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -689,6 +692,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -706,7 +710,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -723,7 +727,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -740,7 +744,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -757,7 +761,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -774,6 +778,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -791,7 +796,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -808,7 +813,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -825,7 +830,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -842,7 +847,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -859,6 +864,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -876,7 +882,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -893,7 +899,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -910,7 +916,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -927,7 +933,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -944,6 +950,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -961,7 +968,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -978,7 +985,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -995,7 +1002,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1012,7 +1019,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1029,6 +1036,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1046,7 +1054,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1063,7 +1071,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1080,7 +1088,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1097,7 +1105,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1114,6 +1122,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1131,7 +1140,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1148,7 +1157,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1165,7 +1174,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1182,7 +1191,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1199,6 +1208,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1216,7 +1226,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1233,7 +1243,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1250,7 +1260,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1267,7 +1277,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1284,6 +1294,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1301,7 +1312,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1318,7 +1329,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1335,7 +1346,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1352,7 +1363,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1369,6 +1380,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1386,7 +1398,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1403,7 +1415,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1420,7 +1432,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1437,7 +1449,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1454,6 +1466,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1471,7 +1484,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1488,7 +1501,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1505,7 +1518,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1522,7 +1535,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1539,6 +1552,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1556,7 +1570,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1573,7 +1587,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1590,7 +1604,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1607,7 +1621,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1624,6 +1638,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1641,7 +1656,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1658,7 +1673,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1675,7 +1690,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1692,7 +1707,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1709,6 +1724,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1726,7 +1742,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1743,7 +1759,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1760,7 +1776,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1777,7 +1793,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1794,6 +1810,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1811,7 +1828,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1828,7 +1845,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1845,7 +1862,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1862,7 +1879,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1879,6 +1896,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1896,7 +1914,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1913,7 +1931,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -1930,7 +1948,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -1947,7 +1965,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -1964,6 +1982,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -1981,7 +2000,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -1998,7 +2017,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2015,7 +2034,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2032,7 +2051,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2049,6 +2068,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2066,7 +2086,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2083,7 +2103,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2100,7 +2120,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2117,7 +2137,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2134,6 +2154,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2151,7 +2172,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2168,7 +2189,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2185,7 +2206,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2202,7 +2223,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2219,6 +2240,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2236,7 +2258,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2253,7 +2275,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2270,7 +2292,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2287,7 +2309,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2304,6 +2326,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2321,7 +2344,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2338,7 +2361,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2355,7 +2378,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2372,7 +2395,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2389,6 +2412,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2406,7 +2430,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2423,7 +2447,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2440,7 +2464,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2457,7 +2481,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2474,6 +2498,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2491,7 +2516,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2508,7 +2533,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2525,7 +2550,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2542,7 +2567,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2559,6 +2584,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2576,7 +2602,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2593,7 +2619,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2610,7 +2636,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2627,7 +2653,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2644,6 +2670,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2661,7 +2688,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2678,7 +2705,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2695,7 +2722,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2712,7 +2739,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2729,6 +2756,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2746,7 +2774,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2763,7 +2791,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2780,7 +2808,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2797,7 +2825,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2814,6 +2842,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2831,7 +2860,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2848,7 +2877,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2865,7 +2894,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2882,7 +2911,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2899,6 +2928,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -2916,7 +2946,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -2933,7 +2963,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -2950,7 +2980,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -2967,7 +2997,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -2984,6 +3014,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -3001,7 +3032,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -3018,7 +3049,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -3035,7 +3066,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -3052,7 +3083,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -3069,6 +3100,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -3086,7 +3118,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -3103,7 +3135,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -3120,7 +3152,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -3137,7 +3169,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -3154,6 +3186,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -3171,7 +3204,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -3188,7 +3221,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -3205,7 +3238,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -3222,7 +3255,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -3239,6 +3272,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -3256,7 +3290,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -3273,7 +3307,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -3290,7 +3324,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -3307,7 +3341,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
@@ -3324,6 +3358,7 @@
         "name": "Habitación Estándar Doble",
         "bed_quantity": "2",
         "image": [
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684782/Habitaci%C3%B3n%20Est%C3%A1ndar%20Doble.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35057042.jpg?k=f8b3ddad7e34aecaeb3ba971c0efac79569c0da3459efb93a891fe5980d6bb98&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35058268.jpg?k=b685cccee91059ecc6027050fe9b85589b81b3c45a42d930fbbb9cf033516c23&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930173.jpg?k=152f64bc85600cafe7798d7e0b9062995aa8f4924495c551eeb23c62717829cf&o=",
@@ -3341,7 +3376,7 @@
         "name": "Habitación Familiar",
         "bed_quantity": "2",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210145515.jpg?k=150ee054775d80c981618530481418358af7b87b0e5d02d40a8929c128b0c090&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677684862/Habitaci%C3%B3n%20Familiar.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/187526393.jpg?k=2cb97cc3b4e52a2220b6e1406650b5fd98a5cdf3a50c9977c94fc31f3fb14ae8&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210146138.jpg?k=40470de714c06e0c05cee7846ce736d0deadb5c2f0046a6eeb874c494de36dd4&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5930210.jpg?k=775124187be592c1949413cce2fbec4ed51536045676bc7082528da91d27dd0f&o=",
@@ -3358,7 +3393,7 @@
         "name": "Micro",
         "bed_quantity": "1",
         "image": [
-            "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/04/15/5fa2b27b170e6.jpeg",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685100/Micro.jpg",
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arlo-soho-1568046947.jpg",
             "https://www.kayak.com.gt/rimg/himg/79/c3/7e/leonardo-167699186-King_Bath_in-Room_4_O-656126.jpg?width=720&height=576&crop=true",
             "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fd/b6/69/guest-room.jpg?w=600&h=-1&s=1",
@@ -3375,7 +3410,7 @@
         "name": "Suite",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/29110521.jpg?k=9e836dfb9562d1ba532be483ab95ebb334b31261294045aee1f3f4d980f1461c&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685161/Suite.jpg",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896939.jpg?k=17208d389c3e420f62c9fa9b7d8fd78fc6b05d7dd45a9ad418e87673eb91179e&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896947.jpg?k=0c5b5a23c4d652f4ae3e3efd69653f6dd152cceb49a43333ee9d2bc3ebf676dd&o=",
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/87896975.jpg?k=8597b5d543284285f39f31d818396da81282368e829023358961ef9d670391ab&o=",
@@ -3392,7 +3427,7 @@
         "name": "Deluxe",
         "bed_quantity": "1",
         "image": [
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/35056880.jpg?k=bc7a64fb5cfc6a5ff30e0f3851c336a8d36657638b5237c2d754a403f6aeac76&o=",
+            "https://res.cloudinary.com/dberwyxyq/image/upload/v1677685257/Deluxe.jpg",
             "https://www.ghlhoteles.com/cache/c1/82/c182a7894ab1d358802649e4feb26f2f.jpg",
             "https://www.bioxury.com/cache/12/d5/12d5f2f7be2f3f0f82f09559a4e00d0d.jpg",
             "https://www.granhotelmonterrey.com/uploads/9/8/2/4/98249186/luxe_11_orig.jpg",
