@@ -4,6 +4,7 @@ const { onlyLettersCheck, onlyDateCheck, onlyNumbersCheck, isEmailCheck, httpsLi
 const loadUsers = require('../data/users.json');
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken")
+const cloudinary = require('cloudinary').v2;
 
 
 //! GET show all users Users --------------
