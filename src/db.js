@@ -67,8 +67,8 @@ User_travel.belongsToMany(User, { through: "travel_user" });
 Bills.belongsToMany(User_travel, { through: "bills_travels" });
 User_travel.belongsToMany(Bills, { through: "bills_travels" });
 //relacion entre Bills y User
-Bills.belongsTo(User,{foreignKey: "userId"});
-User.hasMany(Bills, { foreignKey: "userId" });
+Bills.belongsTo(User,{foreignKey: "idUser"});
+User.hasMany(Bills, { foreignKey: "idUser" });
 //relacion entre Services y Room
 Services.belongsToMany(Room, { through: "room_services" });
 Room.belongsToMany(Services, { through: "room_services" });
@@ -96,11 +96,11 @@ Cat_room_type.hasMany(Cat_room_inventory, { foreignKey: 'cat_room_type_id' });
 //!----------------
 
 // En el modelo Review
-Reviews.belongsTo(User, { foreignKey: 'userId' });
+Reviews.belongsTo(User, { foreignKey: 'idUser' });
 Reviews.belongsTo(Hotel, { foreignKey: 'hotelId' });
 
 // En el modelo User
-User.hasMany(Reviews, { foreignKey: 'userId' });
+User.hasMany(Reviews, { foreignKey: 'idUser' });
 
 // En el modelo Hotel
 Hotel.hasMany(Reviews, { foreignKey: 'hotelId' });
