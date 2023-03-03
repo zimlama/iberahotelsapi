@@ -19,8 +19,11 @@ const loadCat_room_inventory03 = require('../data/cat_room_inventory03.json');
 
 async function loadAllModelsInDB(){
   try{
-    await Hotel.bulkCreate(loadhotels);
+    const emptyHotel = await Hotel.findAll({});
+    if(!emptyHotel){
+      await Hotel.bulkCreate(loadhotels);
     console.log('Hotels loaded ok to DB')
+    }
     await Room.bulkCreate(loadRooms);
     console.log('Rooms loaded ok to DB')
     await Amenities.bulkCreate(loadAmenities);
