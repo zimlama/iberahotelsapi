@@ -9,6 +9,7 @@ const getAllBills = require("./billsRouter");
 const getAllCities = require("./createIdRouter");
 const reservationRouter = require("./reservationRouter");
 const routeSearchHotels = require("./SearchHotels");
+const postReview = require("./reviewsRouter")
 
 const cors = require("cors");
 const router = Router();
@@ -26,6 +27,7 @@ router.use("/bills", getAllBills);
 router.use("/cities", getAllCities);
 router.use("/reservations", reservationRouter);
 router.use("/search", routeSearchHotels);
+router.use("/reviews",postReview)
 
 router.get("/", (req, res, next) => {
   return res.status(200).json(hoteles);

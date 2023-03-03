@@ -122,7 +122,61 @@ async function DisableUser(req, res) {
     };
 };
 //!-------------- Modifi user -------------------------------  
-async function ModifyUser(req, res) {
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+ });
+ async function ModifyUser(req, res) {
+    try {
+       let { email } = req.params;
+       let { first_name, last_name, nationality, date_birth, mobile } = req.body;
+ 
+       const user = await User.findOne({
+          where: {
+             email: email
+          }
+       });
+ 
+       if (!user) {
+          return res.status(404).json({msg: "user not found"});
+       }
+ 
+       let imageUrl;
+ 
+       if (req.file) {
+          // Si se proporcionó un archivo, subirlo a Cloudinary y obtener la URL de la imagen
+          const result = await cloudinary.uploader.upload(req.file.path,{
+            public_id: user.email
+          });
+          imageUrl = result.secure_url;
+       } else if (req.body.image) {
+          // Si se proporcionó una URL de imagen, subirla a Cloudinary y obtener la URL de la imagen
+          const result = await cloudinary.uploader.upload(req.body.image,{
+            public_id: user.email
+          });
+          imageUrl = result.secure_url;
+       }
+ 
+       // Actualizar la información del usuario y la URL de la imagen, si corresponde
+       user.update({
+          first_name: first_name,
+          last_name: last_name,
+          nationality: nationality,
+          date_birth: date_birth,
+          mobile: mobile,
+          image: imageUrl,
+       });
+ 
+       // Responder con el usuario actualizado
+       res.status(201).json(user);
+    } catch (err) {
+       res.status(401).json({ message: err });
+    };
+ }
+ 
+
+/*async function ModifyUser(req, res) {
     try {
         let { email } = req.params;
         let { first_name, last_name, nationality, date_birth, mobile } = req.body;
@@ -149,7 +203,7 @@ async function ModifyUser(req, res) {
     } catch (err) {
         res.status(401).json({ message: err });
     };
-}
+}*/
 //!--------------
 //! End Cambios @Felipe y @Leo --------------
 
