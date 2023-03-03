@@ -29,8 +29,11 @@ router.use("/reservations", reservationRouter);
 router.use("/search", routeSearchHotels);
 router.use("/reviews",postReview)
 
+// router.get("/", (req, res, next) => {
+//   return res.status(200).json(hoteles);
+// });
 router.get("/", (req, res, next) => {
-  return res.status(200).json(hoteles);
+  return res.status(200).json(getAllHotels);
 });
 
 module.exports = router;
