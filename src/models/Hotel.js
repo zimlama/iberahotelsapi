@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
       },
       image: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        defaultValue: "https://img.freepik.com/vector-gratis/edificio-hotel-flat_23-2148162501.jpg?w=2000"
+        defaultValue: ["https://img.freepik.com/vector-gratis/edificio-hotel-flat_23-2148162501.jpg?w=2000"]
       },
       stars: {
         type: DataTypes.INTEGER,
