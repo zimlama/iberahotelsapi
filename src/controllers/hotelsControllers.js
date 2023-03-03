@@ -94,7 +94,7 @@ const getHotelById = async (req, res, next) => {
     res.status(404).sonj("No se encontro el hotel");
   }
 };
-
+  
 
 
 //! Init Cambios @Felipe y @Leo --------------

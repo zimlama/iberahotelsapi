@@ -15,10 +15,10 @@ const loadCat_room_type = require('../data/cat_room_type.json');
 
 async function loadAllModelsInDB(){
   try{
-    await Hotel.bulkCreate(loadhotels);
-    console.log('Hotels loaded ok to DB')
     await Room.bulkCreate(loadRooms);
     console.log('Rooms loaded ok to DB')
+    await Hotel.bulkCreate(loadhotels);
+    console.log('Hotels loaded ok to DB')
     await Amenities.bulkCreate(loadAmenities);
     console.log('Amenities loaded ok to DB')
     await User.bulkCreate(loadUsers);
@@ -35,7 +35,7 @@ async function loadAllModelsInDB(){
     await Cat_room_inventory.bulkCreate(loadCat_room_inventory);
     console.log('cat_inventory loaded ok to DB');
     
-    //!-------------
+    //!--------------
 
   } catch(error){
     console.log(error);
