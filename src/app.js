@@ -1,52 +1,40 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+const express = require('express');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const routes = require('./routes/index.js');
+require('./db.js');
+const cors = require('cors');
+//cambio para aprobar bloqueo de main
+const server = express();
+//hola aca estoy
+// segunda vuelta
+server.name = 'API';
 
-import Home from "./Components/Home/Home";
-import CreateHotel from "./Components/Create/CreateHotel";
-import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
-import Destinations from "./Components/Destinations/Destinations";
-import DeleteUser from "./Components/DeleteUser/DeleteUser";
-import HotelDetails from "../src/Components/HotelDetails/HotelDetails.js";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import ShoppingCart from "./Components/ShoppingCart/ShoppingCart";
-import Profile from "./Components/Profile";
-import Modify from "./Components/ModifyAdmin";
-import LocalExperiences from "./Components/LocalExperiences/LocalExperiences";
-import CreateRoom from "./Components/Create/CreateRoom";
-import CreateComent from "./Components/CreateComment/CreateComment";
-import { Pending } from "./Components/PaymentProcess/Pending";
-import { Success } from "./Components/PaymentProcess/Success";
-import { Error } from "./Components/PaymentProcess/Error";
+server.use(cors());
+server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
+server.use(bodyParser.json({ limit: '50mb' }));
+server.use(cookieParser());
+server.use(morgan('dev'));
+server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'iberahotelsfront-production.up.railway.app'); // update to match the domain you will make the request from
+  //res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // update to match the domain you will make the request from
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+  next();
+});
 
-function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/createHotel" element={<CreateHotel />} />
-          <Route exact path="/createRoom" element={<CreateRoom />} />
-          <Route exact path="/destinations" element={<Destinations />} />
-          <Route exact path="/delete" element={<DeleteUser />} />
-          <Route exact path="/hotels/:id" element={<HotelDetails />} />
-          <Route exact path="/aboutus" element={<AboutUs />} />
-          <Route exact path="/profile" element={<Profile />} />
-          {/* <Route exact path="/activities" element={<Reservations/>}/> */}
-          <Route exact path="/shoppingcart" element={<ShoppingCart />} />
-          <Route exact path="/modify" element={<Modify />} />
-          <Route exact path="/activities" element={<LocalExperiences />} />
-          <Route exact path="/createcomment" element={<CreateComent />} />
-            
-          <Route exact path="/pending" element={<Pending />} />
-          <Route exact path="/success" element={<Success />} />
-          <Route exact path="/fail" element={<Error />} />
-        </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
-}
+server.use('/', routes);
 
-export default App;
+// Error catching endware.
+server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
+  const status = err.status || 500;
+  const message = err.message || err;
+  console.error(err);
+  res.status(status).send(message);
+});
+// test of branch of developer
+// test of branch of developer doublecheck
+
+module.exports = server;
