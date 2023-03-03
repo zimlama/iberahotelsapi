@@ -101,6 +101,11 @@ export default function rootReducer(state = initialState, action) {
       return {
         ...state,
       };
+    case GET_CLOUDINARY_IMG:
+      return {
+        ...state,
+        productImg: action.payload,
+      };
 
     default:
       return state;
