@@ -8,8 +8,12 @@ const loadServices = require('../data/service.json');
 const loadUnlocode = require('../data/unlocode.json');
 //! search and reservation with cat_inventory -------------
 const loadCat_hotel_info = require('../data/cat_hotel_info.json');
-const loadCat_room_inventory = require('../data/cat_room_inventory.json');
 const loadCat_room_type = require('../data/cat_room_type.json');
+// const loadCat_room_inventory = require('../data/cat_room_inventory.json');
+const loadCat_room_inventory01 = require('../data/cat_room_inventory01.json');
+const loadCat_room_inventory02 = require('../data/cat_room_inventory02.json');
+const loadCat_room_inventory03 = require('../data/cat_room_inventory03.json');
+
 //!-------------
 
 
@@ -32,9 +36,14 @@ async function loadAllModelsInDB(){
     console.log('cat_hotel_info loaded ok to DB')
     await Cat_room_type.bulkCreate(loadCat_room_type);
     console.log('cat_room_type loaded ok to DB');
-    await Cat_room_inventory.bulkCreate(loadCat_room_inventory);
-    console.log('cat_inventory loaded ok to DB');
-    
+    // await Cat_room_inventory.bulkCreate(loadCat_room_inventory);
+    // console.log('cat_inventory loaded ok to DB');
+    await Cat_room_inventory.bulkCreate(loadCat_room_inventory01);
+    console.log('loadCat_room_inventory01 loaded ok to DB');
+    await Cat_room_inventory.bulkCreate(loadCat_room_inventory02);
+    console.log('loadCat_room_inventory02 loaded ok to DB');
+    await Cat_room_inventory.bulkCreate(loadCat_room_inventory03);
+    console.log('loadCat_room_inventory03 loaded ok to DB');
     //!-------------
 
   } catch(error){
